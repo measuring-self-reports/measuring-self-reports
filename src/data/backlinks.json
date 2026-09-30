@@ -1,61 +1,29 @@
 {
-  "/measuring-introspection/foundations/robustness/": [
+  "/measuring-introspection/measurement-card/": [
     {
-      "slug": "/foundations/chang/",
-      "title": "Epistemic Iteration (Chang)"
+      "slug": "/about/",
+      "title": "About"
     },
     {
       "slug": "/foundations/",
       "title": "Theoretical Foundations"
     },
     {
-      "slug": "/foundations/psychometrics/",
-      "title": "Psychometrics and Construct Validity"
-    },
-    {
-      "slug": "/foundations/tal/",
-      "title": "Model-Based Measurement (Tal)"
-    },
-    {
-      "slug": "/glossary/",
-      "title": "Glossary"
-    },
-    {
-      "slug": "/measurement-card/comparability/",
-      "title": "7. Comparability"
-    },
-    {
-      "slug": "/measurement-card/",
-      "title": "Measurement Card"
+      "slug": "/papers/",
+      "title": "Papers"
     }
   ],
-  "/measuring-introspection/foundations/tal/": [
+  "/measuring-introspection/foundations/": [
     {
-      "slug": "/foundations/chang/",
-      "title": "Epistemic Iteration (Chang)"
-    },
-    {
-      "slug": "/foundations/",
-      "title": "Theoretical Foundations"
-    },
-    {
-      "slug": "/foundations/robustness/",
-      "title": "Robustness and Convergence"
-    },
-    {
-      "slug": "/glossary/",
-      "title": "Glossary"
-    },
-    {
-      "slug": "/index/",
-      "title": "Measuring LLM Introspection"
-    },
-    {
-      "slug": "/measurement-card/",
-      "title": "Measurement Card"
+      "slug": "/about/",
+      "title": "About"
     }
   ],
   "/measuring-introspection/measurement-card/measurand/": [
+    {
+      "slug": "/foundations/ai-evaluation/",
+      "title": "Measurement in AI Evaluation"
+    },
     {
       "slug": "/foundations/chang/",
       "title": "Epistemic Iteration (Chang)"
@@ -63,6 +31,10 @@
     {
       "slug": "/foundations/consciousness-science/",
       "title": "Consciousness Science (Michel)"
+    },
+    {
+      "slug": "/foundations/llm-introspection-accounts/",
+      "title": "Accounts of LLM Introspection"
     },
     {
       "slug": "/foundations/metrology/",
@@ -82,7 +54,7 @@
     },
     {
       "slug": "/index/",
-      "title": "Measuring LLM Introspection"
+      "title": "Measuring AI Introspection"
     },
     {
       "slug": "/measurement-card/",
@@ -93,10 +65,136 @@
       "title": "8. Validity Conditions"
     }
   ],
-  "/measuring-introspection/measurement-card/calibration/": [
+  "/measuring-introspection/measurement-card/validity-conditions/": [
+    {
+      "slug": "/foundations/ai-evaluation/",
+      "title": "Measurement in AI Evaluation"
+    },
     {
       "slug": "/foundations/chang/",
       "title": "Epistemic Iteration (Chang)"
+    },
+    {
+      "slug": "/foundations/consciousness-science/",
+      "title": "Consciousness Science (Michel)"
+    },
+    {
+      "slug": "/foundations/llm-introspection-accounts/",
+      "title": "Accounts of LLM Introspection"
+    },
+    {
+      "slug": "/foundations/metrology/",
+      "title": "Metrology (VIM and GUM)"
+    },
+    {
+      "slug": "/foundations/philosophy-of-introspection/",
+      "title": "Philosophy of Introspection"
+    },
+    {
+      "slug": "/foundations/psychometrics/",
+      "title": "Psychometrics and Construct Validity"
+    },
+    {
+      "slug": "/foundations/signal-detection/",
+      "title": "Signal Detection and Metacognition"
+    },
+    {
+      "slug": "/foundations/tal/",
+      "title": "Model-Based Measurement (Tal)"
+    },
+    {
+      "slug": "/glossary/",
+      "title": "Glossary"
+    },
+    {
+      "slug": "/index/",
+      "title": "Measuring AI Introspection"
+    },
+    {
+      "slug": "/measurement-card/",
+      "title": "Measurement Card"
+    },
+    {
+      "slug": "/measurement-card/measurand/",
+      "title": "1. Measurand"
+    }
+  ],
+  "/measuring-introspection/foundations/chang/": [
+    {
+      "slug": "/foundations/ai-evaluation/",
+      "title": "Measurement in AI Evaluation"
+    },
+    {
+      "slug": "/foundations/consciousness-science/",
+      "title": "Consciousness Science (Michel)"
+    },
+    {
+      "slug": "/foundations/",
+      "title": "Theoretical Foundations"
+    },
+    {
+      "slug": "/foundations/philosophy-of-measurement/",
+      "title": "Philosophy of Measurement"
+    },
+    {
+      "slug": "/foundations/psychometrics/",
+      "title": "Psychometrics and Construct Validity"
+    },
+    {
+      "slug": "/index/",
+      "title": "Measuring AI Introspection"
+    },
+    {
+      "slug": "/measurement-card/",
+      "title": "Measurement Card"
+    }
+  ],
+  "/measuring-introspection/foundations/robustness/": [
+    {
+      "slug": "/foundations/ai-evaluation/",
+      "title": "Measurement in AI Evaluation"
+    },
+    {
+      "slug": "/foundations/chang/",
+      "title": "Epistemic Iteration (Chang)"
+    },
+    {
+      "slug": "/foundations/",
+      "title": "Theoretical Foundations"
+    },
+    {
+      "slug": "/foundations/interpretability-instruments/",
+      "title": "Interpretability as Instruments"
+    },
+    {
+      "slug": "/foundations/multitrait-multimethod/",
+      "title": "Multitrait-Multimethod Matrix"
+    },
+    {
+      "slug": "/foundations/philosophy-of-measurement/",
+      "title": "Philosophy of Measurement"
+    },
+    {
+      "slug": "/foundations/tal/",
+      "title": "Model-Based Measurement (Tal)"
+    },
+    {
+      "slug": "/glossary/",
+      "title": "Glossary"
+    },
+    {
+      "slug": "/measurement-card/comparability/",
+      "title": "7. Comparability"
+    },
+    {
+      "slug": "/measurement-card/",
+      "title": "Measurement Card"
+    }
+  ],
+  "/measuring-introspection/measurement-card/uncertainty/": [
+    {
+      "slug": "/foundations/ai-evaluation/",
+      "title": "Measurement in AI Evaluation"
     },
     {
       "slug": "/foundations/consciousness-science/",
@@ -111,6 +209,108 @@
       "title": "Robustness and Convergence"
     },
     {
+      "slug": "/foundations/signal-detection/",
+      "title": "Signal Detection and Metacognition"
+    },
+    {
+      "slug": "/foundations/tal/",
+      "title": "Model-Based Measurement (Tal)"
+    },
+    {
+      "slug": "/index/",
+      "title": "Measuring AI Introspection"
+    },
+    {
+      "slug": "/measurement-card/",
+      "title": "Measurement Card"
+    }
+  ],
+  "/measuring-introspection/slides/tal-chang.pdf/": [
+    {
+      "slug": "/foundations/chang/",
+      "title": "Epistemic Iteration (Chang)"
+    },
+    {
+      "slug": "/foundations/philosophy-of-measurement/",
+      "title": "Philosophy of Measurement"
+    },
+    {
+      "slug": "/foundations/tal/",
+      "title": "Model-Based Measurement (Tal)"
+    }
+  ],
+  "/measuring-introspection/foundations/tal/": [
+    {
+      "slug": "/foundations/chang/",
+      "title": "Epistemic Iteration (Chang)"
+    },
+    {
+      "slug": "/foundations/consciousness-science/",
+      "title": "Consciousness Science (Michel)"
+    },
+    {
+      "slug": "/foundations/",
+      "title": "Theoretical Foundations"
+    },
+    {
+      "slug": "/foundations/philosophy-of-measurement/",
+      "title": "Philosophy of Measurement"
+    },
+    {
+      "slug": "/foundations/robustness/",
+      "title": "Robustness and Convergence"
+    },
+    {
+      "slug": "/glossary/",
+      "title": "Glossary"
+    },
+    {
+      "slug": "/index/",
+      "title": "Measuring AI Introspection"
+    },
+    {
+      "slug": "/measurement-card/",
+      "title": "Measurement Card"
+    },
+    {
+      "slug": "/measurement-card/instrument/",
+      "title": "3. Instrument and Indication"
+    },
+    {
+      "slug": "/measurement-card/measurement-model/",
+      "title": "4. Measurement Model"
+    }
+  ],
+  "/measuring-introspection/measurement-card/calibration/": [
+    {
+      "slug": "/foundations/chang/",
+      "title": "Epistemic Iteration (Chang)"
+    },
+    {
+      "slug": "/foundations/consciousness-science/",
+      "title": "Consciousness Science (Michel)"
+    },
+    {
+      "slug": "/foundations/interpretability-instruments/",
+      "title": "Interpretability as Instruments"
+    },
+    {
+      "slug": "/foundations/llm-introspection-accounts/",
+      "title": "Accounts of LLM Introspection"
+    },
+    {
+      "slug": "/foundations/metrology/",
+      "title": "Metrology (VIM and GUM)"
+    },
+    {
+      "slug": "/foundations/robustness/",
+      "title": "Robustness and Convergence"
+    },
+    {
+      "slug": "/foundations/signal-detection/",
+      "title": "Signal Detection and Metacognition"
+    },
+    {
       "slug": "/foundations/tal/",
       "title": "Model-Based Measurement (Tal)"
     },
@@ -120,7 +320,7 @@
     },
     {
       "slug": "/index/",
-      "title": "Measuring LLM Introspection"
+      "title": "Measuring AI Introspection"
     },
     {
       "slug": "/measurement-card/comparability/",
@@ -145,6 +345,14 @@
       "title": "Consciousness Science (Michel)"
     },
     {
+      "slug": "/foundations/interpretability-instruments/",
+      "title": "Interpretability as Instruments"
+    },
+    {
+      "slug": "/foundations/llm-introspection-accounts/",
+      "title": "Accounts of LLM Introspection"
+    },
+    {
       "slug": "/foundations/metrology/",
       "title": "Metrology (VIM and GUM)"
     },
@@ -161,6 +369,10 @@
       "title": "Robustness and Convergence"
     },
     {
+      "slug": "/foundations/signal-detection/",
+      "title": "Signal Detection and Metacognition"
+    },
+    {
       "slug": "/foundations/tal/",
       "title": "Model-Based Measurement (Tal)"
     },
@@ -170,7 +382,7 @@
     },
     {
       "slug": "/index/",
-      "title": "Measuring LLM Introspection"
+      "title": "Measuring AI Introspection"
     },
     {
       "slug": "/measurement-card/calibration/",
@@ -185,30 +397,60 @@
       "title": "6. Uncertainty"
     }
   ],
-  "/measuring-introspection/measurement-card/validity-conditions/": [
+  "/measuring-introspection/slides/michel.pdf/": [
     {
-      "slug": "/foundations/chang/",
-      "title": "Epistemic Iteration (Chang)"
-    },
+      "slug": "/foundations/consciousness-science/",
+      "title": "Consciousness Science (Michel)"
+    }
+  ],
+  "/measuring-introspection/foundations/metrology/": [
     {
       "slug": "/foundations/consciousness-science/",
       "title": "Consciousness Science (Michel)"
     },
     {
+      "slug": "/foundations/",
+      "title": "Theoretical Foundations"
+    },
+    {
+      "slug": "/foundations/signal-detection/",
+      "title": "Signal Detection and Metacognition"
+    },
+    {
+      "slug": "/index/",
+      "title": "Measuring AI Introspection"
+    },
+    {
+      "slug": "/measurement-card/",
+      "title": "Measurement Card"
+    }
+  ],
+  "/measuring-introspection/foundations/philosophy-of-measurement/": [
+    {
+      "slug": "/foundations/consciousness-science/",
+      "title": "Consciousness Science (Michel)"
+    },
+    {
+      "slug": "/index/",
+      "title": "Measuring AI Introspection"
+    },
+    {
+      "slug": "/measurement-card/",
+      "title": "Measurement Card"
+    }
+  ],
+  "/measuring-introspection/foundations/signal-detection/": [
+    {
+      "slug": "/foundations/consciousness-science/",
+      "title": "Consciousness Science (Michel)"
+    },
+    {
+      "slug": "/foundations/",
+      "title": "Theoretical Foundations"
+    },
+    {
       "slug": "/foundations/metrology/",
       "title": "Metrology (VIM and GUM)"
-    },
-    {
-      "slug": "/foundations/philosophy-of-introspection/",
-      "title": "Philosophy of Introspection"
-    },
-    {
-      "slug": "/foundations/psychometrics/",
-      "title": "Psychometrics and Construct Validity"
-    },
-    {
-      "slug": "/foundations/tal/",
-      "title": "Model-Based Measurement (Tal)"
     },
     {
       "slug": "/glossary/",
@@ -216,15 +458,15 @@
     },
     {
       "slug": "/index/",
-      "title": "Measuring LLM Introspection"
+      "title": "Measuring AI Introspection"
     },
     {
       "slug": "/measurement-card/",
       "title": "Measurement Card"
     },
     {
-      "slug": "/measurement-card/measurand/",
-      "title": "1. Measurand"
+      "slug": "/measurement-card/measurement-model/",
+      "title": "4. Measurement Model"
     }
   ],
   "/measuring-introspection/measurement-card/instrument/": [
@@ -233,12 +475,20 @@
       "title": "Consciousness Science (Michel)"
     },
     {
+      "slug": "/foundations/interpretability-instruments/",
+      "title": "Interpretability as Instruments"
+    },
+    {
       "slug": "/foundations/metrology/",
       "title": "Metrology (VIM and GUM)"
     },
     {
       "slug": "/foundations/philosophy-of-introspection/",
       "title": "Philosophy of Introspection"
+    },
+    {
+      "slug": "/foundations/signal-detection/",
+      "title": "Signal Detection and Metacognition"
     },
     {
       "slug": "/foundations/tal/",
@@ -250,7 +500,7 @@
     },
     {
       "slug": "/index/",
-      "title": "Measuring LLM Introspection"
+      "title": "Measuring AI Introspection"
     },
     {
       "slug": "/measurement-card/",
@@ -275,6 +525,10 @@
       "title": "Psychometrics and Construct Validity"
     },
     {
+      "slug": "/foundations/signal-detection/",
+      "title": "Signal Detection and Metacognition"
+    },
+    {
       "slug": "/foundations/tal/",
       "title": "Model-Based Measurement (Tal)"
     },
@@ -284,7 +538,7 @@
     },
     {
       "slug": "/index/",
-      "title": "Measuring LLM Introspection"
+      "title": "Measuring AI Introspection"
     },
     {
       "slug": "/measurement-card/",
@@ -295,80 +549,22 @@
       "title": "3. Instrument and Indication"
     }
   ],
-  "/measuring-introspection/measurement-card/uncertainty/": [
+  "/measuring-introspection/foundations/psychometrics/": [
     {
-      "slug": "/foundations/consciousness-science/",
-      "title": "Consciousness Science (Michel)"
+      "slug": "/foundations/",
+      "title": "Theoretical Foundations"
     },
     {
-      "slug": "/foundations/metrology/",
-      "title": "Metrology (VIM and GUM)"
+      "slug": "/foundations/multitrait-multimethod/",
+      "title": "Multitrait-Multimethod Matrix"
     },
     {
       "slug": "/foundations/robustness/",
       "title": "Robustness and Convergence"
     },
     {
-      "slug": "/foundations/tal/",
-      "title": "Model-Based Measurement (Tal)"
-    },
-    {
       "slug": "/index/",
-      "title": "Measuring LLM Introspection"
-    },
-    {
-      "slug": "/measurement-card/",
-      "title": "Measurement Card"
-    }
-  ],
-  "/measuring-introspection/measurement-card/": [
-    {
-      "slug": "/foundations/",
-      "title": "Theoretical Foundations"
-    },
-    {
-      "slug": "/measurement-card/comparability/",
-      "title": "7. Comparability"
-    },
-    {
-      "slug": "/measurement-card/uncertainty/",
-      "title": "6. Uncertainty"
-    },
-    {
-      "slug": "/measurement-card/validity-conditions/",
-      "title": "8. Validity Conditions"
-    },
-    {
-      "slug": "/papers/",
-      "title": "Papers"
-    }
-  ],
-  "/measuring-introspection/foundations/metrology/": [
-    {
-      "slug": "/foundations/",
-      "title": "Theoretical Foundations"
-    },
-    {
-      "slug": "/index/",
-      "title": "Measuring LLM Introspection"
-    },
-    {
-      "slug": "/measurement-card/",
-      "title": "Measurement Card"
-    }
-  ],
-  "/measuring-introspection/foundations/chang/": [
-    {
-      "slug": "/foundations/",
-      "title": "Theoretical Foundations"
-    },
-    {
-      "slug": "/foundations/psychometrics/",
-      "title": "Psychometrics and Construct Validity"
-    },
-    {
-      "slug": "/index/",
-      "title": "Measuring LLM Introspection"
+      "title": "Measuring AI Introspection"
     },
     {
       "slug": "/measurement-card/",
@@ -390,25 +586,7 @@
     },
     {
       "slug": "/index/",
-      "title": "Measuring LLM Introspection"
-    },
-    {
-      "slug": "/measurement-card/",
-      "title": "Measurement Card"
-    }
-  ],
-  "/measuring-introspection/foundations/psychometrics/": [
-    {
-      "slug": "/foundations/",
-      "title": "Theoretical Foundations"
-    },
-    {
-      "slug": "/foundations/robustness/",
-      "title": "Robustness and Convergence"
-    },
-    {
-      "slug": "/index/",
-      "title": "Measuring LLM Introspection"
+      "title": "Measuring AI Introspection"
     },
     {
       "slug": "/measurement-card/",
@@ -421,16 +599,16 @@
       "title": "Theoretical Foundations"
     },
     {
+      "slug": "/foundations/llm-introspection-accounts/",
+      "title": "Accounts of LLM Introspection"
+    },
+    {
       "slug": "/foundations/metrology/",
       "title": "Metrology (VIM and GUM)"
     },
     {
-      "slug": "/foundations/psychometrics/",
-      "title": "Psychometrics and Construct Validity"
-    },
-    {
       "slug": "/index/",
-      "title": "Measuring LLM Introspection"
+      "title": "Measuring AI Introspection"
     },
     {
       "slug": "/measurement-card/",
@@ -441,10 +619,92 @@
       "title": "1. Measurand"
     }
   ],
+  "/measuring-introspection/papers/": [
+    {
+      "slug": "/foundations/interpretability-instruments/",
+      "title": "Interpretability as Instruments"
+    },
+    {
+      "slug": "/foundations/llm-introspection-accounts/",
+      "title": "Accounts of LLM Introspection"
+    },
+    {
+      "slug": "/index/",
+      "title": "Measuring AI Introspection"
+    }
+  ],
+  "/measuring-introspection/glossary/": [
+    {
+      "slug": "/foundations/interpretability-instruments/",
+      "title": "Interpretability as Instruments"
+    }
+  ],
+  "/measuring-introspection/papers/ferrara-2026/": [
+    {
+      "slug": "/foundations/interpretability-instruments/",
+      "title": "Interpretability as Instruments"
+    },
+    {
+      "slug": "/foundations/llm-introspection-accounts/",
+      "title": "Accounts of LLM Introspection"
+    },
+    {
+      "slug": "/foundations/signal-detection/",
+      "title": "Signal Detection and Metacognition"
+    },
+    {
+      "slug": "/measurement-card/measurand/",
+      "title": "1. Measurand"
+    },
+    {
+      "slug": "/measurement-card/measurement-model/",
+      "title": "4. Measurement Model"
+    },
+    {
+      "slug": "/measurement-card/uncertainty/",
+      "title": "6. Uncertainty"
+    },
+    {
+      "slug": "/papers/fonseca-rivera-2025/",
+      "title": "Fonseca Rivera 2025"
+    },
+    {
+      "slug": "/papers/hahami-2025/",
+      "title": "Hahami et al. 2025"
+    },
+    {
+      "slug": "/papers/",
+      "title": "Papers"
+    },
+    {
+      "slug": "/papers/lederman-mahowald-2026/",
+      "title": "Lederman & Mahowald 2026"
+    },
+    {
+      "slug": "/papers/lindsey-2025/",
+      "title": "Lindsey 2025"
+    },
+    {
+      "slug": "/papers/macar-2026/",
+      "title": "Macar et al. 2026"
+    },
+    {
+      "slug": "/papers/singh-2026/",
+      "title": "Singh et al. 2026"
+    }
+  ],
   "/measuring-introspection/papers/lindsey-2025/": [
+    {
+      "slug": "/foundations/llm-introspection-accounts/",
+      "title": "Accounts of LLM Introspection"
+    },
     {
       "slug": "/foundations/metrology/",
       "title": "Metrology (VIM and GUM)"
+    },
+    {
+      "slug": "/foundations/signal-detection/",
+      "title": "Signal Detection and Metacognition"
     },
     {
       "slug": "/glossary/",
@@ -547,46 +807,76 @@
       "title": "Singh et al. 2026"
     }
   ],
-  "/measuring-introspection/papers/kadavath-2022/": [
+  "/measuring-introspection/papers/macar-2026/": [
     {
-      "slug": "/foundations/metrology/",
-      "title": "Metrology (VIM and GUM)"
+      "slug": "/foundations/llm-introspection-accounts/",
+      "title": "Accounts of LLM Introspection"
     },
     {
-      "slug": "/measurement-card/comparability/",
-      "title": "7. Comparability"
+      "slug": "/measurement-card/",
+      "title": "Measurement Card"
     },
     {
-      "slug": "/measurement-card/instrument/",
-      "title": "3. Instrument and Indication"
+      "slug": "/measurement-card/measurand/",
+      "title": "1. Measurand"
+    },
+    {
+      "slug": "/measurement-card/measurement-model/",
+      "title": "4. Measurement Model"
+    },
+    {
+      "slug": "/measurement-card/procedure/",
+      "title": "2. Procedure"
     },
     {
       "slug": "/measurement-card/validity-conditions/",
       "title": "8. Validity Conditions"
     },
     {
-      "slug": "/papers/ackerman-2025/",
-      "title": "Ackerman 2025"
+      "slug": "/papers/",
+      "title": "Papers"
     },
     {
-      "slug": "/papers/betley-2025/",
-      "title": "Betley et al. 2025"
+      "slug": "/papers/lederman-mahowald-2026/",
+      "title": "Lederman & Mahowald 2026"
     },
     {
-      "slug": "/papers/binder-2025/",
-      "title": "Binder et al. 2025"
+      "slug": "/papers/lindsey-2025/",
+      "title": "Lindsey 2025"
     },
     {
-      "slug": "/papers/blandfort-2026/",
-      "title": "Blandfort & Pawar 2026"
+      "slug": "/papers/pearson-vogel-2026/",
+      "title": "Pearson-Vogel et al. 2026"
+    },
+    {
+      "slug": "/papers/singh-2026/",
+      "title": "Singh et al. 2026"
+    }
+  ],
+  "/measuring-introspection/papers/hahami-2025/": [
+    {
+      "slug": "/foundations/llm-introspection-accounts/",
+      "title": "Accounts of LLM Introspection"
+    },
+    {
+      "slug": "/foundations/signal-detection/",
+      "title": "Signal Detection and Metacognition"
+    },
+    {
+      "slug": "/measurement-card/instrument/",
+      "title": "3. Instrument and Indication"
+    },
+    {
+      "slug": "/measurement-card/measurement-model/",
+      "title": "4. Measurement Model"
+    },
+    {
+      "slug": "/papers/atkinson-2026/",
+      "title": "Atkinson, Plunkett & Bau 2026"
     },
     {
       "slug": "/papers/ferrara-2026/",
       "title": "Ferrara 2026"
-    },
-    {
-      "slug": "/papers/fonseca-rivera-2025/",
-      "title": "Fonseca Rivera 2025"
     },
     {
       "slug": "/papers/",
@@ -597,49 +887,27 @@
       "title": "Ji-An et al. 2025"
     },
     {
+      "slug": "/papers/lederman-mahowald-2026/",
+      "title": "Lederman & Mahowald 2026"
+    },
+    {
+      "slug": "/papers/lindsey-2025/",
+      "title": "Lindsey 2025"
+    },
+    {
       "slug": "/papers/macar-2026/",
       "title": "Macar et al. 2026"
     },
     {
-      "slug": "/papers/moran-2026/",
-      "title": "Moran and Whiting 2026"
-    },
-    {
-      "slug": "/papers/nguyen-2026/",
-      "title": "Nguyen et al. 2026"
-    },
-    {
       "slug": "/papers/pearson-vogel-2026/",
       "title": "Pearson-Vogel et al. 2026"
-    },
-    {
-      "slug": "/papers/plunkett-2025/",
-      "title": "Plunkett et al. 2025"
-    }
-  ],
-  "/measuring-introspection/measurement-card/procedure/": [
-    {
-      "slug": "/foundations/metrology/",
-      "title": "Metrology (VIM and GUM)"
-    },
-    {
-      "slug": "/foundations/psychometrics/",
-      "title": "Psychometrics and Construct Validity"
-    },
-    {
-      "slug": "/glossary/",
-      "title": "Glossary"
-    },
-    {
-      "slug": "/index/",
-      "title": "Measuring LLM Introspection"
-    },
-    {
-      "slug": "/measurement-card/",
-      "title": "Measurement Card"
     }
   ],
   "/measuring-introspection/papers/binder-2025/": [
+    {
+      "slug": "/foundations/llm-introspection-accounts/",
+      "title": "Accounts of LLM Introspection"
+    },
     {
       "slug": "/foundations/philosophy-of-introspection/",
       "title": "Philosophy of Introspection"
@@ -673,20 +941,12 @@
       "title": "Blandfort & Pawar 2026"
     },
     {
-      "slug": "/papers/ferrara-2026/",
-      "title": "Ferrara 2026"
-    },
-    {
       "slug": "/papers/fonseca-rivera-2025/",
       "title": "Fonseca Rivera 2025"
     },
     {
       "slug": "/papers/guo-2026/",
       "title": "Guo et al. 2026"
-    },
-    {
-      "slug": "/papers/hahami-2025/",
-      "title": "Hahami et al. 2025"
     },
     {
       "slug": "/papers/",
@@ -709,10 +969,6 @@
       "title": "Li et al. 2025"
     },
     {
-      "slug": "/papers/macar-2026/",
-      "title": "Macar et al. 2026"
-    },
-    {
       "slug": "/papers/moran-2026/",
       "title": "Moran and Whiting 2026"
     },
@@ -733,12 +989,338 @@
       "title": "Shenoy et al. 2026"
     },
     {
-      "slug": "/papers/singh-2026/",
-      "title": "Singh et al. 2026"
+      "slug": "/papers/song-hu-mahowald-2025/",
+      "title": "Song, Hu & Mahowald 2025"
+    }
+  ],
+  "/measuring-introspection/papers/li-2025/": [
+    {
+      "slug": "/foundations/llm-introspection-accounts/",
+      "title": "Accounts of LLM Introspection"
+    },
+    {
+      "slug": "/measurement-card/comparability/",
+      "title": "7. Comparability"
+    },
+    {
+      "slug": "/papers/atkinson-2026/",
+      "title": "Atkinson, Plunkett & Bau 2026"
+    },
+    {
+      "slug": "/papers/guo-2026/",
+      "title": "Guo et al. 2026"
+    },
+    {
+      "slug": "/papers/",
+      "title": "Papers"
+    },
+    {
+      "slug": "/papers/lederman-mahowald-2026/",
+      "title": "Lederman & Mahowald 2026"
+    }
+  ],
+  "/measuring-introspection/papers/pearson-vogel-2026/": [
+    {
+      "slug": "/foundations/llm-introspection-accounts/",
+      "title": "Accounts of LLM Introspection"
+    },
+    {
+      "slug": "/measurement-card/procedure/",
+      "title": "2. Procedure"
+    },
+    {
+      "slug": "/measurement-card/uncertainty/",
+      "title": "6. Uncertainty"
+    },
+    {
+      "slug": "/papers/atkinson-2026/",
+      "title": "Atkinson, Plunkett & Bau 2026"
+    },
+    {
+      "slug": "/papers/fonseca-rivera-2025/",
+      "title": "Fonseca Rivera 2025"
+    },
+    {
+      "slug": "/papers/",
+      "title": "Papers"
+    },
+    {
+      "slug": "/papers/lederman-mahowald-2026/",
+      "title": "Lederman & Mahowald 2026"
+    },
+    {
+      "slug": "/papers/lindsey-2025/",
+      "title": "Lindsey 2025"
+    },
+    {
+      "slug": "/papers/macar-2026/",
+      "title": "Macar et al. 2026"
     },
     {
       "slug": "/papers/song-hu-mahowald-2025/",
       "title": "Song, Hu & Mahowald 2025"
+    }
+  ],
+  "/measuring-introspection/papers/singh-2026/": [
+    {
+      "slug": "/foundations/llm-introspection-accounts/",
+      "title": "Accounts of LLM Introspection"
+    },
+    {
+      "slug": "/measurement-card/measurand/",
+      "title": "1. Measurand"
+    },
+    {
+      "slug": "/measurement-card/measurement-model/",
+      "title": "4. Measurement Model"
+    },
+    {
+      "slug": "/measurement-card/uncertainty/",
+      "title": "6. Uncertainty"
+    },
+    {
+      "slug": "/papers/ferrara-2026/",
+      "title": "Ferrara 2026"
+    },
+    {
+      "slug": "/papers/guo-2026/",
+      "title": "Guo et al. 2026"
+    },
+    {
+      "slug": "/papers/hahami-2025/",
+      "title": "Hahami et al. 2025"
+    },
+    {
+      "slug": "/papers/",
+      "title": "Papers"
+    },
+    {
+      "slug": "/papers/lederman-mahowald-2026/",
+      "title": "Lederman & Mahowald 2026"
+    },
+    {
+      "slug": "/papers/lindsey-2025/",
+      "title": "Lindsey 2025"
+    },
+    {
+      "slug": "/papers/macar-2026/",
+      "title": "Macar et al. 2026"
+    },
+    {
+      "slug": "/papers/pearson-vogel-2026/",
+      "title": "Pearson-Vogel et al. 2026"
+    }
+  ],
+  "/measuring-introspection/papers/plunkett-2025/": [
+    {
+      "slug": "/foundations/llm-introspection-accounts/",
+      "title": "Accounts of LLM Introspection"
+    },
+    {
+      "slug": "/measurement-card/calibration/",
+      "title": "5. Calibration"
+    },
+    {
+      "slug": "/papers/ackerman-2025/",
+      "title": "Ackerman 2025"
+    },
+    {
+      "slug": "/papers/atkinson-2026/",
+      "title": "Atkinson, Plunkett & Bau 2026"
+    },
+    {
+      "slug": "/papers/betley-2025/",
+      "title": "Betley et al. 2025"
+    },
+    {
+      "slug": "/papers/binder-2025/",
+      "title": "Binder et al. 2025"
+    },
+    {
+      "slug": "/papers/guo-2026/",
+      "title": "Guo et al. 2026"
+    },
+    {
+      "slug": "/papers/",
+      "title": "Papers"
+    },
+    {
+      "slug": "/papers/kadavath-2022/",
+      "title": "Kadavath et al. 2022"
+    },
+    {
+      "slug": "/papers/lederman-mahowald-2026/",
+      "title": "Lederman & Mahowald 2026"
+    },
+    {
+      "slug": "/papers/li-2025/",
+      "title": "Li et al. 2025"
+    },
+    {
+      "slug": "/papers/shenoy-2026/",
+      "title": "Shenoy et al. 2026"
+    }
+  ],
+  "/measuring-introspection/slides/metrology-robustness.pdf/": [
+    {
+      "slug": "/foundations/metrology/",
+      "title": "Metrology (VIM and GUM)"
+    },
+    {
+      "slug": "/foundations/robustness/",
+      "title": "Robustness and Convergence"
+    }
+  ],
+  "/measuring-introspection/papers/kadavath-2022/": [
+    {
+      "slug": "/foundations/metrology/",
+      "title": "Metrology (VIM and GUM)"
+    },
+    {
+      "slug": "/foundations/signal-detection/",
+      "title": "Signal Detection and Metacognition"
+    },
+    {
+      "slug": "/measurement-card/comparability/",
+      "title": "7. Comparability"
+    },
+    {
+      "slug": "/measurement-card/instrument/",
+      "title": "3. Instrument and Indication"
+    },
+    {
+      "slug": "/measurement-card/validity-conditions/",
+      "title": "8. Validity Conditions"
+    },
+    {
+      "slug": "/papers/ackerman-2025/",
+      "title": "Ackerman 2025"
+    },
+    {
+      "slug": "/papers/binder-2025/",
+      "title": "Binder et al. 2025"
+    },
+    {
+      "slug": "/papers/blandfort-2026/",
+      "title": "Blandfort & Pawar 2026"
+    },
+    {
+      "slug": "/papers/",
+      "title": "Papers"
+    },
+    {
+      "slug": "/papers/ji-an-2025/",
+      "title": "Ji-An et al. 2025"
+    },
+    {
+      "slug": "/papers/moran-2026/",
+      "title": "Moran and Whiting 2026"
+    },
+    {
+      "slug": "/papers/nguyen-2026/",
+      "title": "Nguyen et al. 2026"
+    },
+    {
+      "slug": "/papers/pearson-vogel-2026/",
+      "title": "Pearson-Vogel et al. 2026"
+    },
+    {
+      "slug": "/papers/plunkett-2025/",
+      "title": "Plunkett et al. 2025"
+    }
+  ],
+  "/measuring-introspection/measurement-card/procedure/": [
+    {
+      "slug": "/foundations/metrology/",
+      "title": "Metrology (VIM and GUM)"
+    },
+    {
+      "slug": "/foundations/psychometrics/",
+      "title": "Psychometrics and Construct Validity"
+    },
+    {
+      "slug": "/glossary/",
+      "title": "Glossary"
+    },
+    {
+      "slug": "/index/",
+      "title": "Measuring AI Introspection"
+    },
+    {
+      "slug": "/measurement-card/",
+      "title": "Measurement Card"
+    }
+  ],
+  "/measuring-introspection/slides/philosophy-of-introspection.pdf/": [
+    {
+      "slug": "/foundations/philosophy-of-introspection/",
+      "title": "Philosophy of Introspection"
+    }
+  ],
+  "/measuring-introspection/slides/signal-detection.pdf/": [
+    {
+      "slug": "/foundations/signal-detection/",
+      "title": "Signal Detection and Metacognition"
+    }
+  ],
+  "/measuring-introspection/papers/ackerman-2025/": [
+    {
+      "slug": "/foundations/signal-detection/",
+      "title": "Signal Detection and Metacognition"
+    },
+    {
+      "slug": "/measurement-card/procedure/",
+      "title": "2. Procedure"
+    },
+    {
+      "slug": "/papers/",
+      "title": "Papers"
+    },
+    {
+      "slug": "/papers/ji-an-2025/",
+      "title": "Ji-An et al. 2025"
+    },
+    {
+      "slug": "/papers/kadavath-2022/",
+      "title": "Kadavath et al. 2022"
+    },
+    {
+      "slug": "/papers/moran-2026/",
+      "title": "Moran and Whiting 2026"
+    },
+    {
+      "slug": "/papers/plunkett-2025/",
+      "title": "Plunkett et al. 2025"
+    }
+  ],
+  "/measuring-introspection/papers/moran-2026/": [
+    {
+      "slug": "/foundations/signal-detection/",
+      "title": "Signal Detection and Metacognition"
+    },
+    {
+      "slug": "/measurement-card/comparability/",
+      "title": "7. Comparability"
+    },
+    {
+      "slug": "/measurement-card/measurand/",
+      "title": "1. Measurand"
+    },
+    {
+      "slug": "/papers/ackerman-2025/",
+      "title": "Ackerman 2025"
+    },
+    {
+      "slug": "/papers/blandfort-2026/",
+      "title": "Blandfort & Pawar 2026"
+    },
+    {
+      "slug": "/papers/",
+      "title": "Papers"
+    },
+    {
+      "slug": "/papers/kadavath-2022/",
+      "title": "Kadavath et al. 2022"
     }
   ],
   "/measuring-introspection/papers/atkinson-2026/": [
@@ -787,36 +1369,10 @@
       "title": "Song, Hu & Mahowald 2025"
     }
   ],
-  "/measuring-introspection/papers/": [
-    {
-      "slug": "/index/",
-      "title": "Measuring LLM Introspection"
-    }
-  ],
-  "/measuring-introspection/foundations/philosophy-of-measurement/": [
-    {
-      "slug": "/index/",
-      "title": "Measuring LLM Introspection"
-    },
-    {
-      "slug": "/measurement-card/",
-      "title": "Measurement Card"
-    }
-  ],
   "/measuring-introspection/foundations/multitrait-multimethod/": [
     {
       "slug": "/index/",
-      "title": "Measuring LLM Introspection"
-    },
-    {
-      "slug": "/measurement-card/",
-      "title": "Measurement Card"
-    }
-  ],
-  "/measuring-introspection/foundations/signal-detection/": [
-    {
-      "slug": "/index/",
-      "title": "Measuring LLM Introspection"
+      "title": "Measuring AI Introspection"
     },
     {
       "slug": "/measurement-card/",
@@ -826,7 +1382,7 @@
   "/measuring-introspection/foundations/llm-introspection-accounts/": [
     {
       "slug": "/index/",
-      "title": "Measuring LLM Introspection"
+      "title": "Measuring AI Introspection"
     },
     {
       "slug": "/measurement-card/",
@@ -836,65 +1392,11 @@
   "/measuring-introspection/foundations/interpretability-instruments/": [
     {
       "slug": "/index/",
-      "title": "Measuring LLM Introspection"
+      "title": "Measuring AI Introspection"
     },
     {
       "slug": "/measurement-card/",
       "title": "Measurement Card"
-    }
-  ],
-  "/measuring-introspection/papers/plunkett-2025/": [
-    {
-      "slug": "/measurement-card/calibration/",
-      "title": "5. Calibration"
-    },
-    {
-      "slug": "/papers/ackerman-2025/",
-      "title": "Ackerman 2025"
-    },
-    {
-      "slug": "/papers/atkinson-2026/",
-      "title": "Atkinson, Plunkett & Bau 2026"
-    },
-    {
-      "slug": "/papers/betley-2025/",
-      "title": "Betley et al. 2025"
-    },
-    {
-      "slug": "/papers/binder-2025/",
-      "title": "Binder et al. 2025"
-    },
-    {
-      "slug": "/papers/fonseca-rivera-2025/",
-      "title": "Fonseca Rivera 2025"
-    },
-    {
-      "slug": "/papers/guo-2026/",
-      "title": "Guo et al. 2026"
-    },
-    {
-      "slug": "/papers/",
-      "title": "Papers"
-    },
-    {
-      "slug": "/papers/kadavath-2022/",
-      "title": "Kadavath et al. 2022"
-    },
-    {
-      "slug": "/papers/lederman-mahowald-2026/",
-      "title": "Lederman & Mahowald 2026"
-    },
-    {
-      "slug": "/papers/li-2025/",
-      "title": "Li et al. 2025"
-    },
-    {
-      "slug": "/papers/shenoy-2026/",
-      "title": "Shenoy et al. 2026"
-    },
-    {
-      "slug": "/papers/singh-2026/",
-      "title": "Singh et al. 2026"
     }
   ],
   "/measuring-introspection/papers/song-hu-mahowald-2025/": [
@@ -961,10 +1463,6 @@
       "title": "Ackerman 2025"
     },
     {
-      "slug": "/papers/hahami-2025/",
-      "title": "Hahami et al. 2025"
-    },
-    {
       "slug": "/papers/",
       "title": "Papers"
     },
@@ -1011,10 +1509,6 @@
       "title": "7. Comparability"
     },
     {
-      "slug": "/papers/betley-2025/",
-      "title": "Betley et al. 2025"
-    },
-    {
       "slug": "/papers/binder-2025/",
       "title": "Binder et al. 2025"
     },
@@ -1025,224 +1519,16 @@
     {
       "slug": "/papers/kadavath-2022/",
       "title": "Kadavath et al. 2022"
-    }
-  ],
-  "/measuring-introspection/papers/moran-2026/": [
-    {
-      "slug": "/measurement-card/comparability/",
-      "title": "7. Comparability"
     },
     {
-      "slug": "/measurement-card/measurand/",
-      "title": "1. Measurand"
-    },
-    {
-      "slug": "/papers/ackerman-2025/",
-      "title": "Ackerman 2025"
-    },
-    {
-      "slug": "/papers/",
-      "title": "Papers"
-    },
-    {
-      "slug": "/papers/kadavath-2022/",
-      "title": "Kadavath et al. 2022"
-    }
-  ],
-  "/measuring-introspection/papers/li-2025/": [
-    {
-      "slug": "/measurement-card/comparability/",
-      "title": "7. Comparability"
-    },
-    {
-      "slug": "/papers/atkinson-2026/",
-      "title": "Atkinson, Plunkett & Bau 2026"
-    },
-    {
-      "slug": "/papers/guo-2026/",
-      "title": "Guo et al. 2026"
-    },
-    {
-      "slug": "/papers/",
-      "title": "Papers"
-    },
-    {
-      "slug": "/papers/lederman-mahowald-2026/",
-      "title": "Lederman & Mahowald 2026"
-    }
-  ],
-  "/measuring-introspection/papers/macar-2026/": [
-    {
-      "slug": "/measurement-card/",
-      "title": "Measurement Card"
-    },
-    {
-      "slug": "/measurement-card/measurand/",
-      "title": "1. Measurand"
-    },
-    {
-      "slug": "/measurement-card/measurement-model/",
-      "title": "4. Measurement Model"
-    },
-    {
-      "slug": "/measurement-card/procedure/",
-      "title": "2. Procedure"
-    },
-    {
-      "slug": "/measurement-card/validity-conditions/",
-      "title": "8. Validity Conditions"
-    },
-    {
-      "slug": "/papers/ferrara-2026/",
-      "title": "Ferrara 2026"
-    },
-    {
-      "slug": "/papers/guo-2026/",
-      "title": "Guo et al. 2026"
-    },
-    {
-      "slug": "/papers/",
-      "title": "Papers"
-    },
-    {
-      "slug": "/papers/lederman-mahowald-2026/",
-      "title": "Lederman & Mahowald 2026"
-    },
-    {
-      "slug": "/papers/lindsey-2025/",
-      "title": "Lindsey 2025"
-    },
-    {
-      "slug": "/papers/pearson-vogel-2026/",
-      "title": "Pearson-Vogel et al. 2026"
-    },
-    {
-      "slug": "/papers/singh-2026/",
-      "title": "Singh et al. 2026"
+      "slug": "/papers/moran-2026/",
+      "title": "Moran and Whiting 2026"
     }
   ],
   "/measuring-introspection/foundations/ai-evaluation/": [
     {
       "slug": "/measurement-card/",
       "title": "Measurement Card"
-    }
-  ],
-  "/measuring-introspection/papers/hahami-2025/": [
-    {
-      "slug": "/measurement-card/instrument/",
-      "title": "3. Instrument and Indication"
-    },
-    {
-      "slug": "/measurement-card/measurement-model/",
-      "title": "4. Measurement Model"
-    },
-    {
-      "slug": "/papers/atkinson-2026/",
-      "title": "Atkinson, Plunkett & Bau 2026"
-    },
-    {
-      "slug": "/papers/ferrara-2026/",
-      "title": "Ferrara 2026"
-    },
-    {
-      "slug": "/papers/",
-      "title": "Papers"
-    },
-    {
-      "slug": "/papers/lederman-mahowald-2026/",
-      "title": "Lederman & Mahowald 2026"
-    },
-    {
-      "slug": "/papers/lindsey-2025/",
-      "title": "Lindsey 2025"
-    },
-    {
-      "slug": "/papers/macar-2026/",
-      "title": "Macar et al. 2026"
-    },
-    {
-      "slug": "/papers/pearson-vogel-2026/",
-      "title": "Pearson-Vogel et al. 2026"
-    }
-  ],
-  "/measuring-introspection/papers/ferrara-2026/": [
-    {
-      "slug": "/measurement-card/measurand/",
-      "title": "1. Measurand"
-    },
-    {
-      "slug": "/measurement-card/measurement-model/",
-      "title": "4. Measurement Model"
-    },
-    {
-      "slug": "/measurement-card/uncertainty/",
-      "title": "6. Uncertainty"
-    },
-    {
-      "slug": "/papers/hahami-2025/",
-      "title": "Hahami et al. 2025"
-    },
-    {
-      "slug": "/papers/",
-      "title": "Papers"
-    },
-    {
-      "slug": "/papers/lederman-mahowald-2026/",
-      "title": "Lederman & Mahowald 2026"
-    },
-    {
-      "slug": "/papers/lindsey-2025/",
-      "title": "Lindsey 2025"
-    },
-    {
-      "slug": "/papers/macar-2026/",
-      "title": "Macar et al. 2026"
-    }
-  ],
-  "/measuring-introspection/papers/singh-2026/": [
-    {
-      "slug": "/measurement-card/measurand/",
-      "title": "1. Measurand"
-    },
-    {
-      "slug": "/measurement-card/measurement-model/",
-      "title": "4. Measurement Model"
-    },
-    {
-      "slug": "/measurement-card/uncertainty/",
-      "title": "6. Uncertainty"
-    },
-    {
-      "slug": "/papers/ferrara-2026/",
-      "title": "Ferrara 2026"
-    },
-    {
-      "slug": "/papers/guo-2026/",
-      "title": "Guo et al. 2026"
-    },
-    {
-      "slug": "/papers/hahami-2025/",
-      "title": "Hahami et al. 2025"
-    },
-    {
-      "slug": "/papers/",
-      "title": "Papers"
-    },
-    {
-      "slug": "/papers/lederman-mahowald-2026/",
-      "title": "Lederman & Mahowald 2026"
-    },
-    {
-      "slug": "/papers/lindsey-2025/",
-      "title": "Lindsey 2025"
-    },
-    {
-      "slug": "/papers/macar-2026/",
-      "title": "Macar et al. 2026"
-    },
-    {
-      "slug": "/papers/pearson-vogel-2026/",
-      "title": "Pearson-Vogel et al. 2026"
     }
   ],
   "/measuring-introspection/papers/nguyen-2026/": [
@@ -1265,10 +1551,6 @@
       "title": "Ferrara 2026"
     },
     {
-      "slug": "/papers/guo-2026/",
-      "title": "Guo et al. 2026"
-    },
-    {
       "slug": "/papers/hahami-2025/",
       "title": "Hahami et al. 2025"
     },
@@ -1291,66 +1573,6 @@
     {
       "slug": "/papers/singh-2026/",
       "title": "Singh et al. 2026"
-    }
-  ],
-  "/measuring-introspection/papers/pearson-vogel-2026/": [
-    {
-      "slug": "/measurement-card/procedure/",
-      "title": "2. Procedure"
-    },
-    {
-      "slug": "/measurement-card/uncertainty/",
-      "title": "6. Uncertainty"
-    },
-    {
-      "slug": "/papers/atkinson-2026/",
-      "title": "Atkinson, Plunkett & Bau 2026"
-    },
-    {
-      "slug": "/papers/ferrara-2026/",
-      "title": "Ferrara 2026"
-    },
-    {
-      "slug": "/papers/fonseca-rivera-2025/",
-      "title": "Fonseca Rivera 2025"
-    },
-    {
-      "slug": "/papers/guo-2026/",
-      "title": "Guo et al. 2026"
-    },
-    {
-      "slug": "/papers/",
-      "title": "Papers"
-    },
-    {
-      "slug": "/papers/lederman-mahowald-2026/",
-      "title": "Lederman & Mahowald 2026"
-    },
-    {
-      "slug": "/papers/lindsey-2025/",
-      "title": "Lindsey 2025"
-    },
-    {
-      "slug": "/papers/macar-2026/",
-      "title": "Macar et al. 2026"
-    }
-  ],
-  "/measuring-introspection/papers/ackerman-2025/": [
-    {
-      "slug": "/measurement-card/procedure/",
-      "title": "2. Procedure"
-    },
-    {
-      "slug": "/papers/",
-      "title": "Papers"
-    },
-    {
-      "slug": "/papers/kadavath-2022/",
-      "title": "Kadavath et al. 2022"
-    },
-    {
-      "slug": "/papers/plunkett-2025/",
-      "title": "Plunkett et al. 2025"
     }
   ],
   "/measuring-introspection/papers/fonseca-rivera-2025/": [
@@ -1393,8 +1615,8 @@
       "title": "8. Validity Conditions"
     },
     {
-      "slug": "/papers/ferrara-2026/",
-      "title": "Ferrara 2026"
+      "slug": "/papers/betley-2025/",
+      "title": "Betley et al. 2025"
     },
     {
       "slug": "/papers/guo-2026/",
@@ -1427,14 +1649,6 @@
       "title": "Blandfort & Pawar 2026"
     },
     {
-      "slug": "/papers/ferrara-2026/",
-      "title": "Ferrara 2026"
-    },
-    {
-      "slug": "/papers/fonseca-rivera-2025/",
-      "title": "Fonseca Rivera 2025"
-    },
-    {
       "slug": "/papers/guo-2026/",
       "title": "Guo et al. 2026"
     },
@@ -1453,14 +1667,6 @@
     {
       "slug": "/papers/lederman-mahowald-2026/",
       "title": "Lederman & Mahowald 2026"
-    },
-    {
-      "slug": "/papers/macar-2026/",
-      "title": "Macar et al. 2026"
-    },
-    {
-      "slug": "/papers/pearson-vogel-2026/",
-      "title": "Pearson-Vogel et al. 2026"
     },
     {
       "slug": "/papers/plunkett-2025/",
