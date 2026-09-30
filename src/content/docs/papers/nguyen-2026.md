@@ -43,5 +43,5 @@ description: Whether a model, asked in a follow-up turn, disowns a prior respons
 
 ## Related papers
 
-- Takes the intention probe verbatim from [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/), and compares its ablation with Lindsey's concept injection.
-- Cites [Kadavath et al. 2022](/measuring-introspection/papers/kadavath-2022/) and [Binder et al. 2025](/measuring-introspection/papers/binder-2025/) as other operationalizations of introspection.
+- Takes the intention probe verbatim from [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/), and compares its ablation with Lindsey's concept injection.
+- Cites [Kadavath et al. 2022](/measuring-self-reports/papers/kadavath-2022/) and [Binder et al. 2025](/measuring-self-reports/papers/binder-2025/) as other operationalizations of introspection.

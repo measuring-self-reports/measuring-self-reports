@@ -41,6 +41,6 @@ description: Tests whether fine-tuned models can report the quantitative attribu
 
 ## Related papers
 
-- Builds on [Binder et al. 2025](/measuring-introspection/papers/binder-2025/) and adapts [Betley et al. 2025](/measuring-introspection/papers/betley-2025/) from broad tendencies to quantitative weights.
-- [Atkinson, Plunkett & Bau 2026](/measuring-introspection/papers/atkinson-2026/) move this setting to open models and study it mechanistically.
-- Cites [Kadavath et al. 2022](/measuring-introspection/papers/kadavath-2022/) and [Ackerman 2025](/measuring-introspection/papers/ackerman-2025/) on confidence.
+- Builds on [Binder et al. 2025](/measuring-self-reports/papers/binder-2025/) and adapts [Betley et al. 2025](/measuring-self-reports/papers/betley-2025/) from broad tendencies to quantitative weights.
+- [Atkinson, Plunkett & Bau 2026](/measuring-self-reports/papers/atkinson-2026/) move this setting to open models and study it mechanistically.
+- Cites [Kadavath et al. 2022](/measuring-self-reports/papers/kadavath-2022/) and [Ackerman 2025](/measuring-self-reports/papers/ackerman-2025/) on confidence.

@@ -5,12 +5,12 @@ description: The eight stages of a measurement, what to ask at each when a model
 
 An introspection experiment turns a model's report into a claim about its internal state, and that step is a measurement. The card's questions come from seven fields:
 
-- [Metrology](/measuring-introspection/foundations/metrology/) gives the stages themselves: a defined measurand, a documented procedure, a calibrated instrument, an uncertainty budget and comparability between results, as the International Vocabulary of Metrology (VIM) sets them out.
-- [Philosophy of measurement](/measuring-introspection/foundations/philosophy-of-measurement/) gives calibration without ground truth. [Tal](/measuring-introspection/foundations/tal/) treats calibration as modeling the measurement process, and [Chang](/measuring-introspection/foundations/chang/) shows how thermometry fixed a quantity and its standards together.
-- [Psychometrics](/measuring-introspection/foundations/psychometrics/) gives construct validity, the question whether a score measures the attribute it names, and the [multitrait-multimethod matrix](/measuring-introspection/foundations/multitrait-multimethod/), which separates what methods share from what traits share.
-- [Consciousness science](/measuring-introspection/foundations/consciousness-science/) gives the treatment of reports as measurements: Michel's coordination problem, and [signal detection](/measuring-introspection/foundations/signal-detection/) measures that separate a tendency to say yes from sensitivity.
-- [Philosophy of introspection](/measuring-introspection/foundations/philosophy-of-introspection/) gives the senses of introspection a measurand can name, from functional self-monitoring to privileged access.
-- [Machine learning](/measuring-introspection/foundations/llm-introspection-accounts/) and [mechanistic interpretability](/measuring-introspection/foundations/interpretability-instruments/) give the operational definitions the experiments use and the instruments they read: prompts, judges, probes and attribution.
+- [Metrology](/measuring-self-reports/foundations/metrology/) gives the stages themselves: a defined measurand, a documented procedure, a calibrated instrument, an uncertainty budget and comparability between results, as the International Vocabulary of Metrology (VIM) sets them out.
+- [Philosophy of measurement](/measuring-self-reports/foundations/philosophy-of-measurement/) gives calibration without ground truth. [Tal](/measuring-self-reports/foundations/tal/) treats calibration as modeling the measurement process, and [Chang](/measuring-self-reports/foundations/chang/) shows how thermometry fixed a quantity and its standards together.
+- [Psychometrics](/measuring-self-reports/foundations/psychometrics/) gives construct validity, the question whether a score measures the attribute it names, and the [multitrait-multimethod matrix](/measuring-self-reports/foundations/multitrait-multimethod/), which separates what methods share from what traits share.
+- [Consciousness science](/measuring-self-reports/foundations/consciousness-science/) gives the treatment of reports as measurements: Michel's coordination problem, and [signal detection](/measuring-self-reports/foundations/signal-detection/) measures that separate a tendency to say yes from sensitivity.
+- [Philosophy of introspection](/measuring-self-reports/foundations/philosophy-of-introspection/) gives the senses of introspection a measurand can name, from functional self-monitoring to privileged access.
+- [Machine learning](/measuring-self-reports/foundations/llm-introspection-accounts/) and [mechanistic interpretability](/measuring-self-reports/foundations/interpretability-instruments/) give the operational definitions the experiments use and the instruments they read: prompts, judges, probes and attribution.
 
 The card records what a paper supplies at each stage. It gives no grade, and it ends on one output: the setting that would change the paper's conclusion.
 
@@ -18,14 +18,14 @@ The card records what a paper supplies at each stage. It gives no grade, and it 
 
 | # | Stage | General question | When the model reports on itself |
 |---|---|---|---|
-| 1 | [Measurand](/measuring-introspection/measurement-card/measurand/) | What quantity, defined how? | Which sense of introspection? |
-| 2 | [Procedure](/measuring-introspection/measurement-card/procedure/) | Which layer, strength, prompt, sampling and scoring? | Does asking change the state reported? |
-| 3 | [Instrument and indication](/measuring-introspection/measurement-card/instrument/) | What produces the reading, and what is read off? | Binary, numeric, free text or forced choice? |
-| 4 | [Measurement model](/measuring-introspection/measurement-card/measurement-model/) | How does the reading become the claim? | Is a tendency to say yes separated from sensitivity? |
-| 5 | [Calibration](/measuring-introspection/measurement-card/calibration/) | Against what standard, anchored to what? | Could the model's own family have produced the standard? |
-| 6 | [Uncertainty](/measuring-introspection/measurement-card/uncertainty/) | Which settings were varied, and which one changes the conclusion? | Is the response threshold part of the budget? |
-| 7 | [Comparability](/measuring-introspection/measurement-card/comparability/) | Does an instrument on a different principle agree? | Does the model report on itself better than another model can? |
-| 8 | [Validity conditions](/measuring-introspection/measurement-card/validity-conditions/) | Where is the result claimed to hold, and was it tested elsewhere? | Are the tested states ones the model enters naturally? |
+| 1 | [Measurand](/measuring-self-reports/measurement-card/measurand/) | What quantity, defined how? | Which sense of introspection? |
+| 2 | [Procedure](/measuring-self-reports/measurement-card/procedure/) | Which layer, strength, prompt, sampling and scoring? | Does asking change the state reported? |
+| 3 | [Instrument and indication](/measuring-self-reports/measurement-card/instrument/) | What produces the reading, and what is read off? | Binary, numeric, free text or forced choice? |
+| 4 | [Measurement model](/measuring-self-reports/measurement-card/measurement-model/) | How does the reading become the claim? | Is a tendency to say yes separated from sensitivity? |
+| 5 | [Calibration](/measuring-self-reports/measurement-card/calibration/) | Against what standard, anchored to what? | Could the model's own family have produced the standard? |
+| 6 | [Uncertainty](/measuring-self-reports/measurement-card/uncertainty/) | Which settings were varied, and which one changes the conclusion? | Is the response threshold part of the budget? |
+| 7 | [Comparability](/measuring-self-reports/measurement-card/comparability/) | Does an instrument on a different principle agree? | Does the model report on itself better than another model can? |
+| 8 | [Validity conditions](/measuring-self-reports/measurement-card/validity-conditions/) | Where is the result claimed to hold, and was it tested elsewhere? | Are the tested states ones the model enters naturally? |
 
 The allowed codes for each stage are on its page.
 
@@ -47,11 +47,11 @@ The first five stages follow the International Vocabulary of Metrology (VIM), wh
 
 ## Coding protocol
 
-Two coders code all 23 papers independently. [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/) is the running example below: both coders study it first, and it is excluded from the agreement statistics, which are computed on the other 22 papers and reported per stage. A stage with low agreement has its codes redefined and is coded again. The paper pages describe what each paper reports at each stage without assigning codes, so neither coder sees a code before choosing one.
+Two coders code all 23 papers independently. [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/) is the running example below: both coders study it first, and it is excluded from the agreement statistics, which are computed on the other 22 papers and reported per stage. A stage with low agreement has its codes redefined and is coded again. The paper pages describe what each paper reports at each stage without assigning codes, so neither coder sees a code before choosing one.
 
 ## Running example: Lindsey 2025
 
-[Lindsey 2025](/measuring-introspection/papers/lindsey-2025/) adds a vector for a word to a Claude model's residual stream and asks whether the model detects an injected thought and what it is about. The coded measurement is the detection task. At the best injection layer and strength, Opus 4.1 succeeds on about 20% of trials, with no false positives in 100 control trials for production models.
+[Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/) adds a vector for a word to a Claude model's residual stream and asks whether the model detects an injected thought and what it is about. The coded measurement is the detection task. At the best injection layer and strength, Opus 4.1 succeeds on about 20% of trials, with no false positives in 100 control trials for production models.
 
 | Stage | Code | Why |
 |---|---|---|
@@ -60,7 +60,7 @@ Two coders code all 23 papers independently. [Lindsey 2025](/measuring-introspec
 | 3. Instrument and indication | free text; LLM judge | The model answers in free text, and Claude Sonnet 4 grades each answer into yes/no criteria. |
 | 4. Measurement model | stated; bias checked; criterion matched | The outcome is the success rate minus the false-positive rate. Injecting the same vectors into unrelated questions whose answer is no produces no rise in yes answers. Success requires naming the concept, so a report of "something unusual" does not count. |
 | 5. Calibration | injected; black-box; shared family; partial traceability | The standard is the injected vector, taken from the same model's activations. The grader is a Claude model and is not checked against human raters. Prompts and word lists are printed; vectors, code and per-trial outputs are not released. |
-| 6. Uncertainty | flips with layer and strength; single run; independent replication | Layer, strength, concept category, prompt wording, vector type and model are varied, and the rate depends on layer and strength. Removing "Answer immediately" from the prompt lowers performance on the Opus models. Seeds are not reported. [Macar et al. 2026](/measuring-introspection/papers/macar-2026/) replicates the detection result in open-weight models. |
+| 6. Uncertainty | flips with layer and strength; single run; independent replication | Layer, strength, concept category, prompt wording, vector type and model are varied, and the rate depends on layer and strength. Removing "Answer immediately" from the prompt lowers performance on the Opus models. Seeds are not reported. [Macar et al. 2026](/measuring-self-reports/papers/macar-2026/) replicates the detection result in open-weight models. |
 | 7. Comparability | single; self versus other not tested | Each of the paper's four tasks reads a different indication for a different claim, so no two instruments measure the same quantity. No other model or observer reports on the injected model. |
 | 8. Validity conditions | domain stated; induced states | The paper calls injection an unnatural setting, unlike training or deployment. One or a few prompt templates per experiment; Claude models only. |
 
@@ -70,11 +70,11 @@ Two coders code all 23 papers independently. [Lindsey 2025](/measuring-introspec
 
 | Stage | Taken from |
 |---|---|
-| 1. Measurand | [Metrology](/measuring-introspection/foundations/metrology/): the measurand and definitional uncertainty. [Psychometrics](/measuring-introspection/foundations/psychometrics/): construct validity. [Philosophy of introspection](/measuring-introspection/foundations/philosophy-of-introspection/): the senses of introspection. |
-| 2. Procedure | [Metrology](/measuring-introspection/foundations/metrology/): the measurement procedure. [Consciousness science](/measuring-introspection/foundations/consciousness-science/): artifacts introduced by the act of reporting. |
-| 3. Instrument and indication | [Metrology](/measuring-introspection/foundations/metrology/): the instrument and its indication. [Tal](/measuring-introspection/foundations/tal/): indication versus outcome. [Mechanistic interpretability](/measuring-introspection/foundations/interpretability-instruments/): the instruments the experiments read. |
-| 4. Measurement model | [Tal](/measuring-introspection/foundations/tal/): model-based measurement. [Signal detection](/measuring-introspection/foundations/signal-detection/): separating sensitivity from a tendency to say yes, and criterion content. |
-| 5. Calibration | [Metrology](/measuring-introspection/foundations/metrology/): calibration and traceability. [Tal](/measuring-introspection/foundations/tal/) and [Chang](/measuring-introspection/foundations/chang/): calibration without ground truth. [Measurement in AI evaluation](/measuring-introspection/foundations/ai-evaluation/): standards produced by LLM judges. |
-| 6. Uncertainty | [Metrology](/measuring-introspection/foundations/metrology/): the uncertainty budget, repeatability and reproducibility. |
-| 7. Comparability | [Metrology](/measuring-introspection/foundations/metrology/): comparability of results. [Robustness and convergence](/measuring-introspection/foundations/robustness/): agreement across independent methods. [Multitrait-multimethod matrix](/measuring-introspection/foundations/multitrait-multimethod/): method variance. |
-| 8. Validity conditions | [Metrology](/measuring-introspection/foundations/metrology/): measurement conditions. [Psychometrics](/measuring-introspection/foundations/psychometrics/): external validity. [Consciousness science](/measuring-introspection/foundations/consciousness-science/): validity drift. |
+| 1. Measurand | [Metrology](/measuring-self-reports/foundations/metrology/): the measurand and definitional uncertainty. [Psychometrics](/measuring-self-reports/foundations/psychometrics/): construct validity. [Philosophy of introspection](/measuring-self-reports/foundations/philosophy-of-introspection/): the senses of introspection. |
+| 2. Procedure | [Metrology](/measuring-self-reports/foundations/metrology/): the measurement procedure. [Consciousness science](/measuring-self-reports/foundations/consciousness-science/): artifacts introduced by the act of reporting. |
+| 3. Instrument and indication | [Metrology](/measuring-self-reports/foundations/metrology/): the instrument and its indication. [Tal](/measuring-self-reports/foundations/tal/): indication versus outcome. [Mechanistic interpretability](/measuring-self-reports/foundations/interpretability-instruments/): the instruments the experiments read. |
+| 4. Measurement model | [Tal](/measuring-self-reports/foundations/tal/): model-based measurement. [Signal detection](/measuring-self-reports/foundations/signal-detection/): separating sensitivity from a tendency to say yes, and criterion content. |
+| 5. Calibration | [Metrology](/measuring-self-reports/foundations/metrology/): calibration and traceability. [Tal](/measuring-self-reports/foundations/tal/) and [Chang](/measuring-self-reports/foundations/chang/): calibration without ground truth. [Measurement in AI evaluation](/measuring-self-reports/foundations/ai-evaluation/): standards produced by LLM judges. |
+| 6. Uncertainty | [Metrology](/measuring-self-reports/foundations/metrology/): the uncertainty budget, repeatability and reproducibility. |
+| 7. Comparability | [Metrology](/measuring-self-reports/foundations/metrology/): comparability of results. [Robustness and convergence](/measuring-self-reports/foundations/robustness/): agreement across independent methods. [Multitrait-multimethod matrix](/measuring-self-reports/foundations/multitrait-multimethod/): method variance. |
+| 8. Validity conditions | [Metrology](/measuring-self-reports/foundations/metrology/): measurement conditions. [Psychometrics](/measuring-self-reports/foundations/psychometrics/): external validity. [Consciousness science](/measuring-self-reports/foundations/consciousness-science/): validity drift. |

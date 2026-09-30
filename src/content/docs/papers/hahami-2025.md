@@ -5,7 +5,7 @@ description: Whether Llama-3.1-8B-Instruct can detect, localize and compare the 
 
 **Source.** *Detecting the Disturbance: A Nuanced View of Introspective Abilities in LLMs* ([Hahami, Sinha, Jain, Kaplan & Hahami, 2025](https://arxiv.org/abs/2512.12411)), arXiv preprint (v2, March 2026). Not peer reviewed. Code: [github.com/elyhahami18/llama-introspection-new](https://github.com/elyhahami18/llama-introspection-new).
 
-**Description.** Hahami et al. test the concept-injection paradigm of [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/) in one open-weight model, Meta-Llama-3.1-8B-Instruct. Every answer is read from the logits of the answer tokens, with no generated text and no judge. A binary detection task comes with a control on factual questions; two forced-choice tasks ask which of two sentences received the stronger injection and which of ten sentences received one. A mechanistic section follows the injected signal through attention heads, the logit lens and the residual stream.
+**Description.** Hahami et al. test the concept-injection paradigm of [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/) in one open-weight model, Meta-Llama-3.1-8B-Instruct. Every answer is read from the logits of the answer tokens, with no generated text and no judge. A binary detection task comes with a control on factual questions; two forced-choice tasks ask which of two sentences received the stronger injection and which of ten sentences received one. A mechanistic section follows the injected signal through attention heads, the logit lens and the residual stream.
 
 ## Measurement card
 
@@ -40,6 +40,6 @@ description: Whether Llama-3.1-8B-Instruct can detect, localize and compare the 
 
 ## Related papers
 
-- Tests the paradigm of [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/) in a smaller open model, and finds the binary detection result matched by the control.
-- Other critiques of the injection paradigm: [Lederman & Mahowald 2026](/measuring-introspection/papers/lederman-mahowald-2026/), [Singh et al. 2026](/measuring-introspection/papers/singh-2026/), [Ferrara 2026](/measuring-introspection/papers/ferrara-2026/).
-- Cites [Fonseca Rivera 2025](/measuring-introspection/papers/fonseca-rivera-2025/) on trained detection and proposes testing trained models on its localization and strength tasks.
+- Tests the paradigm of [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/) in a smaller open model, and finds the binary detection result matched by the control.
+- Other critiques of the injection paradigm: [Lederman & Mahowald 2026](/measuring-self-reports/papers/lederman-mahowald-2026/), [Singh et al. 2026](/measuring-self-reports/papers/singh-2026/), [Ferrara 2026](/measuring-self-reports/papers/ferrara-2026/).
+- Cites [Fonseca Rivera 2025](/measuring-self-reports/papers/fonseca-rivera-2025/) on trained detection and proposes testing trained models on its localization and strength tasks.

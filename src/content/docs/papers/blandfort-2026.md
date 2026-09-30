@@ -44,7 +44,7 @@ description: Tests whether a model's predictions of its own behavioral rates are
 
 ## Related papers
 
-- Follows [Binder et al. 2025](/measuring-introspection/papers/binder-2025/) in the fine-tuning arm, and argues that its cross-model behavior baseline is a stronger control than a trained imitator.
-- Contrasts its scale result with [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/): no corresponding trend for self-description across contexts.
-- [Moran & Whiting 2026](/measuring-introspection/papers/moran-2026/) reach a similar conclusion for confidence.
-- Cites [Betley et al. 2025](/measuring-introspection/papers/betley-2025/) and [Kadavath et al. 2022](/measuring-introspection/papers/kadavath-2022/).
+- Follows [Binder et al. 2025](/measuring-self-reports/papers/binder-2025/) in the fine-tuning arm, and argues that its cross-model behavior baseline is a stronger control than a trained imitator.
+- Contrasts its scale result with [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/): no corresponding trend for self-description across contexts.
+- [Moran & Whiting 2026](/measuring-self-reports/papers/moran-2026/) reach a similar conclusion for confidence.
+- Cites [Betley et al. 2025](/measuring-self-reports/papers/betley-2025/) and [Kadavath et al. 2022](/measuring-self-reports/papers/kadavath-2022/).

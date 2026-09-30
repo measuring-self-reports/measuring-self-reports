@@ -41,6 +41,6 @@ description: Tests whether a model's binary confidence judgment carries informat
 
 ## Related papers
 
-- [Kadavath et al. 2022](/measuring-introspection/papers/kadavath-2022/) found large models reasonably well calibrated in aggregate; this paper asks whether that calibration is specific to each model.
-- [Binder et al. 2025](/measuring-introspection/papers/binder-2025/) found fine-tuned models predicting themselves better than other models do.
-- [Ackerman 2025](/measuring-introspection/papers/ackerman-2025/) and [Blandfort & Pawar 2026](/measuring-introspection/papers/blandfort-2026/) also compare a model's self-assessment with other sources.
+- [Kadavath et al. 2022](/measuring-self-reports/papers/kadavath-2022/) found large models reasonably well calibrated in aggregate; this paper asks whether that calibration is specific to each model.
+- [Binder et al. 2025](/measuring-self-reports/papers/binder-2025/) found fine-tuned models predicting themselves better than other models do.
+- [Ackerman 2025](/measuring-self-reports/papers/ackerman-2025/) and [Blandfort & Pawar 2026](/measuring-self-reports/papers/blandfort-2026/) also compare a model's self-assessment with other sources.

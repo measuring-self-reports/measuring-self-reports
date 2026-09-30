@@ -3,7 +3,7 @@ title: Philosophy of Introspection
 description: Which sense of introspection an experiment measures, from Kammerer and Frankish's liberal working definition, Comsa and Shanahan's causal criterion for LLM self-reports, Shoemaker's object-perception model and Zakharova's objection from immunity to error through misidentification.
 ---
 
-**[Overview slides](/measuring-introspection/slides/philosophy-of-introspection.pdf)** (PDF)
+**[Overview slides](/measuring-self-reports/slides/philosophy-of-introspection.pdf)** (PDF)
 
 Philosophy of introspection asks what distinguishes knowing one's own mental states from knowing someone else's. When a person says "I am hungry", the judgment does not seem to rest on evidence in the way that "she is hungry" does, and philosophers disagree about what that difference consists in. For an introspection experiment on a large language model (LLM), the disagreement fixes the measurand: before a paper can report that a model introspects, it has to say which sense of introspection its procedure is built to detect. Four positions bear on LLMs, and together they give four senses, from weakest to strongest.
 
@@ -53,14 +53,14 @@ She raises two further objections. LLMs lack the persistent subject that introsp
 | Privileged access | The system reports on itself better than an outside observer given the same public information | Zakharova; Binder et al. |
 | Self-specifying access | The report rests on information that is about the self and could not be about another system | Zakharova; Shoemaker |
 
-The card's [measurand](/measuring-introspection/measurement-card/measurand/) stage asks which of the four a paper tests.
+The card's [measurand](/measuring-self-reports/measurement-card/measurand/) stage asks which of the four a paper tests.
 
 ## LLM analog
 
 Each sense calls for a different design:
 
 1. **Grounded self-report** calls for an intervention on the internal state and a check that the report follows it. Concept injection is this design.
-2. **Privileged access** calls for a comparison between the model's report about itself and another system's report from the same evidence. [Binder et al. 2025](/measuring-introspection/papers/binder-2025/) run this comparison: a model introspects if it predicts its own behavior better than a second model trained on the first model's behavior. The card records the comparison at the [comparability](/measuring-introspection/measurement-card/comparability/) stage.
+2. **Privileged access** calls for a comparison between the model's report about itself and another system's report from the same evidence. [Binder et al. 2025](/measuring-self-reports/papers/binder-2025/) run this comparison: a model introspects if it predicts its own behavior better than a second model trained on the first model's behavior. The card records the comparison at the [comparability](/measuring-self-reports/measurement-card/comparability/) stage.
 3. **Self-specifying access** calls for showing that the information reaching the report could not have supported a report about another system.
 
 Zakharova's objection names a confound for the first design. A report can be caused by the internal state through the model's own output, which any reader of that output could use. A causal link without control over what information reaches the reporter shows grounded self-report, not privileged access.
@@ -76,10 +76,10 @@ Comsa and Shanahan's mimicry is an alternative explanation of the indication. In
 
 | Stage | What the philosophy of introspection supplies |
 |---|---|
-| [Measurand](/measuring-introspection/measurement-card/measurand/) | The four senses and their requirements |
-| [Instrument and indication](/measuring-introspection/measurement-card/instrument/) | Mimicry as an alternative source of the report; public versus self-specifying information |
-| [Comparability](/measuring-introspection/measurement-card/comparability/) | Self versus other: Zakharova's proposed test and Binder et al.'s design |
-| [Validity conditions](/measuring-introspection/measurement-card/validity-conditions/) | The existence of a subject as a condition on the stronger senses |
+| [Measurand](/measuring-self-reports/measurement-card/measurand/) | The four senses and their requirements |
+| [Instrument and indication](/measuring-self-reports/measurement-card/instrument/) | Mimicry as an alternative source of the report; public versus self-specifying information |
+| [Comparability](/measuring-self-reports/measurement-card/comparability/) | Self versus other: Zakharova's proposed test and Binder et al.'s design |
+| [Validity conditions](/measuring-self-reports/measurement-card/validity-conditions/) | The existence of a subject as a condition on the stronger senses |
 
 ## Sources
 

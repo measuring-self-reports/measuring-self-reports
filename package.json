@@ -1,5 +1,5 @@
 {
-  "name": "measuring-introspection",
+  "name": "measuring-self-reports",
   "version": "1.0.0",
   "description": "LLM introspection experiments read as measurements",
   "scripts": {

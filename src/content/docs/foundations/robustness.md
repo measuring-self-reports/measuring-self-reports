@@ -3,7 +3,7 @@ title: Robustness and Convergence
 description: Robustness analysis as Wimsatt defined it, Campbell and Fiske's independence of methods, Perrin's convergent determinations of Avogadro's number and Hudson's reading of them, and Tal's coherent calibration with its warning about islands.
 ---
 
-**[Overview slides](/measuring-introspection/slides/metrology-robustness.pdf)** (PDF)
+**[Overview slides](/measuring-self-reports/slides/metrology-robustness.pdf)** (PDF)
 
 Robustness analysis treats agreement among independent procedures as evidence that a result is real, not an artifact of one procedure. The argument works only if the procedures really are independent, and much of this literature is about what happens when they are not. Evidence for introspection in a large language model (LLM) is often presented as exactly this kind of agreement: a self-report matches a probe, an intervention or a second prompt format.
 
@@ -24,7 +24,7 @@ He also explains why one route of access is weak: a quantity reached only one wa
 
 [Campbell and Fiske (1959)](https://www.ovid.com/journals/plbul/fulltext/00006823-195903000-00001~convergent-and-discriminant-validation-by-the), the source Wimsatt cites for method bias, make independence the mark of validity. Independence is a matter of degree: agreement between maximally similar methods is reliability, and agreement between maximally different ones is validity.
 
-Shared method can only be detected when several traits are measured by several methods; otherwise high correlations might reflect either the trait or the method. The check is that a measure should agree more with a different method measuring the same trait than with the same method measuring a different trait. Methods should be as independent as possible, and where they cannot be, as diverse as possible in data sources. The [psychometrics](/measuring-introspection/foundations/psychometrics/) page covers their matrix.
+Shared method can only be detected when several traits are measured by several methods; otherwise high correlations might reflect either the trait or the method. The check is that a measure should agree more with a different method measuring the same trait than with the same method measuring a different trait. Methods should be as independent as possible, and where they cannot be, as diverse as possible in data sources. The [psychometrics](/measuring-self-reports/foundations/psychometrics/) page covers their matrix.
 
 ## Perrin's convergence and Hudson's reading
 
@@ -36,7 +36,7 @@ The distinction matters because the two structures license different conclusions
 
 ## Coherent calibration and islands
 
-[Tal (2017)](https://philpapers.org/rec/TALCMT) describes calibration as a test of invariance across instruments, circumstances and ways of applying theory. His success condition, the generalized robustness condition, is on the [model-based measurement](/measuring-introspection/foundations/tal/#coherence-across-instruments) page. It requires more than agreement: each instrument's uncertainty must also come from an adequate model of its process.
+[Tal (2017)](https://philpapers.org/rec/TALCMT) describes calibration as a test of invariance across instruments, circumstances and ways of applying theory. His success condition, the generalized robustness condition, is on the [model-based measurement](/measuring-self-reports/foundations/tal/#coherence-across-instruments) page. It requires more than agreement: each instrument's uncertainty must also come from an adequate model of its process.
 
 Tal also names a failure. The same indications can be made coherent in more than one way, so a large network of instruments can split into **islands**: locally coherent groups, each with its own policy for assigning errors, whose results reproduce inside the group and cannot be compared across groups. His example is the 1990 conventional values for electrical standards, which made electrical measurements more consistent internally at the cost of creating such an island. The remedy is standards, which impose one policy for distributing error across the network.
 
@@ -58,9 +58,9 @@ Tal's island is defined by its error policy. The card's code for instruments tha
 
 | Stage | What robustness analysis supplies |
 |---|---|
-| [Calibration](/measuring-introspection/measurement-card/calibration/) | Calibration against a preferred method, distinguished from convergence (Hudson on Perrin) |
-| [Uncertainty](/measuring-introspection/measurement-card/uncertainty/) | Common bias that averaging does not remove (SEP §8.3); failures of invariance as information (Wimsatt) |
-| [Comparability](/measuring-introspection/measurement-card/comparability/) | Independence and illusory robustness (Wimsatt); the several-traits, several-methods design (Campbell and Fiske); the generalized robustness condition and islands (Tal 2017) |
+| [Calibration](/measuring-self-reports/measurement-card/calibration/) | Calibration against a preferred method, distinguished from convergence (Hudson on Perrin) |
+| [Uncertainty](/measuring-self-reports/measurement-card/uncertainty/) | Common bias that averaging does not remove (SEP §8.3); failures of invariance as information (Wimsatt) |
+| [Comparability](/measuring-self-reports/measurement-card/comparability/) | Independence and illusory robustness (Wimsatt); the several-traits, several-methods design (Campbell and Fiske); the generalized robustness condition and islands (Tal 2017) |
 
 ## Sources
 

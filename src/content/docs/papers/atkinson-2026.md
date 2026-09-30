@@ -5,7 +5,7 @@ description: Tests whether faithful and unfaithful self-reporting models can be 
 
 **Source.** *Identifying Introspection From the Inside* ([Atkinson, Plunkett & Bau, 2026](https://baulab.info/publications.html)), COLM 2026. Code: the repository linked in the paper ([github.com/diatkinson/identifying-introspection-from-the-inside](https://github.com/diatkinson/identifying-introspection-from-the-inside)) had no commits on 29 September 2026.
 
-**Description.** Atkinson, Plunkett and Bau move the setting of [Plunkett et al. 2025](/measuring-introspection/papers/plunkett-2025/) to open Qwen3 models trained with low-rank adapters on the decision task only. In Qwen3-32B, accurate self-report of the trained preferences appears later in training than accurate decisions, which gives a pair of checkpoints with similar decisions and different self-report accuracy. Layer ablations and layer freezing locate where preference information sits, and attribution patching asks whether faithful self-reporters use the same adapter weights for deciding and for reporting.
+**Description.** Atkinson, Plunkett and Bau move the setting of [Plunkett et al. 2025](/measuring-self-reports/papers/plunkett-2025/) to open Qwen3 models trained with low-rank adapters on the decision task only. In Qwen3-32B, accurate self-report of the trained preferences appears later in training than accurate decisions, which gives a pair of checkpoints with similar decisions and different self-report accuracy. Layer ablations and layer freezing locate where preference information sits, and attribution patching asks whether faithful self-reporters use the same adapter weights for deciding and for reporting.
 
 ## Measurement card
 
@@ -44,6 +44,6 @@ description: Tests whether faithful and unfaithful self-reporting models can be 
 
 ## Related papers
 
-- Adopts the setting of [Plunkett et al. 2025](/measuring-introspection/papers/plunkett-2025/), and cites [Binder et al. 2025](/measuring-introspection/papers/binder-2025/), [Betley et al. 2025](/measuring-introspection/papers/betley-2025/) and [Li et al. 2025](/measuring-introspection/papers/li-2025/) as behavioral evidence for self-knowledge.
-- Cites [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/), [Hahami et al. 2025](/measuring-introspection/papers/hahami-2025/) and [Pearson-Vogel et al. 2026](/measuring-introspection/papers/pearson-vogel-2026/) as injection studies.
-- Responds to [Song, Hu & Mahowald 2025](/measuring-introspection/papers/song-hu-mahowald-2025/): behavioral accuracy alone often cannot establish introspection.
+- Adopts the setting of [Plunkett et al. 2025](/measuring-self-reports/papers/plunkett-2025/), and cites [Binder et al. 2025](/measuring-self-reports/papers/binder-2025/), [Betley et al. 2025](/measuring-self-reports/papers/betley-2025/) and [Li et al. 2025](/measuring-self-reports/papers/li-2025/) as behavioral evidence for self-knowledge.
+- Cites [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/), [Hahami et al. 2025](/measuring-self-reports/papers/hahami-2025/) and [Pearson-Vogel et al. 2026](/measuring-self-reports/papers/pearson-vogel-2026/) as injection studies.
+- Responds to [Song, Hu & Mahowald 2025](/measuring-self-reports/papers/song-hu-mahowald-2025/): behavioral accuracy alone often cannot establish introspection.

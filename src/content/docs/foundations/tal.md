@@ -3,7 +3,7 @@ title: Model-Based Measurement (Tal)
 description: Eran Tal's model-based account of measurement, in which outcomes are inferred from indications through a model of the measurement process, calibration is modeling, and whether two instruments measure the same quantity cannot be settled apart from their errors.
 ---
 
-**[Overview slides](/measuring-introspection/slides/tal-chang.pdf)** (PDF)
+**[Overview slides](/measuring-self-reports/slides/tal-chang.pdf)** (PDF)
 
 Eran Tal's model-based account treats measurement as an inference. An instrument ends in some final state, and a model of the measurement process turns that state into a claim about the object measured. Tal developed the account from metrological practice, and it is set out in his [Stanford Encyclopedia of Philosophy entry](https://plato.stanford.edu/entries/measurement-science/) (§7) and three papers: on [calibration](https://philpapers.org/rec/TALCMT) (2017), on [individuating quantities](https://philpapers.org/rec/TALIQ) (2019) and on [how measuring generates evidence](https://iopscience.iop.org/article/10.1088/1742-6596/772/1/012001) (2016).
 
@@ -34,7 +34,7 @@ Calibration cannot test outcomes independently of every background assumption. W
 1. their outcomes agree within those uncertainties, and
 2. each uncertainty comes from an adequate model of its process.
 
-The objectivity this gives is relative to variation: calibration cannot verify outcomes independently of any model, but it can verify them independently of any *particular* model, instrument and environment. The SEP entry splits the criterion in two: coherence with background theory, which checks that the intended quantity is measured, and consistency across instruments, which checks that the outcome belongs to the object and not to an artifact (§7.1). The [robustness](/measuring-introspection/foundations/robustness/) page covers Tal's related notion of an "island".
+The objectivity this gives is relative to variation: calibration cannot verify outcomes independently of any model, but it can verify them independently of any *particular* model, instrument and environment. The SEP entry splits the criterion in two: coherence with background theory, which checks that the intended quantity is measured, and consistency across instruments, which checks that the outcome belongs to the object and not to an artifact (§7.1). The [robustness](/measuring-self-reports/foundations/robustness/) page covers Tal's related notion of an "island".
 
 ## Quantity individuation
 
@@ -65,7 +65,7 @@ Tal's 2016 paper explains why measurement outcomes count as good evidence. The r
 
 Two consequences follow:
 
-1. **Scoring is part of the model.** Because the same indications support different outcomes under different models, a grader that credits any report of an anomaly and a grader that requires the correct concept turn the same replies into different outcomes. Michel calls this the [criterion content](/measuring-introspection/foundations/consciousness-science/#criterion-problems).
+1. **Scoring is part of the model.** Because the same indications support different outcomes under different models, a grader that credits any report of an anomaly and a grader that requires the correct concept turn the same replies into different outcomes. Michel calls this the [criterion content](/measuring-self-reports/foundations/consciousness-science/#criterion-problems).
 2. **A calibration holds where it was done.** A calibration against injected vectors at one layer and strength carries over, on Tal's account, only within the conditions under which it was made.
 
 ## Limits of the analogy
@@ -77,12 +77,12 @@ Two consequences follow:
 
 | Stage | What the model-based account supplies |
 |---|---|
-| [Instrument and indication](/measuring-introspection/measurement-card/instrument/) | Indication versus outcome ([2017](https://philpapers.org/rec/TALCMT); SEP §7.1) |
-| [Measurement model](/measuring-introspection/measurement-card/measurement-model/) | The model as a precondition of the outcome (SEP §7.1); white-box modules ([2017](https://philpapers.org/rec/TALCMT)) |
-| [Calibration](/measuring-introspection/measurement-card/calibration/) | Black-box, white-box and coherent calibration ([2017](https://philpapers.org/rec/TALCMT)) |
-| [Uncertainty](/measuring-introspection/measurement-card/uncertainty/) | Uncertainty from the model; underestimated uncertainty as H3 ([2019](https://philpapers.org/rec/TALIQ)) |
-| [Comparability](/measuring-introspection/measurement-card/comparability/) | The generalized robustness condition ([2017](https://philpapers.org/rec/TALCMT)); quantity individuation ([2019](https://philpapers.org/rec/TALIQ)) |
-| [Validity conditions](/measuring-introspection/measurement-card/validity-conditions/) | A calibration carries over only within its specified scope ([2017](https://philpapers.org/rec/TALCMT)) |
+| [Instrument and indication](/measuring-self-reports/measurement-card/instrument/) | Indication versus outcome ([2017](https://philpapers.org/rec/TALCMT); SEP §7.1) |
+| [Measurement model](/measuring-self-reports/measurement-card/measurement-model/) | The model as a precondition of the outcome (SEP §7.1); white-box modules ([2017](https://philpapers.org/rec/TALCMT)) |
+| [Calibration](/measuring-self-reports/measurement-card/calibration/) | Black-box, white-box and coherent calibration ([2017](https://philpapers.org/rec/TALCMT)) |
+| [Uncertainty](/measuring-self-reports/measurement-card/uncertainty/) | Uncertainty from the model; underestimated uncertainty as H3 ([2019](https://philpapers.org/rec/TALIQ)) |
+| [Comparability](/measuring-self-reports/measurement-card/comparability/) | The generalized robustness condition ([2017](https://philpapers.org/rec/TALCMT)); quantity individuation ([2019](https://philpapers.org/rec/TALIQ)) |
+| [Validity conditions](/measuring-self-reports/measurement-card/validity-conditions/) | A calibration carries over only within its specified scope ([2017](https://philpapers.org/rec/TALCMT)) |
 
 ## Sources
 

@@ -19,7 +19,7 @@ Psychometrics separates fitting a measurement model from establishing what the m
 4. **Intervention is a route.** Where individual differences are hard to assess, a test can be validated by whether it detects differences induced within one person.
 5. **Inferences, not tests, are validated.** What is validated is a principle for drawing conclusions from scores.
 
-Cronbach and Meehl's own example of a measure outgrowing its criterion is thermometry, which began from the fallible human temperature sense (see [epistemic iteration](/measuring-introspection/foundations/chang/)). Tal notes that his condition for individuating quantities is close to theirs ([Tal 2019](https://philpapers.org/rec/TALIQ), n. 24).
+Cronbach and Meehl's own example of a measure outgrowing its criterion is thermometry, which began from the fallible human temperature sense (see [epistemic iteration](/measuring-self-reports/foundations/chang/)). Tal notes that his condition for individuating quantities is close to theirs ([Tal 2019](https://philpapers.org/rec/TALIQ), n. 24).
 
 ## Convergent and discriminant validation
 
@@ -71,11 +71,11 @@ Self-report appears in their data. Self-ratings and inventory scores share metho
 
 | Stage | What psychometrics supplies |
 |---|---|
-| [Measurand](/measuring-introspection/measurement-card/measurand/) | Construct validity and the nomological network (Cronbach and Meehl); validity relative to theory (Skóra et al.); construct underrepresentation (Messick) |
-| [Procedure](/measuring-introspection/measurement-card/procedure/) | Reactivity and item interpretation (Tal and Truijens); response sets (Campbell and Fiske) |
-| [Measurement model](/measuring-introspection/measurement-card/measurement-model/) | Calibration versus validation (SEP §7.3); a theory of response behavior (Borsboom et al.) |
-| [Comparability](/measuring-introspection/measurement-card/comparability/) | Convergent and discriminant validation; method variance (Campbell and Fiske); construct-irrelevant variance (Messick) |
-| [Validity conditions](/measuring-introspection/measurement-card/validity-conditions/) | The causal definition (Borsboom et al.); induced differences (Cronbach and Meehl); repurposing (Tal and Truijens); consequences (Messick) |
+| [Measurand](/measuring-self-reports/measurement-card/measurand/) | Construct validity and the nomological network (Cronbach and Meehl); validity relative to theory (Skóra et al.); construct underrepresentation (Messick) |
+| [Procedure](/measuring-self-reports/measurement-card/procedure/) | Reactivity and item interpretation (Tal and Truijens); response sets (Campbell and Fiske) |
+| [Measurement model](/measuring-self-reports/measurement-card/measurement-model/) | Calibration versus validation (SEP §7.3); a theory of response behavior (Borsboom et al.) |
+| [Comparability](/measuring-self-reports/measurement-card/comparability/) | Convergent and discriminant validation; method variance (Campbell and Fiske); construct-irrelevant variance (Messick) |
+| [Validity conditions](/measuring-self-reports/measurement-card/validity-conditions/) | The causal definition (Borsboom et al.); induced differences (Cronbach and Meehl); repurposing (Tal and Truijens); consequences (Messick) |
 
 ## Sources
 

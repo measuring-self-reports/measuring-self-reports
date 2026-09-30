@@ -43,6 +43,6 @@ description: Whether pretrained language models are calibrated on multiple-choic
 
 ## Related papers
 
-- [Binder et al. 2025](/measuring-introspection/papers/binder-2025/) call it the closest prior line of research.
-- [Moran & Whiting 2026](/measuring-introspection/papers/moran-2026/) ask whether its aggregate calibration is specific to each model.
-- Cited by [Ackerman 2025](/measuring-introspection/papers/ackerman-2025/), [Ji-An et al. 2025](/measuring-introspection/papers/ji-an-2025/), [Betley et al. 2025](/measuring-introspection/papers/betley-2025/), [Plunkett et al. 2025](/measuring-introspection/papers/plunkett-2025/), [Blandfort & Pawar 2026](/measuring-introspection/papers/blandfort-2026/) and [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/).
+- [Binder et al. 2025](/measuring-self-reports/papers/binder-2025/) call it the closest prior line of research.
+- [Moran & Whiting 2026](/measuring-self-reports/papers/moran-2026/) ask whether its aggregate calibration is specific to each model.
+- Cited by [Ackerman 2025](/measuring-self-reports/papers/ackerman-2025/), [Ji-An et al. 2025](/measuring-self-reports/papers/ji-an-2025/), [Betley et al. 2025](/measuring-self-reports/papers/betley-2025/), [Plunkett et al. 2025](/measuring-self-reports/papers/plunkett-2025/), [Blandfort & Pawar 2026](/measuring-self-reports/papers/blandfort-2026/) and [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/).

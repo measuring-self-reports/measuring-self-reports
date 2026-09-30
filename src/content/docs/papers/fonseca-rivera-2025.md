@@ -47,6 +47,6 @@ Version 1 (November 2025) trains DeepSeek-7B only, with unit-norm vectors, 40 tr
 
 ## Related papers
 
-- Trains the detection task of [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/).
-- Version 3 cites [Pearson-Vogel et al. 2026](/measuring-introspection/papers/pearson-vogel-2026/) as concurrent work and takes "privileged access" from [Binder et al. 2025](/measuring-introspection/papers/binder-2025/).
-- [Ferrara 2026](/measuring-introspection/papers/ferrara-2026/) builds its known positive on this design.
+- Trains the detection task of [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/).
+- Version 3 cites [Pearson-Vogel et al. 2026](/measuring-self-reports/papers/pearson-vogel-2026/) as concurrent work and takes "privileged access" from [Binder et al. 2025](/measuring-self-reports/papers/binder-2025/).
+- [Ferrara 2026](/measuring-self-reports/papers/ferrara-2026/) builds its known positive on this design.

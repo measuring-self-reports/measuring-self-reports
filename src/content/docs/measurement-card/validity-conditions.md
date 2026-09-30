@@ -31,12 +31,12 @@ VIM is the [International Vocabulary of Metrology](https://www.bipm.org/document
 
 ## Examples from the papers
 
-- **Induced states, flagged by the paper.** [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/) states that concept injection places models in an unnatural setting unlike training or deployment.
-- **A design argued to keep states natural.** [Ji-An et al. 2025](/measuring-introspection/papers/ji-an-2025/) contrast their neurofeedback task with activation patching: neurofeedback keeps the model's activations in their normal distribution.
-- **Tested out of domain, with a loss.** [Kadavath et al. 2022](/measuring-introspection/papers/kadavath-2022/) train P(IK), the model's probability that it knows the answer, on one dataset and test it on others, where it is poorly calibrated.
-- **Tested on held-out models.** [Shenoy et al. 2026](/measuring-introspection/papers/shenoy-2026/) evaluate their introspection adapter on models trained outside its training distribution; it describes the implanted behavior on 50 of 56 (89%).
-- **An intervention that helps in domain and hurts out of it.** [Macar et al. 2026](/measuring-introspection/papers/macar-2026/) train a bias vector that raises injection detection, then test it on detecting prefilled text, where detection falls from 36.3% to 16.1%.
-- **A domain stated narrower than the sweep.** [Atkinson, Plunkett & Bau 2026](/measuring-introspection/papers/atkinson-2026/) limit their claims to a simple linear preference setting with lightweight adapters on one model family, while repeating the layer analysis on a second family.
+- **Induced states, flagged by the paper.** [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/) states that concept injection places models in an unnatural setting unlike training or deployment.
+- **A design argued to keep states natural.** [Ji-An et al. 2025](/measuring-self-reports/papers/ji-an-2025/) contrast their neurofeedback task with activation patching: neurofeedback keeps the model's activations in their normal distribution.
+- **Tested out of domain, with a loss.** [Kadavath et al. 2022](/measuring-self-reports/papers/kadavath-2022/) train P(IK), the model's probability that it knows the answer, on one dataset and test it on others, where it is poorly calibrated.
+- **Tested on held-out models.** [Shenoy et al. 2026](/measuring-self-reports/papers/shenoy-2026/) evaluate their introspection adapter on models trained outside its training distribution; it describes the implanted behavior on 50 of 56 (89%).
+- **An intervention that helps in domain and hurts out of it.** [Macar et al. 2026](/measuring-self-reports/papers/macar-2026/) train a bias vector that raises injection detection, then test it on detecting prefilled text, where detection falls from 36.3% to 16.1%.
+- **A domain stated narrower than the sweep.** [Atkinson, Plunkett & Bau 2026](/measuring-self-reports/papers/atkinson-2026/) limit their claims to a simple linear preference setting with lightweight adapters on one model family, while repeating the layer analysis on a second family.
 
 ## What the stage does not establish
 
@@ -44,7 +44,7 @@ A result that holds over a stated domain holds there. Extending the same procedu
 
 ## Nearest stage
 
-[Measurand](/measuring-introspection/measurement-card/measurand/) (stage 1). The measurand says what quantity is meant, including the state of the thing that carries it. Validity conditions say over which models, tasks and states the paper claims to have measured it, and whether it tested beyond them. A paper that defines introspection for injected concepts and claims it for model self-knowledge in general has a measurand and a domain that do not match.
+[Measurand](/measuring-self-reports/measurement-card/measurand/) (stage 1). The measurand says what quantity is meant, including the state of the thing that carries it. Validity conditions say over which models, tasks and states the paper claims to have measured it, and whether it tested beyond them. A paper that defines introspection for injected concepts and claims it for model self-knowledge in general has a measurand and a domain that do not match.
 
 ## Sources
 

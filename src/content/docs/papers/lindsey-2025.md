@@ -42,6 +42,6 @@ description: Concept injection in Claude models, the experiment most of the inje
 
 ## Related papers
 
-- [Macar et al. 2026](/measuring-introspection/papers/macar-2026/) replicates the detection result in open-weight models and localizes it.
-- [Lederman & Mahowald 2026](/measuring-introspection/papers/lederman-mahowald-2026/), [Singh et al. 2026](/measuring-introspection/papers/singh-2026/), [Ferrara 2026](/measuring-introspection/papers/ferrara-2026/) and [Hahami et al. 2025](/measuring-introspection/papers/hahami-2025/) test it with controls for yes-bias, prompt manipulation and sham interventions.
-- [Pearson-Vogel et al. 2026](/measuring-introspection/papers/pearson-vogel-2026/) injects into an earlier turn only; [Fonseca Rivera 2025](/measuring-introspection/papers/fonseca-rivera-2025/) trains models to detect injections.
+- [Macar et al. 2026](/measuring-self-reports/papers/macar-2026/) replicates the detection result in open-weight models and localizes it.
+- [Lederman & Mahowald 2026](/measuring-self-reports/papers/lederman-mahowald-2026/), [Singh et al. 2026](/measuring-self-reports/papers/singh-2026/), [Ferrara 2026](/measuring-self-reports/papers/ferrara-2026/) and [Hahami et al. 2025](/measuring-self-reports/papers/hahami-2025/) test it with controls for yes-bias, prompt manipulation and sham interventions.
+- [Pearson-Vogel et al. 2026](/measuring-self-reports/papers/pearson-vogel-2026/) injects into an earlier turn only; [Fonseca Rivera 2025](/measuring-self-reports/papers/fonseca-rivera-2025/) trains models to detect injections.

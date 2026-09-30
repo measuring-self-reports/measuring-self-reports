@@ -3,7 +3,7 @@ title: Metrology (VIM and GUM)
 description: The defined vocabulary of measurement from the International Vocabulary of Metrology (JCGM 200:2012) and the Guide to the Expression of Uncertainty in Measurement (JCGM 100:2008), and what it asks of an introspection experiment.
 ---
 
-**[Overview slides](/measuring-introspection/slides/metrology-robustness.pdf)** (PDF)
+**[Overview slides](/measuring-self-reports/slides/metrology-robustness.pdf)** (PDF)
 
 Metrology is the science of measurement and its application (VIM 2.2). Two documents from the Joint Committee for Guides in Metrology (JCGM) define its vocabulary: the [International Vocabulary of Metrology (VIM)](https://www.bipm.org/documents/20126/2071204/JCGM_200_2012.pdf) gives the terms, and the [Guide to the Expression of Uncertainty in Measurement (GUM)](https://www.bipm.org/documents/20126/2071204/JCGM_100_2008_E.pdf) gives the rules for evaluating and reporting uncertainty. Both are cited below by clause number.
 
@@ -75,9 +75,9 @@ Validation is relative to a use (VIM 2.45). A procedure validated for nitrogen i
 
 In an introspection experiment on a large language model (LLM), the model's reply is the indication: a string, a yes or no, a number or a choice. The claim that the model has access to a state is the result. As VIM 4.1 notes, the two are not quantities of the same kind.
 
-1. **Measurand.** "Introspective access" admits several readings (see [Philosophy of introspection](/measuring-introspection/foundations/philosophy-of-introspection/)). Under the VIM, that vagueness is definitional uncertainty and belongs inside the error bar. When an experiment injects a vector and asks about it, the injected state is the realized quantity of GUM D.2.1, an approximation of the states the paper's claim is about.
-2. **Blank indication.** Control trials without an intervention supply it. [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/) reports no false positives in 100 such trials.
-3. **Calibration.** The introspection literature often uses "calibration" in the forecasting sense: whether stated probabilities match outcome frequencies, as in [Kadavath et al. 2022](/measuring-introspection/papers/kadavath-2022/). The VIM sense is different, a relation from standards to indications to results. The card uses the VIM sense; the [signal detection](/measuring-introspection/foundations/signal-detection/#three-senses-of-calibration) page separates the senses.
+1. **Measurand.** "Introspective access" admits several readings (see [Philosophy of introspection](/measuring-self-reports/foundations/philosophy-of-introspection/)). Under the VIM, that vagueness is definitional uncertainty and belongs inside the error bar. When an experiment injects a vector and asks about it, the injected state is the realized quantity of GUM D.2.1, an approximation of the states the paper's claim is about.
+2. **Blank indication.** Control trials without an intervention supply it. [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/) reports no false positives in 100 such trials.
+3. **Calibration.** The introspection literature often uses "calibration" in the forecasting sense: whether stated probabilities match outcome frequencies, as in [Kadavath et al. 2022](/measuring-self-reports/papers/kadavath-2022/). The VIM sense is different, a relation from standards to indications to results. The card uses the VIM sense; the [signal detection](/measuring-self-reports/foundations/signal-detection/#three-senses-of-calibration) page separates the senses.
 4. **Uncertainty.** The influence quantities include the injection layer and strength, the prompt, the sampling temperature and seed, and the judge that scores free text. GUM 3.3.2 (d) and (i) cover them, and GUM 3.4.2 asks that they be varied. Changing the judge or the prompt is a change of measuring system, which is a reproducibility condition (VIM 2.24).
 
 ## Limits of the analogy
@@ -90,14 +90,14 @@ In an introspection experiment on a large language model (LLM), the model's repl
 
 | Stage | What metrology supplies |
 |---|---|
-| [Measurand](/measuring-introspection/measurement-card/measurand/) | VIM 2.3; GUM 3.1.3, D.2.1 |
-| [Procedure](/measuring-introspection/measurement-card/procedure/) | VIM 2.6: a procedure documented well enough for another operator to perform it |
-| [Instrument and indication](/measuring-introspection/measurement-card/instrument/) | VIM 3.1, 4.1, 4.2 |
-| [Measurement model](/measuring-introspection/measurement-card/measurement-model/) | VIM 2.48, 2.53 (correction); GUM 3.1.6, 4.1 |
-| [Calibration](/measuring-introspection/measurement-card/calibration/) | VIM 2.39, 2.40, 2.41 |
-| [Uncertainty](/measuring-introspection/measurement-card/uncertainty/) | VIM 2.20–2.27; GUM 3.3.2, 3.4.2 |
-| [Comparability](/measuring-introspection/measurement-card/comparability/) | VIM 2.46, 2.47 |
-| [Validity conditions](/measuring-introspection/measurement-card/validity-conditions/) | VIM 2.45; VIM 2.1, Note 3 (a description of the quantity suited to the intended use) |
+| [Measurand](/measuring-self-reports/measurement-card/measurand/) | VIM 2.3; GUM 3.1.3, D.2.1 |
+| [Procedure](/measuring-self-reports/measurement-card/procedure/) | VIM 2.6: a procedure documented well enough for another operator to perform it |
+| [Instrument and indication](/measuring-self-reports/measurement-card/instrument/) | VIM 3.1, 4.1, 4.2 |
+| [Measurement model](/measuring-self-reports/measurement-card/measurement-model/) | VIM 2.48, 2.53 (correction); GUM 3.1.6, 4.1 |
+| [Calibration](/measuring-self-reports/measurement-card/calibration/) | VIM 2.39, 2.40, 2.41 |
+| [Uncertainty](/measuring-self-reports/measurement-card/uncertainty/) | VIM 2.20–2.27; GUM 3.3.2, 3.4.2 |
+| [Comparability](/measuring-self-reports/measurement-card/comparability/) | VIM 2.46, 2.47 |
+| [Validity conditions](/measuring-self-reports/measurement-card/validity-conditions/) | VIM 2.45; VIM 2.1, Note 3 (a description of the quantity suited to the intended use) |
 
 ## Sources
 

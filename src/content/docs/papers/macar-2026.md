@@ -5,7 +5,7 @@ description: Replicates concept-injection detection in open-weight models, separ
 
 **Source.** *Mechanisms of Introspective Awareness* ([Macar, Yang, Wang, Wallich, Ameisen & Lindsey, 2026](https://arxiv.org/abs/2603.21396)), Anthropic Fellows Program, MIT, Constellation and Anthropic, arXiv preprint (v5). Not peer reviewed. Code and the 500-concept list: [github.com/safety-research/introspection-mechanisms](https://github.com/safety-research/introspection-mechanisms). Per-trial generations are not released.
 
-**Description.** Macar et al. ask whether the concept-injection result of [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/) holds in open-weight models, which training stage produces it, and which components implement it. They inject concept vectors into the residual stream, have an LLM judge grade the free-text answer, and then use ablation, activation patching, transcoder features and a trained bias vector to trace and amplify the detection behavior. Most experiments use Gemma3-27B-IT; supporting runs use Qwen3-235B, OLMo-3.1-32B checkpoints and three smaller models.
+**Description.** Macar et al. ask whether the concept-injection result of [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/) holds in open-weight models, which training stage produces it, and which components implement it. They inject concept vectors into the residual stream, have an LLM judge grade the free-text answer, and then use ablation, activation patching, transcoder features and a trained bias vector to trace and amplify the detection behavior. Most experiments use Gemma3-27B-IT; supporting runs use Qwen3-235B, OLMo-3.1-32B checkpoints and three smaller models.
 
 ## Measurement card
 
@@ -45,7 +45,7 @@ description: Replicates concept-injection detection in open-weight models, separ
 
 ## Related papers
 
-- Replicates [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/), whose author is a coauthor.
-- Relates the detection/identification split of [Lederman & Mahowald 2026](/measuring-introspection/papers/lederman-mahowald-2026/) to its own layer separation.
-- Cites [Pearson-Vogel et al. 2026](/measuring-introspection/papers/pearson-vogel-2026/) and [Fonseca Rivera 2025](/measuring-introspection/papers/fonseca-rivera-2025/) as other ways to elicit detection.
-- Other tests of the paradigm: [Singh et al. 2026](/measuring-introspection/papers/singh-2026/), [Ferrara 2026](/measuring-introspection/papers/ferrara-2026/), [Hahami et al. 2025](/measuring-introspection/papers/hahami-2025/).
+- Replicates [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/), whose author is a coauthor.
+- Relates the detection/identification split of [Lederman & Mahowald 2026](/measuring-self-reports/papers/lederman-mahowald-2026/) to its own layer separation.
+- Cites [Pearson-Vogel et al. 2026](/measuring-self-reports/papers/pearson-vogel-2026/) and [Fonseca Rivera 2025](/measuring-self-reports/papers/fonseca-rivera-2025/) as other ways to elicit detection.
+- Other tests of the paradigm: [Singh et al. 2026](/measuring-self-reports/papers/singh-2026/), [Ferrara 2026](/measuring-self-reports/papers/ferrara-2026/), [Hahami et al. 2025](/measuring-self-reports/papers/hahami-2025/).

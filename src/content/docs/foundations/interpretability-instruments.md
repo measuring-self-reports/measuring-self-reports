@@ -25,20 +25,20 @@ This matters when a probe is used as the standard for a self-report. A probe tha
 
 Verbalizers translate activations into language using a second language model. [Li et al. (2025)](https://arxiv.org/abs/2509.13316) ask whether they convey privileged information about the target model or only information about the input. They find that the popular benchmarks can be passed without access to the target's internals at all, and that in controlled experiments the descriptions often reflect the verbalizer's own knowledge rather than the target's. The instrument contributes content to its indication, in the same way an LLM judge can.
 
-[Patchscopes](https://arxiv.org/abs/2401.06102) (Ghandeharioun et al. 2024) frame many earlier methods, such as projecting activations into the vocabulary, as special cases of patching a representation into a model and letting it describe it. [Activation oracles](https://arxiv.org/abs/2512.15674) (Karvonen et al. 2025) train models to answer arbitrary questions about activations. They recover information fine-tuned into a model that does not appear in the input text, and the best ones match or exceed white-box baselines on four downstream tasks. The site's [trained reporter](/measuring-introspection/papers/#trained-reporters) papers use the same idea with the target model as its own verbalizer.
+[Patchscopes](https://arxiv.org/abs/2401.06102) (Ghandeharioun et al. 2024) frame many earlier methods, such as projecting activations into the vocabulary, as special cases of patching a representation into a model and letting it describe it. [Activation oracles](https://arxiv.org/abs/2512.15674) (Karvonen et al. 2025) train models to answer arbitrary questions about activations. They recover information fine-tuned into a model that does not appear in the input text, and the best ones match or exceed white-box baselines on four downstream tasks. The site's [trained reporter](/measuring-self-reports/papers/introspection/#trained-reporters) papers use the same idea with the target model as its own verbalizer.
 
 ## Shared standards
 
-A field with many instruments and no shared standard risks what [Tal](/measuring-introspection/foundations/robustness/#coherent-calibration-and-islands) calls islands: results that reproduce within one group's setup and cannot be compared across setups. Benchmarks for interpretability methods are attempts at shared standards.
+A field with many instruments and no shared standard risks what [Tal](/measuring-self-reports/foundations/robustness/#coherent-calibration-and-islands) calls islands: results that reproduce within one group's setup and cannot be compared across setups. Benchmarks for interpretability methods are attempts at shared standards.
 
 - [MIB](https://arxiv.org/abs/2504.13151) (Mueller et al. 2025) compares methods on two tracks across four tasks and five models: locating the components that carry a task, and aligning learned features with a known causal variable. Attribution and mask-optimization methods do best on the first; on the second, supervised distributed alignment search does best, and sparse autoencoder features do no better than individual neurons.
 - [RAVEL](https://arxiv.org/abs/2402.17700) (Huang et al. 2024) tests whether methods can separate the attributes that one set of neurons represents, such as a city's country and its continent.
 
 ## Instruments in introspection experiments
 
-1. **The standard is often another instrument.** An injected vector, a probe or a verbalizer serves as the reference for the self-report. Its calibration is part of the self-report's calibration, and the card records it at the [calibration](/measuring-introspection/measurement-card/calibration/) stage.
-2. **Shared inputs mean shared principle.** A self-report and a probe read from the same activations, with the same prompt, can agree because they share an input. The card codes this as a [shared principle](/measuring-introspection/glossary/#shared-principle).
-3. **Decodable is not reportable.** A probe that reads the injected state at 0.958 accuracy while the report is at chance, as in [Ferrara 2026](/measuring-introspection/papers/ferrara-2026/), shows the information is present and not reported. It says nothing about whether the model could report it.
+1. **The standard is often another instrument.** An injected vector, a probe or a verbalizer serves as the reference for the self-report. Its calibration is part of the self-report's calibration, and the card records it at the [calibration](/measuring-self-reports/measurement-card/calibration/) stage.
+2. **Shared inputs mean shared principle.** A self-report and a probe read from the same activations, with the same prompt, can agree because they share an input. The card codes this as a [shared principle](/measuring-self-reports/glossary/#shared-principle).
+3. **Decodable is not reportable.** A probe that reads the injected state at 0.958 accuracy while the report is at chance, as in [Ferrara 2026](/measuring-self-reports/papers/ferrara-2026/), shows the information is present and not reported. It says nothing about whether the model could report it.
 4. **A verbalizer is a model reporting on a model.** When the verbalizer is the target itself, as in the trained reporter papers, it is a self-report with a trained component, and the question of whose knowledge the description reflects applies to it.
 
 ## Limits of the analogy
@@ -50,9 +50,9 @@ A field with many instruments and no shared standard risks what [Tal](/measuring
 
 | Stage | What interpretability instruments supply |
 |---|---|
-| [Instrument and indication](/measuring-introspection/measurement-card/instrument/) | The instruments used besides the report, and what each reads |
-| [Calibration](/measuring-introspection/measurement-card/calibration/) | Instruments as standards, and their own calibration |
-| [Comparability](/measuring-introspection/measurement-card/comparability/) | Shared inputs between the report and the instrument; benchmarks as shared standards |
+| [Instrument and indication](/measuring-self-reports/measurement-card/instrument/) | The instruments used besides the report, and what each reads |
+| [Calibration](/measuring-self-reports/measurement-card/calibration/) | Instruments as standards, and their own calibration |
+| [Comparability](/measuring-self-reports/measurement-card/comparability/) | Shared inputs between the report and the instrument; benchmarks as shared standards |
 
 ## Sources
 

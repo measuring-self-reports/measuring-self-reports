@@ -3,7 +3,7 @@
 How this site is built and what each kind of page holds, so a page can be added without
 reading the others.
 
-Deployed to GitHub Pages under the `measuring-introspection` organization by
+Deployed to GitHub Pages under the `measuring-self-reports` organization by
 `.github/workflows/deploy.yml` on push to `main`.
 
 ## Build
@@ -13,8 +13,8 @@ npm run dev       # local preview; runs the backlinks script first
 npm run build     # production build into dist/
 ```
 
-- Astro + Starlight, `base: /measuring-introspection`. Internal links carry the base
-  (`/measuring-introspection/papers/lindsey-2025/`).
+- Astro + Starlight, `base: /measuring-self-reports`. Internal links carry the base
+  (`/measuring-self-reports/papers/lindsey-2025/`).
 - Math: `remark-math` + `rehype-katex` under both `markdown` and `mdx`.
 - `src/plugins/remark-source-quotes.mjs` sets quotations of 25 or more characters in italics.
 - `scripts/build-backlinks.mjs` writes `src/data/backlinks.json`.
@@ -66,7 +66,7 @@ does not establish → nearest stage → sources.
 
 Opening paragraph → the field's main ideas under short noun-phrase headings → `## LLM analog`
 → `## Limits of the analogy` → `## Card stages` → `## Sources` (Source | Year | Principle).
-Pages with a slide deck link it at the top: `**[Overview slides](/measuring-introspection/slides/<deck>.pdf)** (PDF)`.
+Pages with a slide deck link it at the top: `**[Overview slides](/measuring-self-reports/slides/<deck>.pdf)** (PDF)`.
 
 ## Slides
 

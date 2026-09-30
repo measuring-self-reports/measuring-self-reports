@@ -43,7 +43,7 @@ description: Tests whether an open-weight model can detect and identify a concep
 
 ## Related papers
 
-- Extends [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/) to an open model, and includes Lindsey's abstract in one prompt.
-- Takes its definition partly from [Song, Hu & Mahowald 2025](/measuring-introspection/papers/song-hu-mahowald-2025/), and contrasts its question with self-prediction work by [Binder et al. 2025](/measuring-introspection/papers/binder-2025/) and [Kadavath et al. 2022](/measuring-introspection/papers/kadavath-2022/).
-- [Lederman & Mahowald 2026](/measuring-introspection/papers/lederman-mahowald-2026/) argue this design does not separate steering from recognition.
-- Other injection studies: [Macar et al. 2026](/measuring-introspection/papers/macar-2026/), [Singh et al. 2026](/measuring-introspection/papers/singh-2026/), [Hahami et al. 2025](/measuring-introspection/papers/hahami-2025/).
+- Extends [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/) to an open model, and includes Lindsey's abstract in one prompt.
+- Takes its definition partly from [Song, Hu & Mahowald 2025](/measuring-self-reports/papers/song-hu-mahowald-2025/), and contrasts its question with self-prediction work by [Binder et al. 2025](/measuring-self-reports/papers/binder-2025/) and [Kadavath et al. 2022](/measuring-self-reports/papers/kadavath-2022/).
+- [Lederman & Mahowald 2026](/measuring-self-reports/papers/lederman-mahowald-2026/) argue this design does not separate steering from recognition.
+- Other injection studies: [Macar et al. 2026](/measuring-self-reports/papers/macar-2026/), [Singh et al. 2026](/measuring-self-reports/papers/singh-2026/), [Hahami et al. 2025](/measuring-self-reports/papers/hahami-2025/).

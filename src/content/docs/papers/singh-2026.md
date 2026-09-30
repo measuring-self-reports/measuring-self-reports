@@ -5,7 +5,7 @@ description: Tests whether two introspection paradigms, self-report classificati
 
 **Source.** *Can LLMs Introspect? A Reality Check* ([Singh, Linzen & Ravfogel, 2026](https://arxiv.org/abs/2605.26242)), New York University, COLM 2026. Code: [github.com/shashwat1002/introspection_reality_check](https://github.com/shashwat1002/introspection_reality_check).
 
-**Description.** Singh, Linzen and Ravfogel state two conditions a test of introspection must meet: **privileged access** (the task cannot be solved from cues in the input) and **second-order computation** (the report is produced by a representation of first-order states). They re-examine two paradigms against these conditions. For self-report classification ([Ji-An et al. 2025](/measuring-introspection/papers/ji-an-2025/) and a Belief Dominance framework), they train linear probes on the model's input embeddings alone and compare them with the models' in-context predictions. For concept injection ([Lindsey 2025](/measuring-introspection/papers/lindsey-2025/)), they add a **gaslight** condition that pushes the model toward a concept through the prompt alone, and ask models to classify trials in two-way and three-way forced choices.
+**Description.** Singh, Linzen and Ravfogel state two conditions a test of introspection must meet: **privileged access** (the task cannot be solved from cues in the input) and **second-order computation** (the report is produced by a representation of first-order states). They re-examine two paradigms against these conditions. For self-report classification ([Ji-An et al. 2025](/measuring-self-reports/papers/ji-an-2025/) and a Belief Dominance framework), they train linear probes on the model's input embeddings alone and compare them with the models' in-context predictions. For concept injection ([Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/)), they add a **gaslight** condition that pushes the model toward a concept through the prompt alone, and ask models to classify trials in two-way and three-way forced choices.
 
 ## Measurement card
 
@@ -42,7 +42,7 @@ description: Tests whether two introspection paradigms, self-report classificati
 
 ## Related papers
 
-- Critiques [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/) and [Ji-An et al. 2025](/measuring-introspection/papers/ji-an-2025/).
-- Places itself beside [Lederman & Mahowald 2026](/measuring-introspection/papers/lederman-mahowald-2026/): that paper separates detection from identification; this one asks what detection consists in.
-- Cites [Macar et al. 2026](/measuring-introspection/papers/macar-2026/) as a first step toward mechanistic evidence and [Fonseca Rivera 2025](/measuring-introspection/papers/fonseca-rivera-2025/) as outside its scope.
-- [Ferrara 2026](/measuring-introspection/papers/ferrara-2026/) adopts its leakage-versus-access distinction.
+- Critiques [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/) and [Ji-An et al. 2025](/measuring-self-reports/papers/ji-an-2025/).
+- Places itself beside [Lederman & Mahowald 2026](/measuring-self-reports/papers/lederman-mahowald-2026/): that paper separates detection from identification; this one asks what detection consists in.
+- Cites [Macar et al. 2026](/measuring-self-reports/papers/macar-2026/) as a first step toward mechanistic evidence and [Fonseca Rivera 2025](/measuring-self-reports/papers/fonseca-rivera-2025/) as outside its scope.
+- [Ferrara 2026](/measuring-self-reports/papers/ferrara-2026/) adopts its leakage-versus-access distinction.

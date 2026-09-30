@@ -44,7 +44,7 @@ description: Tests whether a model fine-tuned to predict properties of its own b
 
 ## Related papers
 
-- [Kadavath et al. 2022](/measuring-introspection/papers/kadavath-2022/) is named as the closest earlier work.
-- [Song, Hu & Mahowald 2025](/measuring-introspection/papers/song-hu-mahowald-2025/) criticize the design: a fine-tuned model predicting its pre-fine-tuning behavior may not be predicting itself, and model similarity is not controlled.
-- [Blandfort & Pawar 2026](/measuring-introspection/papers/blandfort-2026/) repeat a Binder-style fine-tune and test whether it transfers to predicting behavioral rates.
-- [Betley et al. 2025](/measuring-introspection/papers/betley-2025/), by the same group, use this paper's definition; [Plunkett et al. 2025](/measuring-introspection/papers/plunkett-2025/) and [Atkinson, Plunkett & Bau 2026](/measuring-introspection/papers/atkinson-2026/) build on it.
+- [Kadavath et al. 2022](/measuring-self-reports/papers/kadavath-2022/) is named as the closest earlier work.
+- [Song, Hu & Mahowald 2025](/measuring-self-reports/papers/song-hu-mahowald-2025/) criticize the design: a fine-tuned model predicting its pre-fine-tuning behavior may not be predicting itself, and model similarity is not controlled.
+- [Blandfort & Pawar 2026](/measuring-self-reports/papers/blandfort-2026/) repeat a Binder-style fine-tune and test whether it transfers to predicting behavioral rates.
+- [Betley et al. 2025](/measuring-self-reports/papers/betley-2025/), by the same group, use this paper's definition; [Plunkett et al. 2025](/measuring-self-reports/papers/plunkett-2025/) and [Atkinson, Plunkett & Bau 2026](/measuring-self-reports/papers/atkinson-2026/) build on it.

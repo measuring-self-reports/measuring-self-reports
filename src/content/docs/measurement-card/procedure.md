@@ -34,11 +34,11 @@ VIM is the [International Vocabulary of Metrology](https://www.bipm.org/document
 
 ## Examples from the papers
 
-- **Stated settings.** [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/) prints the prompt verbatim and the grid: 50 trials for each combination of model, strength and layer, with strengths 1, 2, 4 and 8.
-- **Operating point selected on the outcome.** [Macar et al. 2026](/measuring-introspection/papers/macar-2026/) choose layer 37 and strength 4 for Gemma3-27B because that cell gives the highest introspection rate, and use it for the main experiments. Lindsey's headline figure, about 20% for Opus 4.1, is also the best cell of the grid.
-- **The question changes the reading.** Lindsey tried an open question without the experimental framing. Yes answers rose from 20% to 42%, but only 2 of 50 trials suggested introspective awareness. [Pearson-Vogel et al. 2026](/measuring-introspection/papers/pearson-vogel-2026/) varied what the prompt tells the model about introspection, and sensitivity to injection rose from 0.3% to 39.9% with a 0.6% rise in false positives.
-- **A design that separates the state from the question.** Pearson-Vogel et al. inject only while the first turn is cached and remove the injection before asking, so detection cannot rely on an ongoing perturbation. [Atkinson, Plunkett & Bau 2026](/measuring-introspection/papers/atkinson-2026/) take the report in a separate context window from the decisions it describes.
-- **A no-report condition.** [Ackerman 2025](/measuring-introspection/papers/ackerman-2025/) measures use of confidence through a delegation game and compares it with asking for confidence on the same items. The stated confidence tracked external cues of difficulty more closely than the game decisions did.
+- **Stated settings.** [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/) prints the prompt verbatim and the grid: 50 trials for each combination of model, strength and layer, with strengths 1, 2, 4 and 8.
+- **Operating point selected on the outcome.** [Macar et al. 2026](/measuring-self-reports/papers/macar-2026/) choose layer 37 and strength 4 for Gemma3-27B because that cell gives the highest introspection rate, and use it for the main experiments. Lindsey's headline figure, about 20% for Opus 4.1, is also the best cell of the grid.
+- **The question changes the reading.** Lindsey tried an open question without the experimental framing. Yes answers rose from 20% to 42%, but only 2 of 50 trials suggested introspective awareness. [Pearson-Vogel et al. 2026](/measuring-self-reports/papers/pearson-vogel-2026/) varied what the prompt tells the model about introspection, and sensitivity to injection rose from 0.3% to 39.9% with a 0.6% rise in false positives.
+- **A design that separates the state from the question.** Pearson-Vogel et al. inject only while the first turn is cached and remove the injection before asking, so detection cannot rely on an ongoing perturbation. [Atkinson, Plunkett & Bau 2026](/measuring-self-reports/papers/atkinson-2026/) take the report in a separate context window from the decisions it describes.
+- **A no-report condition.** [Ackerman 2025](/measuring-self-reports/papers/ackerman-2025/) measures use of confidence through a delegation game and compares it with asking for confidence on the same items. The stated confidence tracked external cues of difficulty more closely than the game decisions did.
 
 ## What the stage does not establish
 
@@ -46,7 +46,7 @@ A complete procedure makes the measurement repeatable. It does not make it valid
 
 ## Nearest stage
 
-[Instrument and indication](/measuring-introspection/measurement-card/instrument/) (stage 3). The procedure is the recipe; the instrument produces the reading when the recipe is followed. In self-report the model under study is also the instrument, so the prompt belongs to both: as a setting it is recorded here, and as the input that makes the instrument read it is recorded at stage 3.
+[Instrument and indication](/measuring-self-reports/measurement-card/instrument/) (stage 3). The procedure is the recipe; the instrument produces the reading when the recipe is followed. In self-report the model under study is also the instrument, so the prompt belongs to both: as a setting it is recorded here, and as the input that makes the instrument read it is recorded at stage 3.
 
 ## Sources
 

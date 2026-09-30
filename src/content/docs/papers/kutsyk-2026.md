@@ -5,7 +5,7 @@ description: Whether a reporting adapter trained per model, from that model and 
 
 **Source.** *Revealing Hidden Model Behaviors with Task-Specific Self-Reports* ([Kutsyk & Zieliński, 2026](https://arxiv.org/abs/2607.03640)), Jagiellonian University, arXiv preprint (v2). Not peer reviewed. Code is announced at [github.com/TarasKutsyk/SAR](https://github.com/TarasKutsyk/SAR); per-response outputs are not released.
 
-**Description.** Kutsyk and Zieliński ask whether a fine-tuned model can be made to state, in plain language, a hidden behavior it acquired in fine-tuning. They introduce the **Stabilized Adapter for self-Report (SAR)**, a low-rank adapter trained separately for each audited model from that model and its fine-tuning data. SAR is compared with the public Introspection Adapter (IA) of [Shenoy et al. 2026](/measuring-introspection/papers/shenoy-2026/), one adapter trained across many fine-tuned models and transferred to new ones. Reports are scored by an LLM judge against a written description of the implanted behavior, on eight Qwen3-14B fine-tunes: seven with a hidden behavior and one control.
+**Description.** Kutsyk and Zieliński ask whether a fine-tuned model can be made to state, in plain language, a hidden behavior it acquired in fine-tuning. They introduce the **Stabilized Adapter for self-Report (SAR)**, a low-rank adapter trained separately for each audited model from that model and its fine-tuning data. SAR is compared with the public Introspection Adapter (IA) of [Shenoy et al. 2026](/measuring-self-reports/papers/shenoy-2026/), one adapter trained across many fine-tuned models and transferred to new ones. Reports are scored by an LLM judge against a written description of the implanted behavior, on eight Qwen3-14B fine-tunes: seven with a hidden behavior and one control.
 
 ## Measurement card
 
@@ -43,5 +43,5 @@ description: Whether a reporting adapter trained per model, from that model and 
 
 ## Related papers
 
-- Compares directly with [Shenoy et al. 2026](/measuring-introspection/papers/shenoy-2026/), using their adapters, source models and prompts.
-- Cites [Betley et al. 2025](/measuring-introspection/papers/betley-2025/) on behavioral self-awareness and [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/) on concept injection.
+- Compares directly with [Shenoy et al. 2026](/measuring-self-reports/papers/shenoy-2026/), using their adapters, source models and prompts.
+- Cites [Betley et al. 2025](/measuring-self-reports/papers/betley-2025/) on behavioral self-awareness and [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/) on concept injection.

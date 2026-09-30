@@ -3,7 +3,7 @@ title: Signal Detection and Metacognition
 description: "Type-1 and type-2 signal detection, meta-d′ and metacognitive efficiency, and what they separate in a language model's reports about itself."
 ---
 
-**[Overview slides](/measuring-introspection/slides/signal-detection.pdf)** (PDF)
+**[Overview slides](/measuring-self-reports/slides/signal-detection.pdf)** (PDF)
 
 Signal detection theory (SDT) separates two things that a rate of "yes" answers mixes together: how well an observer tells a signal from noise, and how willing the observer is to say yes. Metacognition research applies the same separation one level up, to confidence in one's own decisions. Both levels matter for introspection experiments on large language models (LLMs), because most of them score a yes/no report or a stated confidence, and a change in either can come from a change in sensitivity or from a change in the tendency to answer yes.
 
@@ -71,11 +71,11 @@ The word has three uses on this site, and papers in the corpus use more than one
 
 | Sense | Meaning | Where |
 |---|---|---|
-| Metrological calibration | Establishing the relation between an instrument's indications and values of the measurand, against a standard | [Metrology](/measuring-introspection/foundations/metrology/); card stage [Calibration](/measuring-introspection/measurement-card/calibration/) |
+| Metrological calibration | Establishing the relation between an instrument's indications and values of the measurand, against a standard | [Metrology](/measuring-self-reports/foundations/metrology/); card stage [Calibration](/measuring-self-reports/measurement-card/calibration/) |
 | Probability calibration | Agreement between stated confidence and proportion correct; the $C$ term of the Brier score | Kadavath et al.'s expected calibration error; Ferrara's Brier score |
 | Discriminatory calibration | Whether confidence rank-orders outcomes; metacognitive sensitivity under another name | Moran and Whiting, Def. 3.1 |
 
-[Kadavath et al. 2022](/measuring-introspection/papers/kadavath-2022/) state the difference between the second and third senses: the area under the curve measures discrimination and ignores calibration.
+[Kadavath et al. 2022](/measuring-self-reports/papers/kadavath-2022/) state the difference between the second and third senses: the area under the curve measures discrimination and ignores calibration.
 
 ## Metacognition and awareness
 
@@ -94,13 +94,13 @@ Other sources of inefficiency are confounds. A drop in efficiency between two co
 
 ## Signal detection in LLM introspection experiments
 
-**Concept injection is a type-1 task.** The stimulus is internal, but the question is whether a signal was present. The hit rate is the detection rate with injection; the false-alarm rate is the yes rate without it. [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/) reports no false positives in 100 control trials. With $F = 0$, $z(F)$ is infinite, so $d'$ depends on the correction chosen for empty cells. [Ferrara 2026](/measuring-introspection/papers/ferrara-2026/) uses a $1/(2N)$ correction against a paired sham and reports a pooled $d' = 0.0039$.
+**Concept injection is a type-1 task.** The stimulus is internal, but the question is whether a signal was present. The hit rate is the detection rate with injection; the false-alarm rate is the yes rate without it. [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/) reports no false positives in 100 control trials. With $F = 0$, $z(F)$ is infinite, so $d'$ depends on the correction chosen for empty cells. [Ferrara 2026](/measuring-self-reports/papers/ferrara-2026/) uses a $1/(2N)$ correction against a paired sham and reports a pooled $d' = 0.0039$.
 
-**Injection can move the criterion.** [Hahami et al. 2025](/measuring-introspection/papers/hahami-2025/) read the YES-minus-NO logit in Llama-3.1-8B-Instruct and apply the same injection to questions whose answer is no. The detection effect and the increase on the control questions correlate at $r = 0.999$. In SDT terms, the injection shifts the criterion: the model becomes more likely to say yes to any question. Lindsey's check on unrelated questions in Claude models finds no increase in yes answers.
+**Injection can move the criterion.** [Hahami et al. 2025](/measuring-self-reports/papers/hahami-2025/) read the YES-minus-NO logit in Llama-3.1-8B-Instruct and apply the same injection to questions whose answer is no. The detection effect and the increase on the control questions correlate at $r = 0.999$. In SDT terms, the injection shifts the criterion: the model becomes more likely to say yes to any question. Lindsey's check on unrelated questions in Claude models finds no increase in yes answers.
 
 **A logit is a decision variable.** Rating scales give a few criteria. A logit difference is continuous, so a full receiver operating characteristic curve can be traced from one run without asking for ratings. Hahami et al. read every answer this way.
 
-**Confidence tasks are type-2 tasks.** [Kadavath et al. 2022](/measuring-introspection/papers/kadavath-2022/), [Ackerman 2025](/measuring-introspection/papers/ackerman-2025/) and [Moran & Whiting 2026](/measuring-introspection/papers/moran-2026/) score confidence against the model's own correctness. Kadavath et al. report probability calibration and AUROC. Ackerman uses a partial correlation between delegation and correctness, a measure of the phi family. Moran and Whiting model each binary judgment as a thresholded latent normal variable with a model-specific threshold, which separates a model's yes rate from the shared signal; they state the normality assumption is presumed rather than tested.
+**Confidence tasks are type-2 tasks.** [Kadavath et al. 2022](/measuring-self-reports/papers/kadavath-2022/), [Ackerman 2025](/measuring-self-reports/papers/ackerman-2025/) and [Moran & Whiting 2026](/measuring-self-reports/papers/moran-2026/) score confidence against the model's own correctness. Kadavath et al. report probability calibration and AUROC. Ackerman uses a partial correlation between delegation and correctness, a measure of the phi family. Moran and Whiting model each binary judgment as a thresholded latent normal variable with a model-specific threshold, which separates a model's yes rate from the shared signal; they state the normality assumption is presumed rather than tested.
 
 **A probe as the ideal observer.** Meta-d′ compares confidence with the evidence available to the decision. The closest LLM counterpart compares the model's report with a probe trained on the same activations. Ferrara defines the ratio of report margin to probe margin as an M-ratio analog. On Qwen2.5-7B-Instruct the probe reaches 0.958 held-out accuracy, while the report does not separate intervention from sham.
 
@@ -114,12 +114,12 @@ Other sources of inefficiency are confounds. A drop in efficiency between two co
 
 | Stage | What signal detection supplies |
 |---|---|
-| [Instrument and indication](/measuring-introspection/measurement-card/instrument/) | Binary answer, rating, stated probability or logit, and what each allows to be separated |
-| [Measurement model](/measuring-introspection/measurement-card/measurement-model/) | Sensitivity versus criterion at type 1; sensitivity, bias and efficiency at type 2 |
-| [Calibration](/measuring-introspection/measurement-card/calibration/) | The three senses of calibration |
-| [Uncertainty](/measuring-introspection/measurement-card/uncertainty/) | Corrections for empty cells; dependence of AUROC2 and the Brier score on task performance |
-| [Comparability](/measuring-introspection/measurement-card/comparability/) | Meta-d′ against d′, and the report against a probe on the same activations |
-| [Validity conditions](/measuring-introspection/measurement-card/validity-conditions/) | Constant stimuli and internal noise; one model as one subject |
+| [Instrument and indication](/measuring-self-reports/measurement-card/instrument/) | Binary answer, rating, stated probability or logit, and what each allows to be separated |
+| [Measurement model](/measuring-self-reports/measurement-card/measurement-model/) | Sensitivity versus criterion at type 1; sensitivity, bias and efficiency at type 2 |
+| [Calibration](/measuring-self-reports/measurement-card/calibration/) | The three senses of calibration |
+| [Uncertainty](/measuring-self-reports/measurement-card/uncertainty/) | Corrections for empty cells; dependence of AUROC2 and the Brier score on task performance |
+| [Comparability](/measuring-self-reports/measurement-card/comparability/) | Meta-d′ against d′, and the report against a probe on the same activations |
+| [Validity conditions](/measuring-self-reports/measurement-card/validity-conditions/) | Constant stimuli and internal noise; one model as one subject |
 
 ## Sources
 

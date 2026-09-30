@@ -1,5 +1,5 @@
 {
-  "/measuring-introspection/measurement-card/": [
+  "/measuring-self-reports/measurement-card/": [
     {
       "slug": "/about/",
       "title": "About"
@@ -11,15 +11,19 @@
     {
       "slug": "/papers/",
       "title": "Papers"
+    },
+    {
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     }
   ],
-  "/measuring-introspection/foundations/": [
+  "/measuring-self-reports/foundations/": [
     {
       "slug": "/about/",
       "title": "About"
     }
   ],
-  "/measuring-introspection/measurement-card/measurand/": [
+  "/measuring-self-reports/measurement-card/measurand/": [
     {
       "slug": "/foundations/ai-evaluation/",
       "title": "Measurement in AI Evaluation"
@@ -54,7 +58,7 @@
     },
     {
       "slug": "/index/",
-      "title": "Measuring AI Introspection"
+      "title": "Measuring AI Self-Reports"
     },
     {
       "slug": "/measurement-card/",
@@ -63,9 +67,13 @@
     {
       "slug": "/measurement-card/validity-conditions/",
       "title": "8. Validity Conditions"
+    },
+    {
+      "slug": "/papers/faithfulness/",
+      "title": "Chain-of-Thought Faithfulness"
     }
   ],
-  "/measuring-introspection/measurement-card/validity-conditions/": [
+  "/measuring-self-reports/measurement-card/validity-conditions/": [
     {
       "slug": "/foundations/ai-evaluation/",
       "title": "Measurement in AI Evaluation"
@@ -108,7 +116,7 @@
     },
     {
       "slug": "/index/",
-      "title": "Measuring AI Introspection"
+      "title": "Measuring AI Self-Reports"
     },
     {
       "slug": "/measurement-card/",
@@ -119,7 +127,7 @@
       "title": "1. Measurand"
     }
   ],
-  "/measuring-introspection/foundations/chang/": [
+  "/measuring-self-reports/foundations/chang/": [
     {
       "slug": "/foundations/ai-evaluation/",
       "title": "Measurement in AI Evaluation"
@@ -142,14 +150,14 @@
     },
     {
       "slug": "/index/",
-      "title": "Measuring AI Introspection"
+      "title": "Measuring AI Self-Reports"
     },
     {
       "slug": "/measurement-card/",
       "title": "Measurement Card"
     }
   ],
-  "/measuring-introspection/foundations/robustness/": [
+  "/measuring-self-reports/foundations/robustness/": [
     {
       "slug": "/foundations/ai-evaluation/",
       "title": "Measurement in AI Evaluation"
@@ -191,7 +199,7 @@
       "title": "Measurement Card"
     }
   ],
-  "/measuring-introspection/measurement-card/uncertainty/": [
+  "/measuring-self-reports/measurement-card/uncertainty/": [
     {
       "slug": "/foundations/ai-evaluation/",
       "title": "Measurement in AI Evaluation"
@@ -218,14 +226,14 @@
     },
     {
       "slug": "/index/",
-      "title": "Measuring AI Introspection"
+      "title": "Measuring AI Self-Reports"
     },
     {
       "slug": "/measurement-card/",
       "title": "Measurement Card"
     }
   ],
-  "/measuring-introspection/slides/tal-chang.pdf/": [
+  "/measuring-self-reports/slides/tal-chang.pdf/": [
     {
       "slug": "/foundations/chang/",
       "title": "Epistemic Iteration (Chang)"
@@ -239,7 +247,7 @@
       "title": "Model-Based Measurement (Tal)"
     }
   ],
-  "/measuring-introspection/foundations/tal/": [
+  "/measuring-self-reports/foundations/tal/": [
     {
       "slug": "/foundations/chang/",
       "title": "Epistemic Iteration (Chang)"
@@ -266,7 +274,7 @@
     },
     {
       "slug": "/index/",
-      "title": "Measuring AI Introspection"
+      "title": "Measuring AI Self-Reports"
     },
     {
       "slug": "/measurement-card/",
@@ -281,7 +289,7 @@
       "title": "4. Measurement Model"
     }
   ],
-  "/measuring-introspection/measurement-card/calibration/": [
+  "/measuring-self-reports/measurement-card/calibration/": [
     {
       "slug": "/foundations/chang/",
       "title": "Epistemic Iteration (Chang)"
@@ -320,7 +328,7 @@
     },
     {
       "slug": "/index/",
-      "title": "Measuring AI Introspection"
+      "title": "Measuring AI Self-Reports"
     },
     {
       "slug": "/measurement-card/comparability/",
@@ -333,9 +341,17 @@
     {
       "slug": "/measurement-card/measurement-model/",
       "title": "4. Measurement Model"
+    },
+    {
+      "slug": "/papers/faithfulness/",
+      "title": "Chain-of-Thought Faithfulness"
+    },
+    {
+      "slug": "/papers/",
+      "title": "Papers"
     }
   ],
-  "/measuring-introspection/measurement-card/comparability/": [
+  "/measuring-self-reports/measurement-card/comparability/": [
     {
       "slug": "/foundations/chang/",
       "title": "Epistemic Iteration (Chang)"
@@ -382,7 +398,7 @@
     },
     {
       "slug": "/index/",
-      "title": "Measuring AI Introspection"
+      "title": "Measuring AI Self-Reports"
     },
     {
       "slug": "/measurement-card/calibration/",
@@ -397,13 +413,13 @@
       "title": "6. Uncertainty"
     }
   ],
-  "/measuring-introspection/slides/michel.pdf/": [
+  "/measuring-self-reports/slides/michel.pdf/": [
     {
       "slug": "/foundations/consciousness-science/",
       "title": "Consciousness Science (Michel)"
     }
   ],
-  "/measuring-introspection/foundations/metrology/": [
+  "/measuring-self-reports/foundations/metrology/": [
     {
       "slug": "/foundations/consciousness-science/",
       "title": "Consciousness Science (Michel)"
@@ -418,28 +434,28 @@
     },
     {
       "slug": "/index/",
-      "title": "Measuring AI Introspection"
+      "title": "Measuring AI Self-Reports"
     },
     {
       "slug": "/measurement-card/",
       "title": "Measurement Card"
     }
   ],
-  "/measuring-introspection/foundations/philosophy-of-measurement/": [
+  "/measuring-self-reports/foundations/philosophy-of-measurement/": [
     {
       "slug": "/foundations/consciousness-science/",
       "title": "Consciousness Science (Michel)"
     },
     {
       "slug": "/index/",
-      "title": "Measuring AI Introspection"
+      "title": "Measuring AI Self-Reports"
     },
     {
       "slug": "/measurement-card/",
       "title": "Measurement Card"
     }
   ],
-  "/measuring-introspection/foundations/signal-detection/": [
+  "/measuring-self-reports/foundations/signal-detection/": [
     {
       "slug": "/foundations/consciousness-science/",
       "title": "Consciousness Science (Michel)"
@@ -458,7 +474,7 @@
     },
     {
       "slug": "/index/",
-      "title": "Measuring AI Introspection"
+      "title": "Measuring AI Self-Reports"
     },
     {
       "slug": "/measurement-card/",
@@ -469,7 +485,7 @@
       "title": "4. Measurement Model"
     }
   ],
-  "/measuring-introspection/measurement-card/instrument/": [
+  "/measuring-self-reports/measurement-card/instrument/": [
     {
       "slug": "/foundations/consciousness-science/",
       "title": "Consciousness Science (Michel)"
@@ -500,7 +516,7 @@
     },
     {
       "slug": "/index/",
-      "title": "Measuring AI Introspection"
+      "title": "Measuring AI Self-Reports"
     },
     {
       "slug": "/measurement-card/",
@@ -511,7 +527,7 @@
       "title": "2. Procedure"
     }
   ],
-  "/measuring-introspection/measurement-card/measurement-model/": [
+  "/measuring-self-reports/measurement-card/measurement-model/": [
     {
       "slug": "/foundations/consciousness-science/",
       "title": "Consciousness Science (Michel)"
@@ -538,7 +554,7 @@
     },
     {
       "slug": "/index/",
-      "title": "Measuring AI Introspection"
+      "title": "Measuring AI Self-Reports"
     },
     {
       "slug": "/measurement-card/",
@@ -549,7 +565,7 @@
       "title": "3. Instrument and Indication"
     }
   ],
-  "/measuring-introspection/foundations/psychometrics/": [
+  "/measuring-self-reports/foundations/psychometrics/": [
     {
       "slug": "/foundations/",
       "title": "Theoretical Foundations"
@@ -564,14 +580,14 @@
     },
     {
       "slug": "/index/",
-      "title": "Measuring AI Introspection"
+      "title": "Measuring AI Self-Reports"
     },
     {
       "slug": "/measurement-card/",
       "title": "Measurement Card"
     }
   ],
-  "/measuring-introspection/foundations/consciousness-science/": [
+  "/measuring-self-reports/foundations/consciousness-science/": [
     {
       "slug": "/foundations/",
       "title": "Theoretical Foundations"
@@ -586,14 +602,14 @@
     },
     {
       "slug": "/index/",
-      "title": "Measuring AI Introspection"
+      "title": "Measuring AI Self-Reports"
     },
     {
       "slug": "/measurement-card/",
       "title": "Measurement Card"
     }
   ],
-  "/measuring-introspection/foundations/philosophy-of-introspection/": [
+  "/measuring-self-reports/foundations/philosophy-of-introspection/": [
     {
       "slug": "/foundations/",
       "title": "Theoretical Foundations"
@@ -608,7 +624,7 @@
     },
     {
       "slug": "/index/",
-      "title": "Measuring AI Introspection"
+      "title": "Measuring AI Self-Reports"
     },
     {
       "slug": "/measurement-card/",
@@ -619,7 +635,7 @@
       "title": "1. Measurand"
     }
   ],
-  "/measuring-introspection/papers/": [
+  "/measuring-self-reports/papers/introspection/": [
     {
       "slug": "/foundations/interpretability-instruments/",
       "title": "Interpretability as Instruments"
@@ -630,16 +646,24 @@
     },
     {
       "slug": "/index/",
-      "title": "Measuring AI Introspection"
+      "title": "Measuring AI Self-Reports"
+    },
+    {
+      "slug": "/papers/",
+      "title": "Papers"
+    },
+    {
+      "slug": "/papers/verbalizers/",
+      "title": "Verbalizers and NLAs"
     }
   ],
-  "/measuring-introspection/glossary/": [
+  "/measuring-self-reports/glossary/": [
     {
       "slug": "/foundations/interpretability-instruments/",
       "title": "Interpretability as Instruments"
     }
   ],
-  "/measuring-introspection/papers/ferrara-2026/": [
+  "/measuring-self-reports/papers/ferrara-2026/": [
     {
       "slug": "/foundations/interpretability-instruments/",
       "title": "Interpretability as Instruments"
@@ -673,8 +697,8 @@
       "title": "Hahami et al. 2025"
     },
     {
-      "slug": "/papers/",
-      "title": "Papers"
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     },
     {
       "slug": "/papers/lederman-mahowald-2026/",
@@ -693,7 +717,7 @@
       "title": "Singh et al. 2026"
     }
   ],
-  "/measuring-introspection/papers/lindsey-2025/": [
+  "/measuring-self-reports/papers/lindsey-2025/": [
     {
       "slug": "/foundations/llm-introspection-accounts/",
       "title": "Accounts of LLM Introspection"
@@ -767,8 +791,8 @@
       "title": "Hahami et al. 2025"
     },
     {
-      "slug": "/papers/",
-      "title": "Papers"
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     },
     {
       "slug": "/papers/kadavath-2022/",
@@ -807,7 +831,7 @@
       "title": "Singh et al. 2026"
     }
   ],
-  "/measuring-introspection/papers/macar-2026/": [
+  "/measuring-self-reports/papers/macar-2026/": [
     {
       "slug": "/foundations/llm-introspection-accounts/",
       "title": "Accounts of LLM Introspection"
@@ -833,8 +857,8 @@
       "title": "8. Validity Conditions"
     },
     {
-      "slug": "/papers/",
-      "title": "Papers"
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     },
     {
       "slug": "/papers/lederman-mahowald-2026/",
@@ -853,7 +877,7 @@
       "title": "Singh et al. 2026"
     }
   ],
-  "/measuring-introspection/papers/hahami-2025/": [
+  "/measuring-self-reports/papers/hahami-2025/": [
     {
       "slug": "/foundations/llm-introspection-accounts/",
       "title": "Accounts of LLM Introspection"
@@ -879,8 +903,8 @@
       "title": "Ferrara 2026"
     },
     {
-      "slug": "/papers/",
-      "title": "Papers"
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     },
     {
       "slug": "/papers/ji-an-2025/",
@@ -903,7 +927,7 @@
       "title": "Pearson-Vogel et al. 2026"
     }
   ],
-  "/measuring-introspection/papers/binder-2025/": [
+  "/measuring-self-reports/papers/binder-2025/": [
     {
       "slug": "/foundations/llm-introspection-accounts/",
       "title": "Accounts of LLM Introspection"
@@ -949,8 +973,8 @@
       "title": "Guo et al. 2026"
     },
     {
-      "slug": "/papers/",
-      "title": "Papers"
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     },
     {
       "slug": "/papers/ji-an-2025/",
@@ -993,7 +1017,7 @@
       "title": "Song, Hu & Mahowald 2025"
     }
   ],
-  "/measuring-introspection/papers/li-2025/": [
+  "/measuring-self-reports/papers/li-2025/": [
     {
       "slug": "/foundations/llm-introspection-accounts/",
       "title": "Accounts of LLM Introspection"
@@ -1011,15 +1035,19 @@
       "title": "Guo et al. 2026"
     },
     {
-      "slug": "/papers/",
-      "title": "Papers"
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     },
     {
       "slug": "/papers/lederman-mahowald-2026/",
       "title": "Lederman & Mahowald 2026"
+    },
+    {
+      "slug": "/papers/verbalizers/",
+      "title": "Verbalizers and NLAs"
     }
   ],
-  "/measuring-introspection/papers/pearson-vogel-2026/": [
+  "/measuring-self-reports/papers/pearson-vogel-2026/": [
     {
       "slug": "/foundations/llm-introspection-accounts/",
       "title": "Accounts of LLM Introspection"
@@ -1041,8 +1069,8 @@
       "title": "Fonseca Rivera 2025"
     },
     {
-      "slug": "/papers/",
-      "title": "Papers"
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     },
     {
       "slug": "/papers/lederman-mahowald-2026/",
@@ -1061,7 +1089,7 @@
       "title": "Song, Hu & Mahowald 2025"
     }
   ],
-  "/measuring-introspection/papers/singh-2026/": [
+  "/measuring-self-reports/papers/singh-2026/": [
     {
       "slug": "/foundations/llm-introspection-accounts/",
       "title": "Accounts of LLM Introspection"
@@ -1091,8 +1119,8 @@
       "title": "Hahami et al. 2025"
     },
     {
-      "slug": "/papers/",
-      "title": "Papers"
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     },
     {
       "slug": "/papers/lederman-mahowald-2026/",
@@ -1111,7 +1139,7 @@
       "title": "Pearson-Vogel et al. 2026"
     }
   ],
-  "/measuring-introspection/papers/plunkett-2025/": [
+  "/measuring-self-reports/papers/plunkett-2025/": [
     {
       "slug": "/foundations/llm-introspection-accounts/",
       "title": "Accounts of LLM Introspection"
@@ -1141,8 +1169,8 @@
       "title": "Guo et al. 2026"
     },
     {
-      "slug": "/papers/",
-      "title": "Papers"
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     },
     {
       "slug": "/papers/kadavath-2022/",
@@ -1161,7 +1189,7 @@
       "title": "Shenoy et al. 2026"
     }
   ],
-  "/measuring-introspection/slides/metrology-robustness.pdf/": [
+  "/measuring-self-reports/slides/metrology-robustness.pdf/": [
     {
       "slug": "/foundations/metrology/",
       "title": "Metrology (VIM and GUM)"
@@ -1171,7 +1199,7 @@
       "title": "Robustness and Convergence"
     }
   ],
-  "/measuring-introspection/papers/kadavath-2022/": [
+  "/measuring-self-reports/papers/kadavath-2022/": [
     {
       "slug": "/foundations/metrology/",
       "title": "Metrology (VIM and GUM)"
@@ -1205,8 +1233,8 @@
       "title": "Blandfort & Pawar 2026"
     },
     {
-      "slug": "/papers/",
-      "title": "Papers"
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     },
     {
       "slug": "/papers/ji-an-2025/",
@@ -1229,7 +1257,7 @@
       "title": "Plunkett et al. 2025"
     }
   ],
-  "/measuring-introspection/measurement-card/procedure/": [
+  "/measuring-self-reports/measurement-card/procedure/": [
     {
       "slug": "/foundations/metrology/",
       "title": "Metrology (VIM and GUM)"
@@ -1244,26 +1272,26 @@
     },
     {
       "slug": "/index/",
-      "title": "Measuring AI Introspection"
+      "title": "Measuring AI Self-Reports"
     },
     {
       "slug": "/measurement-card/",
       "title": "Measurement Card"
     }
   ],
-  "/measuring-introspection/slides/philosophy-of-introspection.pdf/": [
+  "/measuring-self-reports/slides/philosophy-of-introspection.pdf/": [
     {
       "slug": "/foundations/philosophy-of-introspection/",
       "title": "Philosophy of Introspection"
     }
   ],
-  "/measuring-introspection/slides/signal-detection.pdf/": [
+  "/measuring-self-reports/slides/signal-detection.pdf/": [
     {
       "slug": "/foundations/signal-detection/",
       "title": "Signal Detection and Metacognition"
     }
   ],
-  "/measuring-introspection/papers/ackerman-2025/": [
+  "/measuring-self-reports/papers/ackerman-2025/": [
     {
       "slug": "/foundations/signal-detection/",
       "title": "Signal Detection and Metacognition"
@@ -1273,8 +1301,8 @@
       "title": "2. Procedure"
     },
     {
-      "slug": "/papers/",
-      "title": "Papers"
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     },
     {
       "slug": "/papers/ji-an-2025/",
@@ -1293,7 +1321,7 @@
       "title": "Plunkett et al. 2025"
     }
   ],
-  "/measuring-introspection/papers/moran-2026/": [
+  "/measuring-self-reports/papers/moran-2026/": [
     {
       "slug": "/foundations/signal-detection/",
       "title": "Signal Detection and Metacognition"
@@ -1315,15 +1343,15 @@
       "title": "Blandfort & Pawar 2026"
     },
     {
-      "slug": "/papers/",
-      "title": "Papers"
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     },
     {
       "slug": "/papers/kadavath-2022/",
       "title": "Kadavath et al. 2022"
     }
   ],
-  "/measuring-introspection/papers/atkinson-2026/": [
+  "/measuring-self-reports/papers/atkinson-2026/": [
     {
       "slug": "/glossary/",
       "title": "Glossary"
@@ -1357,8 +1385,8 @@
       "title": "Binder et al. 2025"
     },
     {
-      "slug": "/papers/",
-      "title": "Papers"
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     },
     {
       "slug": "/papers/plunkett-2025/",
@@ -1369,37 +1397,61 @@
       "title": "Song, Hu & Mahowald 2025"
     }
   ],
-  "/measuring-introspection/foundations/multitrait-multimethod/": [
+  "/measuring-self-reports/papers/faithfulness/": [
     {
       "slug": "/index/",
-      "title": "Measuring AI Introspection"
+      "title": "Measuring AI Self-Reports"
+    },
+    {
+      "slug": "/papers/",
+      "title": "Papers"
+    }
+  ],
+  "/measuring-self-reports/papers/verbalizers/": [
+    {
+      "slug": "/index/",
+      "title": "Measuring AI Self-Reports"
+    },
+    {
+      "slug": "/papers/",
+      "title": "Papers"
+    }
+  ],
+  "/measuring-self-reports/foundations/multitrait-multimethod/": [
+    {
+      "slug": "/index/",
+      "title": "Measuring AI Self-Reports"
     },
     {
       "slug": "/measurement-card/",
       "title": "Measurement Card"
     }
   ],
-  "/measuring-introspection/foundations/llm-introspection-accounts/": [
+  "/measuring-self-reports/foundations/llm-introspection-accounts/": [
     {
       "slug": "/index/",
-      "title": "Measuring AI Introspection"
+      "title": "Measuring AI Self-Reports"
     },
     {
       "slug": "/measurement-card/",
       "title": "Measurement Card"
     }
   ],
-  "/measuring-introspection/foundations/interpretability-instruments/": [
+  "/measuring-self-reports/foundations/interpretability-instruments/": [
     {
       "slug": "/index/",
-      "title": "Measuring AI Introspection"
+      "title": "Measuring AI Self-Reports"
     },
     {
       "slug": "/measurement-card/",
       "title": "Measurement Card"
+    },
+    {
+      "slug": "/papers/verbalizers/",
+      "title": "Verbalizers and NLAs"
     }
   ],
-  "/measuring-introspection/papers/song-hu-mahowald-2025/": [
+  "/measuring-self-reports/papers/song-hu-mahowald-2025/": [
     {
       "slug": "/measurement-card/calibration/",
       "title": "5. Calibration"
@@ -1433,8 +1485,8 @@
       "title": "Guo et al. 2026"
     },
     {
-      "slug": "/papers/",
-      "title": "Papers"
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     },
     {
       "slug": "/papers/lederman-mahowald-2026/",
@@ -1449,7 +1501,7 @@
       "title": "Pearson-Vogel et al. 2026"
     }
   ],
-  "/measuring-introspection/papers/ji-an-2025/": [
+  "/measuring-self-reports/papers/ji-an-2025/": [
     {
       "slug": "/measurement-card/calibration/",
       "title": "5. Calibration"
@@ -1463,8 +1515,8 @@
       "title": "Ackerman 2025"
     },
     {
-      "slug": "/papers/",
-      "title": "Papers"
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     },
     {
       "slug": "/papers/kadavath-2022/",
@@ -1475,35 +1527,35 @@
       "title": "Singh et al. 2026"
     }
   ],
-  "/measuring-introspection/papers/kutsyk-2026/": [
+  "/measuring-self-reports/papers/kutsyk-2026/": [
     {
       "slug": "/measurement-card/calibration/",
       "title": "5. Calibration"
     },
     {
-      "slug": "/papers/",
-      "title": "Papers"
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     },
     {
       "slug": "/papers/shenoy-2026/",
       "title": "Shenoy et al. 2026"
     }
   ],
-  "/measuring-introspection/papers/guo-2026/": [
+  "/measuring-self-reports/papers/guo-2026/": [
     {
       "slug": "/measurement-card/calibration/",
       "title": "5. Calibration"
     },
     {
-      "slug": "/papers/",
-      "title": "Papers"
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     },
     {
       "slug": "/papers/li-2025/",
       "title": "Li et al. 2025"
     }
   ],
-  "/measuring-introspection/papers/blandfort-2026/": [
+  "/measuring-self-reports/papers/blandfort-2026/": [
     {
       "slug": "/measurement-card/comparability/",
       "title": "7. Comparability"
@@ -1513,8 +1565,8 @@
       "title": "Binder et al. 2025"
     },
     {
-      "slug": "/papers/",
-      "title": "Papers"
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     },
     {
       "slug": "/papers/kadavath-2022/",
@@ -1525,23 +1577,23 @@
       "title": "Moran and Whiting 2026"
     }
   ],
-  "/measuring-introspection/foundations/ai-evaluation/": [
+  "/measuring-self-reports/foundations/ai-evaluation/": [
     {
       "slug": "/measurement-card/",
       "title": "Measurement Card"
     }
   ],
-  "/measuring-introspection/papers/nguyen-2026/": [
+  "/measuring-self-reports/papers/nguyen-2026/": [
     {
       "slug": "/measurement-card/measurement-model/",
       "title": "4. Measurement Model"
     },
     {
-      "slug": "/papers/",
-      "title": "Papers"
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     }
   ],
-  "/measuring-introspection/papers/lederman-mahowald-2026/": [
+  "/measuring-self-reports/papers/lederman-mahowald-2026/": [
     {
       "slug": "/measurement-card/measurement-model/",
       "title": "4. Measurement Model"
@@ -1555,8 +1607,8 @@
       "title": "Hahami et al. 2025"
     },
     {
-      "slug": "/papers/",
-      "title": "Papers"
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     },
     {
       "slug": "/papers/lindsey-2025/",
@@ -1575,7 +1627,7 @@
       "title": "Singh et al. 2026"
     }
   ],
-  "/measuring-introspection/papers/fonseca-rivera-2025/": [
+  "/measuring-self-reports/papers/fonseca-rivera-2025/": [
     {
       "slug": "/measurement-card/uncertainty/",
       "title": "6. Uncertainty"
@@ -1589,8 +1641,8 @@
       "title": "Hahami et al. 2025"
     },
     {
-      "slug": "/papers/",
-      "title": "Papers"
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     },
     {
       "slug": "/papers/lederman-mahowald-2026/",
@@ -1609,7 +1661,7 @@
       "title": "Singh et al. 2026"
     }
   ],
-  "/measuring-introspection/papers/shenoy-2026/": [
+  "/measuring-self-reports/papers/shenoy-2026/": [
     {
       "slug": "/measurement-card/validity-conditions/",
       "title": "8. Validity Conditions"
@@ -1623,15 +1675,19 @@
       "title": "Guo et al. 2026"
     },
     {
-      "slug": "/papers/",
-      "title": "Papers"
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     },
     {
       "slug": "/papers/kutsyk-2026/",
       "title": "Kutsyk and Zieliński 2026"
+    },
+    {
+      "slug": "/papers/verbalizers/",
+      "title": "Verbalizers and NLAs"
     }
   ],
-  "/measuring-introspection/papers/betley-2025/": [
+  "/measuring-self-reports/papers/betley-2025/": [
     {
       "slug": "/papers/ackerman-2025/",
       "title": "Ackerman 2025"
@@ -1653,8 +1709,8 @@
       "title": "Guo et al. 2026"
     },
     {
-      "slug": "/papers/",
-      "title": "Papers"
+      "slug": "/papers/introspection/",
+      "title": "Introspection"
     },
     {
       "slug": "/papers/kadavath-2022/",

@@ -42,6 +42,6 @@ description: Tests whether eight open-weight models can report a controlled inte
 
 ## Related papers
 
-- Tests the claim of [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/) with interventions other than concept injection.
-- Takes the leakage-versus-access distinction from [Singh et al. 2026](/measuring-introspection/papers/singh-2026/) and models its known positive on [Fonseca Rivera 2025](/measuring-introspection/papers/fonseca-rivera-2025/).
-- Other critiques of the injection paradigm: [Hahami et al. 2025](/measuring-introspection/papers/hahami-2025/), [Lederman & Mahowald 2026](/measuring-introspection/papers/lederman-mahowald-2026/).
+- Tests the claim of [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/) with interventions other than concept injection.
+- Takes the leakage-versus-access distinction from [Singh et al. 2026](/measuring-self-reports/papers/singh-2026/) and models its known positive on [Fonseca Rivera 2025](/measuring-self-reports/papers/fonseca-rivera-2025/).
+- Other critiques of the injection paradigm: [Hahami et al. 2025](/measuring-self-reports/papers/hahami-2025/), [Lederman & Mahowald 2026](/measuring-self-reports/papers/lederman-mahowald-2026/).

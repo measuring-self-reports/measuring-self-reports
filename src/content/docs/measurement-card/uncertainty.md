@@ -35,12 +35,12 @@ VIM is the [International Vocabulary of Metrology](https://www.bipm.org/document
 
 ## Examples from the papers
 
-- **A computation setting flips the conclusion.** In [Atkinson, Plunkett & Bau 2026](/measuring-introspection/papers/atkinson-2026/), the difference between faithful and unfaithful adapters is 0.06 with an interval that includes zero at one integrated-gradients step, and 0.26 at seven.
-- **A scoring rule flips the sign.** [Ferrara 2026](/measuring-introspection/papers/ferrara-2026/) reports that coding unparseable answers as zero, instead of dropping them, moves the pooled estimate from +0.0039 to −0.1217.
-- **A prompt flips the direction across models.** In [Pearson-Vogel et al. 2026](/measuring-introspection/papers/pearson-vogel-2026/), a document about introspection raises detection in Qwen-32B and lowers it in Llama-70B, from 75.5% to 38.0%.
-- **Layer depth changes what the reading means.** In [Fonseca Rivera 2025](/measuring-introspection/papers/fonseca-rivera-2025/), injection at 25% depth produces degenerate behavior, in one case a 100% false-positive rate: the model claims detection whether or not anything was injected.
-- **The operating point is a maximum.** [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/) reports the rate at the best injection strength and layer. A maximum over a grid is an upper estimate, and the spread over the grid is the uncertainty the headline leaves out.
-- **Reproducibility across models.** [Singh et al. 2026](/measuring-introspection/papers/singh-2026/) rerun the injection paradigm on open models. Two of three replicate Lindsey's result; Qwen2.5-72B almost never reports an intervention in any condition.
+- **A computation setting flips the conclusion.** In [Atkinson, Plunkett & Bau 2026](/measuring-self-reports/papers/atkinson-2026/), the difference between faithful and unfaithful adapters is 0.06 with an interval that includes zero at one integrated-gradients step, and 0.26 at seven.
+- **A scoring rule flips the sign.** [Ferrara 2026](/measuring-self-reports/papers/ferrara-2026/) reports that coding unparseable answers as zero, instead of dropping them, moves the pooled estimate from +0.0039 to −0.1217.
+- **A prompt flips the direction across models.** In [Pearson-Vogel et al. 2026](/measuring-self-reports/papers/pearson-vogel-2026/), a document about introspection raises detection in Qwen-32B and lowers it in Llama-70B, from 75.5% to 38.0%.
+- **Layer depth changes what the reading means.** In [Fonseca Rivera 2025](/measuring-self-reports/papers/fonseca-rivera-2025/), injection at 25% depth produces degenerate behavior, in one case a 100% false-positive rate: the model claims detection whether or not anything was injected.
+- **The operating point is a maximum.** [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/) reports the rate at the best injection strength and layer. A maximum over a grid is an upper estimate, and the spread over the grid is the uncertainty the headline leaves out.
+- **Reproducibility across models.** [Singh et al. 2026](/measuring-self-reports/papers/singh-2026/) rerun the injection paradigm on open models. Two of three replicate Lindsey's result; Qwen2.5-72B almost never reports an intervention in any condition.
 
 ## What the stage does not establish
 
@@ -48,7 +48,7 @@ A conclusion that survives every varied setting is stable over those settings. I
 
 ## Nearest stage
 
-[Comparability](/measuring-introspection/measurement-card/comparability/) (stage 7). Uncertainty varies the settings of one instrument and asks how far the result moves. Comparability changes the instrument's principle and asks whether the result agrees. A change of judge model is coded here; a change from self-report to a probe or a patching experiment is coded at stage 7.
+[Comparability](/measuring-self-reports/measurement-card/comparability/) (stage 7). Uncertainty varies the settings of one instrument and asks how far the result moves. Comparability changes the instrument's principle and asks whether the result agrees. A change of judge model is coded here; a change from self-report to a probe or a patching experiment is coded at stage 7.
 
 ## Sources
 

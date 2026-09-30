@@ -34,22 +34,22 @@ VIM is the International Vocabulary of Metrology (JCGM 200:2012). LLM is large l
 
 | Sense | What it requires | Source |
 |---|---|---|
-| Functional self-monitoring | The model recognizes whether its internal state is consistent with the rest of the context | [Macar et al. 2026](/measuring-introspection/papers/macar-2026/) |
+| Functional self-monitoring | An internal state is represented and available for behavioral control | [Zakharova 2025](https://philarchive.org/rec/ZAKMTS), naming what [Kammerer & Frankish's](https://philarchive.org/archive/KAMWFC) definition captures |
 | Privileged access | The process yields information about the model's internal states more reliably than any equally cheap process available to a third party | [Song, Lederman, Hu & Mahowald 2025](https://arxiv.org/abs/2508.14802) |
 | Grounded self-report | The report accurately describes an internal state through a causal process linking the state to the report | [Comsa & Shanahan 2025](https://arxiv.org/abs/2506.05068) |
 | Self-specifying access | The report cannot be mistaken about whether it is the model itself, rather than something else, that is in the state (immunity to error through misidentification) | [Zakharova 2025](https://philarchive.org/rec/ZAKMTS) |
 
-The senses nest only partly. A report can be grounded without being privileged, if another model reading the same context could do as well, and privileged without being self-specifying. See [philosophy of introspection](/measuring-introspection/foundations/philosophy-of-introspection/).
+The senses nest only partly. A report can be grounded without being privileged, if another model reading the same context could do as well, and privileged without being self-specifying. See [philosophy of introspection](/measuring-self-reports/foundations/philosophy-of-introspection/).
 
 ## Examples from the papers
 
-- **Explicit-operational.** [Ferrara 2026](/measuring-introspection/papers/ferrara-2026/) names its quantity "intervention reportability": how much a model's output carries information about a controlled change to its own computation.
-- **Explicit-conceptual, with a criterion the paper does not test.** [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/) states four criteria, starting with accuracy, and says it does not demonstrate the fourth, metacognitive representation.
+- **Explicit-operational.** [Ferrara 2026](/measuring-self-reports/papers/ferrara-2026/) names its quantity "intervention reportability": how much a model's output carries information about a controlled change to its own computation.
+- **Explicit-conceptual, with a criterion the paper does not test.** [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/) states four criteria, starting with accuracy, and says it does not demonstrate the fourth, metacognitive representation.
 - **Bundled.** In the same paper, a trial succeeds only if the grader finds both an affirmative detection and correct identification of the concept. Detection and identification enter one rate.
-- **Separated.** [Macar et al. 2026](/measuring-introspection/papers/macar-2026/) reports detection and identification apart, using a prefill to isolate naming the concept from willingness to report detection.
-- **Privileged access, defined as a procedure.** [Binder et al. 2025](/measuring-introspection/papers/binder-2025/) counts a fact as introspected only if a stronger model, given the first model's training data and the same query, does not report it. The definition is itself a comparison, so stage 7 is built into the measurand.
-- **Measurand narrower than the claim.** [Singh et al. 2026](/measuring-introspection/papers/singh-2026/) states that its injection experiments test a weaker condition than the second-order access it discusses: whether reports track interventions on hidden states specifically, rather than irregularity in general.
-- **Self-specificity as the measurand.** [Moran & Whiting 2026](/measuring-introspection/papers/moran-2026/) define individuated metacognition as a model's ability to assess its own item-level capabilities in a way specific to that model, beyond what a signal shared across models explains.
+- **Separated.** [Macar et al. 2026](/measuring-self-reports/papers/macar-2026/) reports detection and identification apart, using a prefill to isolate naming the concept from willingness to report detection.
+- **Privileged access, defined as a procedure.** [Binder et al. 2025](/measuring-self-reports/papers/binder-2025/) counts a fact as introspected only if a stronger model, given the first model's training data and the same query, does not report it. The definition is itself a comparison, so stage 7 is built into the measurand.
+- **Measurand narrower than the claim.** [Singh et al. 2026](/measuring-self-reports/papers/singh-2026/) states that its injection experiments test a weaker condition than the second-order access it discusses: whether reports track interventions on hidden states specifically, rather than irregularity in general.
+- **Self-specificity as the measurand.** [Moran & Whiting 2026](/measuring-self-reports/papers/moran-2026/) define individuated metacognition as a model's ability to assess its own item-level capabilities in a way specific to that model, beyond what a signal shared across models explains.
 
 ## What the stage does not establish
 
@@ -57,7 +57,7 @@ A defined measurand does not show that the procedure measures it. Michel calls t
 
 ## Nearest stage
 
-[Validity conditions](/measuring-introspection/measurement-card/validity-conditions/) (stage 8). The VIM's specification of a measurand includes the state of the thing carrying the quantity, which overlaps with the conditions under which a result holds. The difference: the measurand says what quantity is meant; validity conditions say over which models, prompts and states the paper claims its value, and whether it looked beyond them.
+[Validity conditions](/measuring-self-reports/measurement-card/validity-conditions/) (stage 8). The VIM's specification of a measurand includes the state of the thing carrying the quantity, which overlaps with the conditions under which a result holds. The difference: the measurand says what quantity is meant; validity conditions say over which models, prompts and states the paper claims its value, and whether it looked beyond them.
 
 ## Sources
 

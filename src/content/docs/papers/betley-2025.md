@@ -44,7 +44,7 @@ description: Tests whether a model fine-tuned on examples of a behavior, with th
 
 ## Related papers
 
-- Takes its definition of introspection from [Binder et al. 2025](/measuring-introspection/papers/binder-2025/), by the same group.
-- [Song, Hu & Mahowald 2025](/measuring-introspection/papers/song-hu-mahowald-2025/) suggest pretraining associations could explain the result.
-- [Plunkett et al. 2025](/measuring-introspection/papers/plunkett-2025/) adapt the method to quantitative weights, and [Atkinson, Plunkett & Bau 2026](/measuring-introspection/papers/atkinson-2026/) examine the same kind of report mechanistically.
-- [Shenoy et al. 2026](/measuring-introspection/papers/shenoy-2026/) train adapters to report learned behaviors.
+- Takes its definition of introspection from [Binder et al. 2025](/measuring-self-reports/papers/binder-2025/), by the same group.
+- [Song, Hu & Mahowald 2025](/measuring-self-reports/papers/song-hu-mahowald-2025/) suggest pretraining associations could explain the result.
+- [Plunkett et al. 2025](/measuring-self-reports/papers/plunkett-2025/) adapt the method to quantitative weights, and [Atkinson, Plunkett & Bau 2026](/measuring-self-reports/papers/atkinson-2026/) examine the same kind of report mechanistically.
+- [Shenoy et al. 2026](/measuring-self-reports/papers/shenoy-2026/) train adapters to report learned behaviors.

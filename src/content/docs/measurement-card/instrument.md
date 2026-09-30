@@ -18,7 +18,7 @@ VIM is the [International Vocabulary of Metrology](https://www.bipm.org/document
 1. **What produces the reading?** A measuring instrument is a device used for making measurements, alone or with supplementary devices (VIM 3.1). In a self-report experiment the model under study produces the reading. Supplementary devices include a parser, a logit readout, a second model acting as judge, or a probe.
 2. **What is read off?** An indication is the value an instrument provides (VIM 4.1). The channel is its form: a yes or no, a choice among labels, a number, free text, or a choice between presented options.
 3. **Who reads it?** Free text becomes a number only after something reads it. The reader is part of the instrument: token probabilities read directly from the model, a fixed string or parsing rule, a language model acting as judge, or a human rater.
-4. **Is the indication kept apart from the outcome?** An indication and the value of the quantity measured need not be the same kind of thing (VIM 4.1, Note 2). [Tal](/measuring-introspection/foundations/tal/) draws the same line: an indication is a property of the instrument after the measurement. A model's sentence "I detect an injected thought" is an indication. That the model detected the injection is an outcome, reached through stages 4 and 5.
+4. **Is the indication kept apart from the outcome?** An indication and the value of the quantity measured need not be the same kind of thing (VIM 4.1, Note 2). [Tal](/measuring-self-reports/foundations/tal/) draws the same line: an indication is a property of the instrument after the measurement. A model's sentence "I detect an injected thought" is an indication. That the model detected the injection is an outcome, reached through stages 4 and 5.
 5. **What happens to readings that cannot be read?** Parse failures, refusals and incoherent outputs are dropped, counted as negative, or scored separately. The rule changes the denominator.
 
 ### Codes
@@ -34,11 +34,11 @@ VIM is the [International Vocabulary of Metrology](https://www.bipm.org/document
 
 ## Examples from the papers
 
-- **Free text read by a judge from the same family.** [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/) samples free text and has Claude Sonnet 4 grade it. The models being graded are also Claude models.
-- **A logit readout.** [Hahami et al. 2025](/measuring-introspection/papers/hahami-2025/) read the detection answer from the difference between the YES and NO token logits, with no generation and no judge.
-- **A numeric report with a parse rule.** [Atkinson, Plunkett & Bau 2026](/measuring-introspection/papers/atkinson-2026/) ask for a JSON object mapping attributes to numeric weights, and exclude any report that is not valid JSON as a parse failure.
-- **Forced choice with order balanced.** [Song, Hu & Mahowald 2025](/measuring-introspection/papers/song-hu-mahowald-2025/) read metalinguistic judgments from the log probabilities of the answer tokens, averaged over both orderings of the sentences.
-- **A non-verbal reading.** [Kadavath et al. 2022](/measuring-introspection/papers/kadavath-2022/) read self-knowledge from a value head trained to predict whether the model can answer a question, not from text.
+- **Free text read by a judge from the same family.** [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/) samples free text and has Claude Sonnet 4 grade it. The models being graded are also Claude models.
+- **A logit readout.** [Hahami et al. 2025](/measuring-self-reports/papers/hahami-2025/) read the detection answer from the difference between the YES and NO token logits, with no generation and no judge.
+- **A numeric report with a parse rule.** [Atkinson, Plunkett & Bau 2026](/measuring-self-reports/papers/atkinson-2026/) ask for a JSON object mapping attributes to numeric weights, and exclude any report that is not valid JSON as a parse failure.
+- **Forced choice with order balanced.** [Song, Hu & Mahowald 2025](/measuring-self-reports/papers/song-hu-mahowald-2025/) read metalinguistic judgments from the log probabilities of the answer tokens, averaged over both orderings of the sentences.
+- **A non-verbal reading.** [Kadavath et al. 2022](/measuring-self-reports/papers/kadavath-2022/) read self-knowledge from a value head trained to predict whether the model can answer a question, not from text.
 
 ## What the stage does not establish
 
@@ -46,7 +46,7 @@ An indication says nothing about the model's internal state until a measurement 
 
 ## Nearest stage
 
-[Measurement model](/measuring-introspection/measurement-card/measurement-model/) (stage 4). This stage records what the reading is; the measurement model records how the reading becomes a value of the measurand, including corrections for response bias. A logit difference is coded here as a channel and a reader; whether it is compared with a control is coded at stage 4.
+[Measurement model](/measuring-self-reports/measurement-card/measurement-model/) (stage 4). This stage records what the reading is; the measurement model records how the reading becomes a value of the measurand, including corrections for response bias. A logit difference is coded here as a channel and a reader; whether it is compared with a control is coded at stage 4.
 
 ## Sources
 

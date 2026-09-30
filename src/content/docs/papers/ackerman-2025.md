@@ -44,6 +44,6 @@ description: Whether frontier LLMs act on an internal confidence signal and on a
 
 ## Related papers
 
-- [Kadavath et al. 2022](/measuring-introspection/papers/kadavath-2022/) introduced calibration measurement in LLMs.
-- [Moran & Whiting 2026](/measuring-introspection/papers/moran-2026/) study elicited confidence with a self-versus-other design.
-- Cites [Binder et al. 2025](/measuring-introspection/papers/binder-2025/), [Betley et al. 2025](/measuring-introspection/papers/betley-2025/), [Plunkett et al. 2025](/measuring-introspection/papers/plunkett-2025/), [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/), [Song, Hu & Mahowald 2025](/measuring-introspection/papers/song-hu-mahowald-2025/) and [Ji-An et al. 2025](/measuring-introspection/papers/ji-an-2025/).
+- [Kadavath et al. 2022](/measuring-self-reports/papers/kadavath-2022/) introduced calibration measurement in LLMs.
+- [Moran & Whiting 2026](/measuring-self-reports/papers/moran-2026/) study elicited confidence with a self-versus-other design.
+- Cites [Binder et al. 2025](/measuring-self-reports/papers/binder-2025/), [Betley et al. 2025](/measuring-self-reports/papers/betley-2025/), [Plunkett et al. 2025](/measuring-self-reports/papers/plunkett-2025/), [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/), [Song, Hu & Mahowald 2025](/measuring-self-reports/papers/song-hu-mahowald-2025/) and [Ji-An et al. 2025](/measuring-self-reports/papers/ji-an-2025/).

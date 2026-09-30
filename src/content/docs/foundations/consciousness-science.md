@@ -3,9 +3,9 @@ title: Consciousness Science (Michel)
 description: How consciousness science treats subjective reports as measurements, following Matthias Michel, and what that treatment says about a language model's reports on itself.
 ---
 
-**[Overview slides](/measuring-introspection/slides/michel.pdf)** (PDF)
+**[Overview slides](/measuring-self-reports/slides/michel.pdf)** (PDF)
 
-In a consciousness experiment, a researcher flashes an image and asks the subject whether they saw it. The answer is the main evidence, so the researcher has to decide what a "yes" says about the subject's experience. Matthias Michel's work has studied this decision using the tools of measurement theory, drawing on [metrology](/measuring-introspection/foundations/metrology/) and the [philosophy of measurement](/measuring-introspection/foundations/philosophy-of-measurement/): specifically, [Eran Tal](/measuring-introspection/foundations/tal/)'s model-based account of measurement and [Hasok Chang](/measuring-introspection/foundations/chang/)'s history of thermometry. In his account, a report is an indication, and the claim drawn from it is a measurement outcome that needs a model, a calibration and a check against other methods. His subjects are people and animals. His paper on artificial systems, "On cheap artificial consciousness", asks whether theories of consciousness settle which machines are conscious and does not discuss introspection or self-reports, so applying his analysis to language models is our extension of it. An LLM introspection experiment has the same structure: a researcher changes something inside the model, asks the model whether it noticed, and has to decide what the answer means.
+In a consciousness experiment, a researcher flashes an image and asks the subject whether they saw it. The answer is the main evidence, so the researcher has to decide what a "yes" says about the subject's experience. Matthias Michel's work has studied this decision using the tools of measurement theory, drawing on [metrology](/measuring-self-reports/foundations/metrology/) and the [philosophy of measurement](/measuring-self-reports/foundations/philosophy-of-measurement/): specifically, [Eran Tal](/measuring-self-reports/foundations/tal/)'s model-based account of measurement and [Hasok Chang](/measuring-self-reports/foundations/chang/)'s history of thermometry. In his account, a report is an indication, and the claim drawn from it is a measurement outcome that needs a model, a calibration and a check against other methods. His subjects are people and animals. His paper on artificial systems, "On cheap artificial consciousness", asks whether theories of consciousness settle which machines are conscious and does not discuss introspection or self-reports, so applying his analysis to language models is our extension of it. An LLM introspection experiment has the same structure: a researcher changes something inside the model, asks the model whether it noticed, and has to decide what the answer means.
 
 ## Reports as indications
 
@@ -20,13 +20,13 @@ Most criticism of self-report targets the first step: whether subjects are accur
 
 A procedure can be inaccurate, or it can measure the wrong quantity. Michel calls the second failure a problem of validity or **coordination** ([2019](https://philpapers.org/archive/MICTMO-15.pdf)). His illustration is a thermometer that reads 14 °C too high, which measures temperature badly, against a thermometer used to measure the GDP of Malawi, which does not measure GDP at all ([Michel 2023a](https://philarchive.org/archive/MICCIC-3)).
 
-The coordination problem is circular. Validating a procedure requires a theory of what it measures, and testing the theory requires a validated procedure. Thermometry faced the same circle, and [Chang](/measuring-introspection/foundations/chang/)'s history describes how it was broken by iteration.
+The coordination problem is circular. Validating a procedure requires a theory of what it measures, and testing the theory requires a validated procedure. Thermometry faced the same circle, and [Chang](/measuring-self-reports/foundations/chang/)'s history describes how it was broken by iteration.
 
 Agreement with task performance does not break the circle. Clearer stimuli produce both higher visibility ratings and better identification, so the two correlate whether or not consciousness is involved ([2019](https://philpapers.org/archive/MICTMO-15.pdf)).
 
 ## Two kinds of calibration
 
-Calibration is the process of evaluating a detection procedure's reliability and correcting it ([Michel 2021](https://philpapers.org/archive/MICCIC-2.pdf)). Michel names two methods, after [Tal](/measuring-introspection/foundations/tal/)'s black-box and white-box calibration:
+Calibration is the process of evaluating a detection procedure's reliability and correcting it ([Michel 2021](https://philpapers.org/archive/MICCIC-2.pdf)). Michel names two methods, after [Tal](/measuring-self-reports/foundations/tal/)'s black-box and white-box calibration:
 
 | Method | What it does |
 |---|---|
@@ -39,7 +39,7 @@ Only systematic errors need a model. Random errors shrink when results are avera
 
 ## Criterion problems
 
-Under signal detection theory, a report depends on two things: the evidence the subject has, and the subject's criterion for saying yes ([Michel 2023b](https://philpapers.org/archive/MICTOA-2.pdf)). A "not seen" report can therefore mean an absent experience or a cautious subject. Michel's analogy is a bathroom scale that reads slightly low: trusted blindly, it would show that some light objects weigh nothing. The remedies are bias-free measures such as meta-d′ and designs with target-absent trials; the [signal detection](/measuring-introspection/foundations/signal-detection/) page covers both.
+Under signal detection theory, a report depends on two things: the evidence the subject has, and the subject's criterion for saying yes ([Michel 2023b](https://philpapers.org/archive/MICTOA-2.pdf)). A "not seen" report can therefore mean an absent experience or a cautious subject. Michel's analogy is a bathroom scale that reads slightly low: trusted blindly, it would show that some light objects weigh nothing. The remedies are bias-free measures such as meta-d′ and designs with target-absent trials; the [signal detection](/measuring-self-reports/foundations/signal-detection/) page covers both.
 
 A second error concerns what gets credited. The **criterion content fallacy** concludes that a subject saw the task-relevant feature from evidence that they saw something ([Michel 2022](https://philpapers.org/archive/MICHNT.pdf)).
 
@@ -70,13 +70,13 @@ A **validity drift** occurs when researchers refine a measurement procedure step
 
 | Stage | What Michel's work supplies |
 |---|---|
-| [Measurand](/measuring-introspection/measurement-card/measurand/) | Coordination: whether reports indicate the intended property ([2019](https://philpapers.org/archive/MICTMO-15.pdf)) |
-| [Instrument and indication](/measuring-introspection/measurement-card/instrument/) | Report as indication, and the two steps from report to claim ([2019](https://philpapers.org/archive/MICTMO-15.pdf)) |
-| [Measurement model](/measuring-introspection/measurement-card/measurement-model/) | Sensitivity versus criterion; criterion content ([2022](https://philpapers.org/archive/MICHNT.pdf), [2023](https://philpapers.org/archive/MICTOA-2.pdf)) |
-| [Calibration](/measuring-introspection/measurement-card/calibration/) | Concordance-calibration and model-calibration ([2021](https://philpapers.org/archive/MICCIC-2.pdf)) |
-| [Uncertainty](/measuring-introspection/measurement-card/uncertainty/) | Systematic versus random error; biases that survive averaging ([2021](https://philpapers.org/archive/MICCIC-2.pdf)) |
-| [Comparability](/measuring-introspection/measurement-card/comparability/) | Convergence across methods with different assumptions ([2026](https://b898ead8-67ea-4d40-a329-4c8ec2c0373f.usrfiles.com/ugd/b898ea_dd1aea6ef8e64f1e8adcb968012ee4ad.pdf)); the common-cause objection ([2019](https://philpapers.org/archive/MICTMO-15.pdf)) |
-| [Validity conditions](/measuring-introspection/measurement-card/validity-conditions/) | Validity drift ([2024](https://580d4178-4a2a-40ee-b753-91905f0859e6.filesusr.com/ugd/b898ea_5e898d22d16b4ba89c07c379485770ed.pdf)) |
+| [Measurand](/measuring-self-reports/measurement-card/measurand/) | Coordination: whether reports indicate the intended property ([2019](https://philpapers.org/archive/MICTMO-15.pdf)) |
+| [Instrument and indication](/measuring-self-reports/measurement-card/instrument/) | Report as indication, and the two steps from report to claim ([2019](https://philpapers.org/archive/MICTMO-15.pdf)) |
+| [Measurement model](/measuring-self-reports/measurement-card/measurement-model/) | Sensitivity versus criterion; criterion content ([2022](https://philpapers.org/archive/MICHNT.pdf), [2023](https://philpapers.org/archive/MICTOA-2.pdf)) |
+| [Calibration](/measuring-self-reports/measurement-card/calibration/) | Concordance-calibration and model-calibration ([2021](https://philpapers.org/archive/MICCIC-2.pdf)) |
+| [Uncertainty](/measuring-self-reports/measurement-card/uncertainty/) | Systematic versus random error; biases that survive averaging ([2021](https://philpapers.org/archive/MICCIC-2.pdf)) |
+| [Comparability](/measuring-self-reports/measurement-card/comparability/) | Convergence across methods with different assumptions ([2026](https://b898ead8-67ea-4d40-a329-4c8ec2c0373f.usrfiles.com/ugd/b898ea_dd1aea6ef8e64f1e8adcb968012ee4ad.pdf)); the common-cause objection ([2019](https://philpapers.org/archive/MICTMO-15.pdf)) |
+| [Validity conditions](/measuring-self-reports/measurement-card/validity-conditions/) | Validity drift ([2024](https://580d4178-4a2a-40ee-b753-91905f0859e6.filesusr.com/ugd/b898ea_5e898d22d16b4ba89c07c379485770ed.pdf)) |
 
 ## Sources
 

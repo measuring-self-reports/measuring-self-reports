@@ -38,12 +38,12 @@ VIM is the [International Vocabulary of Metrology](https://www.bipm.org/document
 
 ## Examples from the papers
 
-- **Injected standard, judge from the measured family.** [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/) uses concept vectors extracted from the model under test as the standard and grades responses with Claude Sonnet 4. The measured models are Claude models.
-- **Two standards side by side.** [Plunkett et al. 2025](/measuring-introspection/papers/plunkett-2025/) have a constructed standard, random target weights fixed at the start, and a behavioral one, the weights estimated from the fine-tuned model's choices. Against the behavioral standard, GPT-4o's reports correlate at r = .54.
-- **A white-box standard.** [Song, Hu & Mahowald 2025](/measuring-introspection/papers/song-hu-mahowald-2025/) score a prompted judgment against the model's own string probabilities, beyond what a model with nearly identical knowledge would predict.
-- **An upper-bound standard.** [Ji-An et al. 2025](/measuring-introspection/papers/ji-an-2025/) compare the model's reports with an ideal observer that reads the activations directly, and find the reports significantly worse.
-- **A validated LLM judge.** [Kutsyk & Zieliński 2026](/measuring-introspection/papers/kutsyk-2026/) check their judge against human raters (κ = 0.53) and report the direction of its error: it gives about 25% more positive labels than the human majority.
-- **Traceability to the current state.** [Guo et al. 2026](/measuring-introspection/papers/guo-2026/) ask whether a trained self-explanation follows the model's current behavior or the labels it was trained on. Where the two disagree, the regularized model sides with its own behavior 79%, 82% and 63% of the time across three settings.
+- **Injected standard, judge from the measured family.** [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/) uses concept vectors extracted from the model under test as the standard and grades responses with Claude Sonnet 4. The measured models are Claude models.
+- **Two standards side by side.** [Plunkett et al. 2025](/measuring-self-reports/papers/plunkett-2025/) have a constructed standard, random target weights fixed at the start, and a behavioral one, the weights estimated from the fine-tuned model's choices. Against the behavioral standard, GPT-4o's reports correlate at r = .54.
+- **A white-box standard.** [Song, Hu & Mahowald 2025](/measuring-self-reports/papers/song-hu-mahowald-2025/) score a prompted judgment against the model's own string probabilities, beyond what a model with nearly identical knowledge would predict.
+- **An upper-bound standard.** [Ji-An et al. 2025](/measuring-self-reports/papers/ji-an-2025/) compare the model's reports with an ideal observer that reads the activations directly, and find the reports significantly worse.
+- **A validated LLM judge.** [Kutsyk & Zieliński 2026](/measuring-self-reports/papers/kutsyk-2026/) check their judge against human raters (κ = 0.53) and report the direction of its error: it gives about 25% more positive labels than the human majority.
+- **Traceability to the current state.** [Guo et al. 2026](/measuring-self-reports/papers/guo-2026/) ask whether a trained self-explanation follows the model's current behavior or the labels it was trained on. Where the two disagree, the regularized model sides with its own behavior 79%, 82% and 63% of the time across three settings.
 
 ## What the stage does not establish
 
@@ -51,7 +51,7 @@ Agreement with a standard shows that the report tracks the standard. When the st
 
 ## Nearest stage
 
-[Comparability](/measuring-introspection/measurement-card/comparability/) (stage 7). Calibration relates indications to a standard whose value is taken as known. Comparability relates the results of two instruments, neither taken as the standard, and asks whether they agree. A paper that validates self-report against a probe is coded here if it treats the probe as ground truth, and at stage 7 if it treats the probe as a second measurement.
+[Comparability](/measuring-self-reports/measurement-card/comparability/) (stage 7). Calibration relates indications to a standard whose value is taken as known. Comparability relates the results of two instruments, neither taken as the standard, and asks whether they agree. A paper that validates self-report against a probe is coded here if it treats the probe as ground truth, and at stage 7 if it treats the probe as a second measurement.
 
 ## Sources
 

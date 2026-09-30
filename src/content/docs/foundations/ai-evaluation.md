@@ -16,11 +16,11 @@ AI evaluation has turned to measurement theory in the last few years, mostly by 
 | Measurement instruments: datasets, classifiers, rubrics, aggregation functions | **Application**: using the instruments to get measurements |
 | Measurements | **Interrogation**: assessing the validity of the concept, the instruments and the measurements |
 
-Their central complaint is that researchers often jump from a background concept straight to an instrument, conflating systematization and operationalization, so that it is hard to know what is being measured. For introspection, "introspection" is the background concept, a paper's stated sense is the systematized concept, and the prompt, judge and scoring rule are the instruments. The card's [measurand](/measuring-introspection/measurement-card/measurand/) stage records whether the middle step happened.
+Their central complaint is that researchers often jump from a background concept straight to an instrument, conflating systematization and operationalization, so that it is hard to know what is being measured. For introspection, "introspection" is the background concept, a paper's stated sense is the systematized concept, and the prompt, judge and scoring rule are the instruments. The card's [measurand](/measuring-self-reports/measurement-card/measurand/) stage records whether the middle step happened.
 
 ## Claims and evidence
 
-[Salaudeen et al. (2025)](https://arxiv.org/abs/2505.10573) organize evaluation around the claim a result is used to support. Their example is a system that solves International Math Olympiad problems. That evidence can support the claim that it solves textbook linear algebra problems, and does not by itself support the claim that it has expert-level mathematical reasoning. The framework uses the psychometric breakdown of validity to decide which kinds of evidence a given claim needs. The same result can therefore be adequate for one claim and inadequate for another, which is how the card treats [validity conditions](/measuring-introspection/measurement-card/validity-conditions/).
+[Salaudeen et al. (2025)](https://arxiv.org/abs/2505.10573) organize evaluation around the claim a result is used to support. Their example is a system that solves International Math Olympiad problems. That evidence can support the claim that it solves textbook linear algebra problems, and does not by itself support the claim that it has expert-level mathematical reasoning. The framework uses the psychometric breakdown of validity to decide which kinds of evidence a given claim needs. The same result can therefore be adequate for one claim and inadequate for another, which is how the card treats [validity conditions](/measuring-self-reports/measurement-card/validity-conditions/).
 
 ## A review of 445 benchmarks
 
@@ -34,7 +34,7 @@ They give eight recommendations and a checklist, including reporting sample size
 
 ## Evaluation as a science
 
-[Weidinger et al. (2025)](https://arxiv.org/abs/2503.05336) draw on safety evaluation in transportation, aerospace and pharmaceuticals, and give three lessons: metrics must apply to real-world performance, metrics must be refined iteratively, and evaluation institutions and norms must be built. The second lesson is [Chang](/measuring-introspection/foundations/chang/)'s epistemic iteration applied to benchmarks; the third is what [Tal](/measuring-introspection/foundations/robustness/#coherent-calibration-and-islands) identifies as the remedy for islands.
+[Weidinger et al. (2025)](https://arxiv.org/abs/2503.05336) draw on safety evaluation in transportation, aerospace and pharmaceuticals, and give three lessons: metrics must apply to real-world performance, metrics must be refined iteratively, and evaluation institutions and norms must be built. The second lesson is [Chang](/measuring-self-reports/foundations/chang/)'s epistemic iteration applied to benchmarks; the third is what [Tal](/measuring-self-reports/foundations/robustness/#coherent-calibration-and-islands) identifies as the remedy for islands.
 
 ## Target specification bias
 
@@ -64,9 +64,9 @@ Three recent formats document evaluations in a structured way:
 
 | Stage | What AI evaluation supplies |
 |---|---|
-| [Measurand](/measuring-introspection/measurement-card/measurand/) | Separating systematization from operationalization (Wallach et al.); contested definitions (Bean et al.) |
-| [Uncertainty](/measuring-introspection/measurement-card/uncertainty/) | Uncertainty estimates and statistical tests, rarely reported (Bean et al.) |
-| [Validity conditions](/measuring-introspection/measurement-card/validity-conditions/) | Claims supported by evidence (Salaudeen et al.); target specification bias (Tal 2023) |
+| [Measurand](/measuring-self-reports/measurement-card/measurand/) | Separating systematization from operationalization (Wallach et al.); contested definitions (Bean et al.) |
+| [Uncertainty](/measuring-self-reports/measurement-card/uncertainty/) | Uncertainty estimates and statistical tests, rarely reported (Bean et al.) |
+| [Validity conditions](/measuring-self-reports/measurement-card/validity-conditions/) | Claims supported by evidence (Salaudeen et al.); target specification bias (Tal 2023) |
 
 ## Sources
 

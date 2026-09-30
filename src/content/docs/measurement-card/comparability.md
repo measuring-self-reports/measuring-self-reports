@@ -25,20 +25,20 @@ VIM is the [International Vocabulary of Metrology](https://www.bipm.org/document
 | Code | Meaning |
 |---|---|
 | single | One instrument. |
-| shared principle | Several instruments that share a principle or read the same input, so a common error can produce their agreement. Tal's term "island" names a different thing; see [robustness and convergence](/measuring-introspection/foundations/robustness/). |
+| shared principle | Several instruments that share a principle or read the same input, so a common error can produce their agreement. Tal's term "island" names a different thing; see [robustness and convergence](/measuring-self-reports/foundations/robustness/). |
 | independent principles | At least two instruments whose principles do not presuppose each other. |
 | agreement reported | The paper states how far the instruments agree, with uncertainty. |
 | self versus other tested | Another model predicts or reports on the measured model under matched conditions. |
 
 ## Examples from the papers
 
-- **Self beats other, in both directions.** [Binder et al. 2025](/measuring-introspection/papers/binder-2025/) train one model to predict itself and another on the same data to predict it. Llama 70B predicts itself better (48.5%) than GPT-4o predicts it (31.8%), and GPT-4o predicts itself better (49.4%) than Llama 70B predicts it (36.6%).
-- **Self does not beat other once similarity is modeled.** [Song, Hu & Mahowald 2025](/measuring-introspection/papers/song-hu-mahowald-2025/) regress cross-model prediction on model similarity and find positive effects for other models and same-family models: at matched similarity, other models predict a model better than it predicts itself.
-- **A generic subject does as well as the self.** [Blandfort & Pawar 2026](/measuring-introspection/papers/blandfort-2026/) find that asking about capable agents in general does as well as item-informed self-prediction, and that other models' self-predictions predict the target better than its own answers do.
-- **A small self-specific signal.** [Kadavath et al. 2022](/measuring-introspection/papers/kadavath-2022/) compare two models on questions only one answers correctly; the difference in P(IK), the model's probability that it knows the answer, is about 6%.
-- **Matching on capability removes the effect.** [Moran & Whiting 2026](/measuring-introspection/papers/moran-2026/) find that restricting to model pairs of similar capability makes the self-specific signal vanish.
-- **Trained self-explanation against trained other-explanation.** [Li et al. 2025](/measuring-introspection/papers/li-2025/) train several explainers on one target's features; the target explaining itself scores 76.2 against 70.3 for Qwen3-8B.
-- **Independent principles on one question.** [Atkinson, Plunkett & Bau 2026](/measuring-introspection/papers/atkinson-2026/) apply behavioral faithfulness, layer ablation, attribution similarity and cross-task patching to the same adapters.
+- **Self beats other, in both directions.** [Binder et al. 2025](/measuring-self-reports/papers/binder-2025/) train one model to predict itself and another on the same data to predict it. Llama 70B predicts itself better (48.5%) than GPT-4o predicts it (31.8%), and GPT-4o predicts itself better (49.4%) than Llama 70B predicts it (36.6%).
+- **Self does not beat other once similarity is modeled.** [Song, Hu & Mahowald 2025](/measuring-self-reports/papers/song-hu-mahowald-2025/) regress cross-model prediction on model similarity and find positive effects for other models and same-family models: at matched similarity, other models predict a model better than it predicts itself.
+- **A generic subject does as well as the self.** [Blandfort & Pawar 2026](/measuring-self-reports/papers/blandfort-2026/) find that asking about capable agents in general does as well as item-informed self-prediction, and that other models' self-predictions predict the target better than its own answers do.
+- **A small self-specific signal.** [Kadavath et al. 2022](/measuring-self-reports/papers/kadavath-2022/) compare two models on questions only one answers correctly; the difference in P(IK), the model's probability that it knows the answer, is about 6%.
+- **Matching on capability removes the effect.** [Moran & Whiting 2026](/measuring-self-reports/papers/moran-2026/) find that restricting to model pairs of similar capability makes the self-specific signal vanish.
+- **Trained self-explanation against trained other-explanation.** [Li et al. 2025](/measuring-self-reports/papers/li-2025/) train several explainers on one target's features; the target explaining itself scores 76.2 against 70.3 for Qwen3-8B.
+- **Independent principles on one question.** [Atkinson, Plunkett & Bau 2026](/measuring-self-reports/papers/atkinson-2026/) apply behavioral faithfulness, layer ablation, attribution similarity and cross-task patching to the same adapters.
 
 ## What the stage does not establish
 
@@ -46,7 +46,7 @@ Agreement across independent principles supports attributing the result to the m
 
 ## Nearest stage
 
-[Calibration](/measuring-introspection/measurement-card/calibration/) (stage 5). Calibration takes one reference as known and checks the report against it. Comparability takes no instrument as known and checks whether two agree. The same probe can serve either role; the code follows how the paper uses it.
+[Calibration](/measuring-self-reports/measurement-card/calibration/) (stage 5). Calibration takes one reference as known and checks the report against it. Comparability takes no instrument as known and checks whether two agree. The same probe can serve either role; the code follows how the paper uses it.
 
 ## Sources
 

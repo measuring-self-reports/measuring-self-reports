@@ -41,7 +41,7 @@ description: Tests whether a model's answers to metalinguistic prompts track its
 
 ## Related papers
 
-- Criticizes [Binder et al. 2025](/measuring-introspection/papers/binder-2025/): models were fine-tuned to predict their own outputs, and similarity was not controlled beyond shared fine-tuning data.
-- Suggests pretraining associations could explain [Betley et al. 2025](/measuring-introspection/papers/betley-2025/).
-- [Atkinson, Plunkett & Bau 2026](/measuring-introspection/papers/atkinson-2026/) address its similarity concern with a performance filter.
-- [Pearson-Vogel et al. 2026](/measuring-introspection/papers/pearson-vogel-2026/) take part of their definition of introspection from this group's work.
+- Criticizes [Binder et al. 2025](/measuring-self-reports/papers/binder-2025/): models were fine-tuned to predict their own outputs, and similarity was not controlled beyond shared fine-tuning data.
+- Suggests pretraining associations could explain [Betley et al. 2025](/measuring-self-reports/papers/betley-2025/).
+- [Atkinson, Plunkett & Bau 2026](/measuring-self-reports/papers/atkinson-2026/) address its similarity concern with a performance filter.
+- [Pearson-Vogel et al. 2026](/measuring-self-reports/papers/pearson-vogel-2026/) take part of their definition of introspection from this group's work.

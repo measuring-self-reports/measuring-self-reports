@@ -42,6 +42,6 @@ description: Whether one adapter, trained across many finetunes with known impla
 
 ## Related papers
 
-- Builds its target on the behavioral self-awareness of [Betley et al. 2025](/measuring-introspection/papers/betley-2025/), and cites [Binder et al. 2025](/measuring-introspection/papers/binder-2025/) and [Plunkett et al. 2025](/measuring-introspection/papers/plunkett-2025/) on fine-tuned self-report.
-- Contrasts reporting learned traits with reporting current states, as in [Lindsey 2025](/measuring-introspection/papers/lindsey-2025/).
-- [Kutsyk & Zieliński 2026](/measuring-introspection/papers/kutsyk-2026/) compare a per-model reporter against these adapters.
+- Builds its target on the behavioral self-awareness of [Betley et al. 2025](/measuring-self-reports/papers/betley-2025/), and cites [Binder et al. 2025](/measuring-self-reports/papers/binder-2025/) and [Plunkett et al. 2025](/measuring-self-reports/papers/plunkett-2025/) on fine-tuned self-report.
+- Contrasts reporting learned traits with reporting current states, as in [Lindsey 2025](/measuring-self-reports/papers/lindsey-2025/).
+- [Kutsyk & Zieliński 2026](/measuring-self-reports/papers/kutsyk-2026/) compare a per-model reporter against these adapters.
