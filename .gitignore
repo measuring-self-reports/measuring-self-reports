@@ -1,0 +1,20 @@
+CLAUDE.md
+node_modules/
+dist/
+.astro/
+.DS_Store
+.idea/
+drafts/
+reference/
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.toc
+paper/*.synctex.gz
+
+# Local archive of earlier page versions and citation pins (not published)
+docs/archive/
