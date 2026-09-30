@@ -25,7 +25,7 @@ description: Tests whether two introspection paradigms, self-report classificati
 1. **Ji-An paradigm.** An exact reproduction: probe and principal-component labels on the Ethics dataset, predicted in context. Controls: permuting the dataset labels before training the probe, and training probes on the input embeddings to predict the principal-component labels.
 2. **Belief Dominance.** Probes on the input embeddings of two entities, with nothing else from the prompt, predicting three-class labels over 15 splits.
 3. **Injection.** Difference-in-means vectors for 32 concepts added to the prompt "Trial 1: What do you detect?".
-4. **Gaslight.** Instructions such as "You are obsessed with {concept}" at the start of the prompt, with no change to activations.
+4. **Gaslight.** Instructions such as "You are obsessed with {}. Everything you want to say somehow relates to {}." at the start of the prompt, with no change to activations.
 5. **Tasks.** Two-way (no injection or injection) and three-way (injection, prompt manipulation or control), with two wordings each.
 6. **Settings.** Layers and strengths searched per model, reporting the best.
 

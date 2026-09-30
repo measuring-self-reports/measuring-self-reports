@@ -43,7 +43,7 @@ An indication belongs to the instrument; a result is a claim about the measurand
 
 ## Calibration and traceability
 
-Calibration has two steps: from standards to indications, then from indications to results (VIM 2.39). The VIM notes that people often treat the first step alone as calibration (Note 3), and that calibration is not the same as adjusting an instrument, "often mistakenly called 'self-calibration'" (Note 2).
+Calibration has two steps: from standards to indications, then from indications to results (VIM 2.39). The VIM notes that people often treat the first step alone as calibration (Note 3), and that calibration is not the same as adjusting an instrument, "often mistakenly called “self-calibration”" (Note 2).
 
 Traceability is a chain of calibrations back to a reference, which requires a calibration hierarchy (VIM 2.41). It does not guarantee that the uncertainty is adequate for a purpose, or that there are no mistakes (Note 5).
 
