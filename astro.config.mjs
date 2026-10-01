@@ -63,7 +63,7 @@ export default defineConfig({
             { label: 'Overview', link: '/papers/' },
             {
               label: 'Introspection',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { label: 'Overview', link: '/papers/introspection/' },
                 {
